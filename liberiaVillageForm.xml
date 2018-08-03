@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Liberia Coverage Survey Village Form</h:title>
+    <model>
+      <itext>
+        <translation lang="Kreyol">
+          <text id="/liberiaCoverageVillageForms/cid/3:label">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-county-0">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="static_instance-county-1">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-county-2">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-village-51">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-50">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-53">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-52">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-55">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-54">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-57">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-56">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-59">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-58">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/vname:label">
+            <value>Village</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/cid:label">
+            <value>County</value>
+          </text>
+          <text id="static_instance-village-64">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-65">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-66">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-67">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-60">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-61">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-62">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-63">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-68">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-69">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/coords:label">
+            <value> Record GPS location of <output value=" /liberiaCoverageVillageForms/vname "/>.  </value>
+          </text>
+          <text id="static_instance-village-5">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-7">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-6">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-9">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-86">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-87">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-84">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-85">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-82">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-83">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-80">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-81">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-88">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-89">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-79">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-78">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-73">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-72">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-71">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-70">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-77">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-76">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-75">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-74">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/pop:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-19">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-18">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-14">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-16">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-10">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-12">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/cid/2:label">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-village-20">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-21">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-22">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-23">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-24">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-25">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-26">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-27">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-28">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-29">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-42">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-43">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-40">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-41">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-46">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-47">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-44">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-45">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-48">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-49">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/cid/1:label">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="static_instance-village-37">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-36">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-35">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-34">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-33">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-32">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-31">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-30">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-39">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-38">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation default="true()" lang="English">
+          <text id="/liberiaCoverageVillageForms/cid/3:label">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-county-0">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="static_instance-county-1">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-county-2">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-village-51">
+            <value>Village 22</value>
+          </text>
+          <text id="static_instance-village-50">
+            <value>Village 21</value>
+          </text>
+          <text id="static_instance-village-53">
+            <value>Village 24</value>
+          </text>
+          <text id="static_instance-village-52">
+            <value>Village 23</value>
+          </text>
+          <text id="static_instance-village-55">
+            <value>Village 26</value>
+          </text>
+          <text id="static_instance-village-54">
+            <value>Village 25</value>
+          </text>
+          <text id="static_instance-village-57">
+            <value>Village 28</value>
+          </text>
+          <text id="static_instance-village-56">
+            <value>Village 27</value>
+          </text>
+          <text id="static_instance-village-59">
+            <value>Village 30</value>
+          </text>
+          <text id="static_instance-village-58">
+            <value>Village 29</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/vname:label">
+            <value>Village</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/cid:label">
+            <value>County</value>
+          </text>
+          <text id="static_instance-village-64">
+            <value>Village 5</value>
+          </text>
+          <text id="static_instance-village-65">
+            <value>Village 6</value>
+          </text>
+          <text id="static_instance-village-66">
+            <value>Village 7</value>
+          </text>
+          <text id="static_instance-village-67">
+            <value>Village 8</value>
+          </text>
+          <text id="static_instance-village-60">
+            <value>Village 1</value>
+          </text>
+          <text id="static_instance-village-61">
+            <value>Village 2</value>
+          </text>
+          <text id="static_instance-village-62">
+            <value>Village 3</value>
+          </text>
+          <text id="static_instance-village-63">
+            <value>Village 4</value>
+          </text>
+          <text id="static_instance-village-68">
+            <value>Village 9</value>
+          </text>
+          <text id="static_instance-village-69">
+            <value>Village 10</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/coords:label">
+            <value> Record GPS location of <output value=" /liberiaCoverageVillageForms/vname "/>.  </value>
+          </text>
+          <text id="static_instance-village-5">
+            <value>Village 6</value>
+          </text>
+          <text id="static_instance-village-4">
+            <value>Village 5</value>
+          </text>
+          <text id="static_instance-village-7">
+            <value>Village 8</value>
+          </text>
+          <text id="static_instance-village-6">
+            <value>Village 7</value>
+          </text>
+          <text id="static_instance-village-1">
+            <value>Village 2</value>
+          </text>
+          <text id="static_instance-village-0">
+            <value>Village 1</value>
+          </text>
+          <text id="static_instance-village-3">
+            <value>Village 4</value>
+          </text>
+          <text id="static_instance-village-2">
+            <value>Village 3</value>
+          </text>
+          <text id="static_instance-village-9">
+            <value>Village 10</value>
+          </text>
+          <text id="static_instance-village-8">
+            <value>Village 9</value>
+          </text>
+          <text id="static_instance-village-86">
+            <value>Village 27</value>
+          </text>
+          <text id="static_instance-village-87">
+            <value>Village 28</value>
+          </text>
+          <text id="static_instance-village-84">
+            <value>Village 25</value>
+          </text>
+          <text id="static_instance-village-85">
+            <value>Village 26</value>
+          </text>
+          <text id="static_instance-village-82">
+            <value>Village 23</value>
+          </text>
+          <text id="static_instance-village-83">
+            <value>Village 24</value>
+          </text>
+          <text id="static_instance-village-80">
+            <value>Village 21</value>
+          </text>
+          <text id="static_instance-village-81">
+            <value>Village 22</value>
+          </text>
+          <text id="static_instance-village-88">
+            <value>Village 29</value>
+          </text>
+          <text id="static_instance-village-89">
+            <value>Village 30</value>
+          </text>
+          <text id="static_instance-village-79">
+            <value>Village 20</value>
+          </text>
+          <text id="static_instance-village-78">
+            <value>Village 19</value>
+          </text>
+          <text id="static_instance-village-73">
+            <value>Village 14</value>
+          </text>
+          <text id="static_instance-village-72">
+            <value>Village 13</value>
+          </text>
+          <text id="static_instance-village-71">
+            <value>Village 12</value>
+          </text>
+          <text id="static_instance-village-70">
+            <value>Village 11</value>
+          </text>
+          <text id="static_instance-village-77">
+            <value>Village 18</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/cid/2:label">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-village-75">
+            <value>Village 16</value>
+          </text>
+          <text id="static_instance-village-74">
+            <value>Village 15</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/pop:label">
+            <value>Village population</value>
+          </text>
+          <text id="static_instance-village-19">
+            <value>Village 20</value>
+          </text>
+          <text id="static_instance-village-18">
+            <value>Village 19</value>
+          </text>
+          <text id="static_instance-village-15">
+            <value>Village 16</value>
+          </text>
+          <text id="static_instance-village-14">
+            <value>Village 15</value>
+          </text>
+          <text id="static_instance-village-17">
+            <value>Village 18</value>
+          </text>
+          <text id="static_instance-village-16">
+            <value>Village 17</value>
+          </text>
+          <text id="static_instance-village-11">
+            <value>Village 12</value>
+          </text>
+          <text id="static_instance-village-10">
+            <value>Village 11</value>
+          </text>
+          <text id="static_instance-village-13">
+            <value>Village 14</value>
+          </text>
+          <text id="static_instance-village-12">
+            <value>Village 13</value>
+          </text>
+          <text id="static_instance-village-76">
+            <value>Village 17</value>
+          </text>
+          <text id="static_instance-village-20">
+            <value>Village 21</value>
+          </text>
+          <text id="static_instance-village-21">
+            <value>Village 22</value>
+          </text>
+          <text id="static_instance-village-22">
+            <value>Village 23</value>
+          </text>
+          <text id="static_instance-village-23">
+            <value>Village 24</value>
+          </text>
+          <text id="static_instance-village-24">
+            <value>Village 25</value>
+          </text>
+          <text id="static_instance-village-25">
+            <value>Village 26</value>
+          </text>
+          <text id="static_instance-village-26">
+            <value>Village 27</value>
+          </text>
+          <text id="static_instance-village-27">
+            <value>Village 28</value>
+          </text>
+          <text id="static_instance-village-28">
+            <value>Village 29</value>
+          </text>
+          <text id="static_instance-village-29">
+            <value>Village 30</value>
+          </text>
+          <text id="static_instance-village-42">
+            <value>Village 13</value>
+          </text>
+          <text id="static_instance-village-43">
+            <value>Village 14</value>
+          </text>
+          <text id="static_instance-village-40">
+            <value>Village 11</value>
+          </text>
+          <text id="static_instance-village-41">
+            <value>Village 12</value>
+          </text>
+          <text id="static_instance-village-46">
+            <value>Village 17</value>
+          </text>
+          <text id="static_instance-village-47">
+            <value>Village 18</value>
+          </text>
+          <text id="static_instance-village-44">
+            <value>Village 15</value>
+          </text>
+          <text id="static_instance-village-45">
+            <value>Village 16</value>
+          </text>
+          <text id="static_instance-village-48">
+            <value>Village 19</value>
+          </text>
+          <text id="static_instance-village-49">
+            <value>Village 20</value>
+          </text>
+          <text id="/liberiaCoverageVillageForms/cid/1:label">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="static_instance-village-37">
+            <value>Village 8</value>
+          </text>
+          <text id="static_instance-village-36">
+            <value>Village 7</value>
+          </text>
+          <text id="static_instance-village-35">
+            <value>Village 6</value>
+          </text>
+          <text id="static_instance-village-34">
+            <value>Village 5</value>
+          </text>
+          <text id="static_instance-village-33">
+            <value>Village 4</value>
+          </text>
+          <text id="static_instance-village-32">
+            <value>Village 3</value>
+          </text>
+          <text id="static_instance-village-31">
+            <value>Village 2</value>
+          </text>
+          <text id="static_instance-village-30">
+            <value>Village 1</value>
+          </text>
+          <text id="static_instance-village-39">
+            <value>Village 10</value>
+          </text>
+          <text id="static_instance-village-38">
+            <value>Village 9</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <liberiaCoverageVillageForms id="liberiaVillageForm" version="201808031248">
+          <formhub>
+            <uuid/>
+          </formhub>
+          <cid/>
+          <vname/>
+          <vid/>
+          <pop/>
+          <coords/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </liberiaCoverageVillageForms>
+      </instance>
+      <instance id="county">
+        <root>
+          <item>
+            <itextId>static_instance-county-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-county-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-county-2</itextId>
+            <name>3</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="village">
+        <root>
+          <item>
+            <itextId>static_instance-village-0</itextId>
+            <county>1</county>
+            <name>Village 1</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-1</itextId>
+            <county>1</county>
+            <name>Village 2</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-2</itextId>
+            <county>1</county>
+            <name>Village 3</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-3</itextId>
+            <county>1</county>
+            <name>Village 4</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-4</itextId>
+            <county>1</county>
+            <name>Village 5</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-5</itextId>
+            <county>1</county>
+            <name>Village 6</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-6</itextId>
+            <county>1</county>
+            <name>Village 7</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-7</itextId>
+            <county>1</county>
+            <name>Village 8</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-8</itextId>
+            <county>1</county>
+            <name>Village 9</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-9</itextId>
+            <county>1</county>
+            <name>Village 10</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-10</itextId>
+            <county>1</county>
+            <name>Village 11</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-11</itextId>
+            <county>1</county>
+            <name>Village 12</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-12</itextId>
+            <county>1</county>
+            <name>Village 13</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-13</itextId>
+            <county>1</county>
+            <name>Village 14</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-14</itextId>
+            <county>1</county>
+            <name>Village 15</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-15</itextId>
+            <county>1</county>
+            <name>Village 16</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-16</itextId>
+            <county>1</county>
+            <name>Village 17</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-17</itextId>
+            <county>1</county>
+            <name>Village 18</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-18</itextId>
+            <county>1</county>
+            <name>Village 19</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-19</itextId>
+            <county>1</county>
+            <name>Village 20</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-20</itextId>
+            <county>1</county>
+            <name>Village 21</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-21</itextId>
+            <county>1</county>
+            <name>Village 22</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-22</itextId>
+            <county>1</county>
+            <name>Village 23</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-23</itextId>
+            <county>1</county>
+            <name>Village 24</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-24</itextId>
+            <county>1</county>
+            <name>Village 25</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-25</itextId>
+            <county>1</county>
+            <name>Village 26</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-26</itextId>
+            <county>1</county>
+            <name>Village 27</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-27</itextId>
+            <county>1</county>
+            <name>Village 28</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-28</itextId>
+            <county>1</county>
+            <name>Village 29</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-29</itextId>
+            <county>1</county>
+            <name>Village 30</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-30</itextId>
+            <county>2</county>
+            <name>Village 1</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-31</itextId>
+            <county>2</county>
+            <name>Village 2</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-32</itextId>
+            <county>2</county>
+            <name>Village 3</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-33</itextId>
+            <county>2</county>
+            <name>Village 4</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-34</itextId>
+            <county>2</county>
+            <name>Village 5</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-35</itextId>
+            <county>2</county>
+            <name>Village 6</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-36</itextId>
+            <county>2</county>
+            <name>Village 7</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-37</itextId>
+            <county>2</county>
+            <name>Village 8</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-38</itextId>
+            <county>2</county>
+            <name>Village 9</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-39</itextId>
+            <county>2</county>
+            <name>Village 10</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-40</itextId>
+            <county>2</county>
+            <name>Village 11</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-41</itextId>
+            <county>2</county>
+            <name>Village 12</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-42</itextId>
+            <county>2</county>
+            <name>Village 13</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-43</itextId>
+            <county>2</county>
+            <name>Village 14</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-44</itextId>
+            <county>2</county>
+            <name>Village 15</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-45</itextId>
+            <county>2</county>
+            <name>Village 16</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-46</itextId>
+            <county>2</county>
+            <name>Village 17</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-47</itextId>
+            <county>2</county>
+            <name>Village 18</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-48</itextId>
+            <county>2</county>
+            <name>Village 19</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-49</itextId>
+            <county>2</county>
+            <name>Village 20</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-50</itextId>
+            <county>2</county>
+            <name>Village 21</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-51</itextId>
+            <county>2</county>
+            <name>Village 22</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-52</itextId>
+            <county>2</county>
+            <name>Village 23</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-53</itextId>
+            <county>2</county>
+            <name>Village 24</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-54</itextId>
+            <county>2</county>
+            <name>Village 25</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-55</itextId>
+            <county>2</county>
+            <name>Village 26</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-56</itextId>
+            <county>2</county>
+            <name>Village 27</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-57</itextId>
+            <county>2</county>
+            <name>Village 28</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-58</itextId>
+            <county>2</county>
+            <name>Village 29</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-59</itextId>
+            <county>2</county>
+            <name>Village 30</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-60</itextId>
+            <county>3</county>
+            <name>Village 1</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-61</itextId>
+            <county>3</county>
+            <name>Village 2</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-62</itextId>
+            <county>3</county>
+            <name>Village 3</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-63</itextId>
+            <county>3</county>
+            <name>Village 4</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-64</itextId>
+            <county>3</county>
+            <name>Village 5</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-65</itextId>
+            <county>3</county>
+            <name>Village 6</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-66</itextId>
+            <county>3</county>
+            <name>Village 7</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-67</itextId>
+            <county>3</county>
+            <name>Village 8</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-68</itextId>
+            <county>3</county>
+            <name>Village 9</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-69</itextId>
+            <county>3</county>
+            <name>Village 10</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-70</itextId>
+            <county>3</county>
+            <name>Village 11</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-71</itextId>
+            <county>3</county>
+            <name>Village 12</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-72</itextId>
+            <county>3</county>
+            <name>Village 13</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-73</itextId>
+            <county>3</county>
+            <name>Village 14</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-74</itextId>
+            <county>3</county>
+            <name>Village 15</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-75</itextId>
+            <county>3</county>
+            <name>Village 16</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-76</itextId>
+            <county>3</county>
+            <name>Village 17</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-77</itextId>
+            <county>3</county>
+            <name>Village 18</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-78</itextId>
+            <county>3</county>
+            <name>Village 19</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-79</itextId>
+            <county>3</county>
+            <name>Village 20</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-80</itextId>
+            <county>3</county>
+            <name>Village 21</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-81</itextId>
+            <county>3</county>
+            <name>Village 22</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-82</itextId>
+            <county>3</county>
+            <name>Village 23</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-83</itextId>
+            <county>3</county>
+            <name>Village 24</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-84</itextId>
+            <county>3</county>
+            <name>Village 25</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-85</itextId>
+            <county>3</county>
+            <name>Village 26</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-86</itextId>
+            <county>3</county>
+            <name>Village 27</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-87</itextId>
+            <county>3</county>
+            <name>Village 28</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-88</itextId>
+            <county>3</county>
+            <name>Village 29</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-89</itextId>
+            <county>3</county>
+            <name>Village 30</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/liberiaCoverageVillageForms/cid" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverageVillageForms/vname" required="true()" type="select1"/>
+      <bind calculate="if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 1&quot;), 1, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 2&quot;), 2, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 3&quot;), 3, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 4&quot;), 4, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 5&quot;), 5, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 6&quot;), 6, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 7&quot;), 7, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 8&quot;), 8, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 9&quot;), 9, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 10&quot;), 10, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 11&quot;), 11, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 12&quot;), 12, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 13&quot;), 13, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 14&quot;), 14, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 15&quot;), 15, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 16&quot;), 16, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 17&quot;), 17, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 18&quot;), 18, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 19&quot;), 19, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 20&quot;), 20, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 21&quot;), 21, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 22&quot;), 22, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 23&quot;), 23, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 24&quot;), 24, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 25&quot;), 25, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 26&quot;), 26, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 27&quot;), 27, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 28&quot;), 28, if(selected( /liberiaCoverageVillageForms/vname , &quot;Village 29&quot;), 29, 30)))))))))))))))))))))))))))))" nodeset="/liberiaCoverageVillageForms/vid" type="string"/>
+      <bind nodeset="/liberiaCoverageVillageForms/pop" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverageVillageForms/coords" required="true()" type="geopoint"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/liberiaCoverageVillageForms/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="'34de9d6c110a4010bc09c4b5ced037ae'" nodeset="/liberiaCoverageVillageForms/formhub/uuid" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/liberiaCoverageVillageForms/cid">
+      <label ref="jr:itext('/liberiaCoverageVillageForms/cid:label')"/>
+      <item>
+        <label ref="jr:itext('/liberiaCoverageVillageForms/cid/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/liberiaCoverageVillageForms/cid/2:label')"/>
+        <value>2</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/liberiaCoverageVillageForms/cid/3:label')"/>
+        <value>3</value>
+      </item>
+    </select1>
+    <select1 ref="/liberiaCoverageVillageForms/vname">
+      <label ref="jr:itext('/liberiaCoverageVillageForms/vname:label')"/>
+      <itemset nodeset="instance('village')/root/item[county =  /liberiaCoverageVillageForms/cid ]">
+        <value ref="name"/>
+        <label ref="jr:itext(itextId)"/>
+      </itemset>
+    </select1>
+    <input ref="/liberiaCoverageVillageForms/pop">
+      <label ref="jr:itext('/liberiaCoverageVillageForms/pop:label')"/>
+    </input>
+    <input ref="/liberiaCoverageVillageForms/coords">
+      <label ref="jr:itext('/liberiaCoverageVillageForms/coords:label')"/>
+    </input>
+  </h:body>
+</h:html>

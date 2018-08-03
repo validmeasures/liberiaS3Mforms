@@ -1,0 +1,2389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Liberia Coverage Survey</h:title>
+    <model>
+      <itext>
+        <translation lang="Kreyol">
+          <text id="/liberiaCoverage/child_repeat/child_data/coverage_status:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4p:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-county-0">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="static_instance-county-1">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-county-2">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-village-51">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4l:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-53">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-52">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-55">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-54">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q2/2:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/name:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-59">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q2/1:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4k:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/age:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in/1:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4q:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6b:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4g:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-57">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q3/2:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-64">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-65">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-66">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-67">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-60">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-61">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-62">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-63">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in/3:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-68">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-69">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-41">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/6:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q2:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-50">
+            <value>-</value>
+          </text>
+          <text id="static_instance-sfp_otp-2">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/oedema/2:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-sfp_otp-1">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-17">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid/3:label">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-reasons-7">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-5">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-3">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6c:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-56">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-9">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-58">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/refer:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4o:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4r:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4i:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4s:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-81">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in/2:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/ch:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-5">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-7">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-6">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-9">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-8">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-86">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-87">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-84">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-85">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-82">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6d:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-80">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/hh:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4d:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/4:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6e:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-88">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-89">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/end:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4j:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/refer_action:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4e:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/4:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-79">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-78">
+            <value>-</value>
+          </text>
+          <text id="static_instance-previous-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-previous-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-previous-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-previous-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-73">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-72">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-71">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-70">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-77">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-76">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-75">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/no_children:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid:label">
+            <value>County</value>
+          </text>
+          <text id="static_instance-reasons-6">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1/1:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4t:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/instruct_1:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/1:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-illness-5">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/status:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4m:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-0">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/2:label">
+            <value form="image">jr://images/-</value>
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4n:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6a:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q3:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/3:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-illness-4">
+            <value>-</value>
+          </text>
+          <text id="static_instance-illness-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-illness-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-illness-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-illness-2">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/eid:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4c:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/3:label">
+            <value form="image">jr://images/-</value>
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/1:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-32">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-19">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-18">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-15">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-14">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid/1:label">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="static_instance-village-16">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-10">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-12">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-10">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-11">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-12">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-13">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-14">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/oedema/1:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-16">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-17">
+            <value>-</value>
+          </text>
+          <text id="static_instance-reasons-18">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/3:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4h:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-verification-1">
+            <value form="image">jr://images/-</value>
+            <value>-</value>
+          </text>
+          <text id="static_instance-verification-0">
+            <value form="image">jr://images/-</value>
+            <value>-</value>
+          </text>
+          <text id="static_instance-verification-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-verification-2">
+            <value form="image">jr://images/-</value>
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/muac:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/2:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-26">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/2:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-74">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-20">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-21">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-22">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-23">
+            <value>-</value>
+          </text>
+          <text id="static_instance-default-2">
+            <value>-</value>
+          </text>
+          <text id="static_instance-default-3">
+            <value>-</value>
+          </text>
+          <text id="static_instance-default-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-default-1">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-28">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/1:label">
+            <value form="image">jr://images/-</value>
+            <value>-</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q3/1:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/oedema:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/action:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/5:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4b:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-42">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-43">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-40">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4f:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-46">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-47">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-44">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-45">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/4:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-24">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-48">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-49">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/vname:label">
+            <value>Village</value>
+          </text>
+          <text id="static_instance-village-25">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-37">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-36">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-35">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-34">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-33">
+            <value>-</value>
+          </text>
+          <text id="static_instance-sfp_otp-0">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-31">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-30">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-27">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-39">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-38">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data:label">
+            <value>-</value>
+          </text>
+          <text id="static_instance-village-83">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid/2:label">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-village-29">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4a:label">
+            <value>-</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1/2:label">
+            <value>-</value>
+          </text>
+        </translation>
+        <translation default="true()" lang="English">
+          <text id="/liberiaCoverage/child_repeat/child_data/coverage_status:label">
+            <value>What is the coverage status of the child?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4p:label">
+            <value>Out of stock</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4q:label">
+            <value>Lack of money to pay for transport</value>
+          </text>
+          <text id="static_instance-county-1">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-county-2">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-village-51">
+            <value>Village 22</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4l:label">
+            <value>Thought it was necessary to be enrolled at the hospital first</value>
+          </text>
+          <text id="static_instance-village-53">
+            <value>Village 24</value>
+          </text>
+          <text id="static_instance-village-52">
+            <value>Village 23</value>
+          </text>
+          <text id="static_instance-village-55">
+            <value>Village 26</value>
+          </text>
+          <text id="static_instance-village-54">
+            <value>Village 25</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q2/2:label">
+            <value>No</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/name:label">
+            <value>Name of child</value>
+          </text>
+          <text id="static_instance-village-59">
+            <value>Village 30</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q2/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4k:label">
+            <value>Husband refused</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/age:label">
+            <value>Age of child (in months)</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in/1:label">
+            <value>In SFP</value>
+          </text>
+          <text id="static_instance-county-0">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6b:label">
+            <value>Condition improved and discharged by the programme</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4g:label">
+            <value>Security problems</value>
+          </text>
+          <text id="static_instance-village-57">
+            <value>Village 28</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q3/2:label">
+            <value>No</value>
+          </text>
+          <text id="static_instance-village-64">
+            <value>Village 5</value>
+          </text>
+          <text id="static_instance-village-65">
+            <value>Village 6</value>
+          </text>
+          <text id="static_instance-village-66">
+            <value>Village 7</value>
+          </text>
+          <text id="static_instance-village-67">
+            <value>Village 8</value>
+          </text>
+          <text id="static_instance-village-60">
+            <value>Village 1</value>
+          </text>
+          <text id="static_instance-village-61">
+            <value>Village 2</value>
+          </text>
+          <text id="static_instance-village-62">
+            <value>Village 3</value>
+          </text>
+          <text id="static_instance-village-63">
+            <value>Village 4</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in/3:label">
+            <value>Neither SFP nor OTP</value>
+          </text>
+          <text id="static_instance-village-68">
+            <value>Village 9</value>
+          </text>
+          <text id="static_instance-village-69">
+            <value>Village 10</value>
+          </text>
+          <text id="static_instance-village-41">
+            <value>Village 12</value>
+          </text>
+          <text id="static_instance-village-18">
+            <value>Village 19</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/6:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q2:label">
+            <value>Do you think your child is [see hint]?</value>
+          </text>
+          <text id="static_instance-village-50">
+            <value>Village 21</value>
+          </text>
+          <text id="static_instance-sfp_otp-2">
+            <value>Neither SFP nor OTP</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-sfp_otp-1">
+            <value>In OTP</value>
+          </text>
+          <text id="static_instance-village-17">
+            <value>Village 18</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5:label">
+            <value>Was your child previously treated / given products / ration for [see hint] at the health centre?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out:label">
+            <value>Questionnaire for the carers of children (MAM and SAM cases) who are NOT in the programme</value>
+          </text>
+          <text id="/liberiaCoverage/admin:label">
+            <value>Identifying Data</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/oedema/2:label">
+            <value>No</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid/3:label">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-reasons-7">
+            <value>There is no one else to take care of the other siblings</value>
+          </text>
+          <text id="static_instance-reasons-4">
+            <value>Mother / carer cannot carry more than one child</value>
+          </text>
+          <text id="static_instance-reasons-5">
+            <value>Mother / carer feels ashamed or shy about coming</value>
+          </text>
+          <text id="static_instance-reasons-2">
+            <value>No time / too busy</value>
+          </text>
+          <text id="static_instance-reasons-3">
+            <value>Mother / carer is sick</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6c:label">
+            <value>Discharged because child was not recovering</value>
+          </text>
+          <text id="static_instance-reasons-1">
+            <value>Too far</value>
+          </text>
+          <text id="static_instance-village-56">
+            <value>Village 27</value>
+          </text>
+          <text id="static_instance-reasons-8">
+            <value>The child has been rejected by the programme already</value>
+          </text>
+          <text id="static_instance-reasons-9">
+            <value>Other parent's children have been rejected</value>
+          </text>
+          <text id="static_instance-village-80">
+            <value>Village 21</value>
+          </text>
+          <text id="static_instance-village-58">
+            <value>Village 29</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/refer:label">
+            <value> This child is **<output value=" /liberiaCoverage/child_repeat/child_data/coverage_status "/>**. *<output value=" /liberiaCoverage/child_repeat/out/refer_action "/>*  </value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4o:label">
+            <value>Heard that ration/products has worms</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4r:label">
+            <value>SAM case in SFP</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4i:label">
+            <value>The child has been rejected by the programme already</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4s:label">
+            <value>Other</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check:label">
+            <value>What was used to verify coverage status of child?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4:label">
+            <value>Why is your child not receiving this treatment / products / ration for [see hint]?</value>
+          </text>
+          <text id="static_instance-village-81">
+            <value>Village 22</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in/2:label">
+            <value>In OTP</value>
+          </text>
+          <text id="/liberiaCoverage/admin/ch:label">
+            <value>How many children age 6-59 months live in this household?</value>
+          </text>
+          <text id="static_instance-village-5">
+            <value>Village 6</value>
+          </text>
+          <text id="static_instance-village-4">
+            <value>Village 5</value>
+          </text>
+          <text id="static_instance-village-7">
+            <value>Village 8</value>
+          </text>
+          <text id="static_instance-village-6">
+            <value>Village 7</value>
+          </text>
+          <text id="static_instance-village-1">
+            <value>Village 2</value>
+          </text>
+          <text id="static_instance-village-0">
+            <value>Village 1</value>
+          </text>
+          <text id="static_instance-village-3">
+            <value>Village 4</value>
+          </text>
+          <text id="static_instance-village-2">
+            <value>Village 3</value>
+          </text>
+          <text id="static_instance-village-9">
+            <value>Village 10</value>
+          </text>
+          <text id="static_instance-village-8">
+            <value>Village 9</value>
+          </text>
+          <text id="static_instance-reasons-15">
+            <value>Out of stock</value>
+          </text>
+          <text id="static_instance-village-86">
+            <value>Village 27</value>
+          </text>
+          <text id="static_instance-village-87">
+            <value>Village 28</value>
+          </text>
+          <text id="static_instance-village-84">
+            <value>Village 25</value>
+          </text>
+          <text id="static_instance-village-85">
+            <value>Village 26</value>
+          </text>
+          <text id="static_instance-village-82">
+            <value>Village 23</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6d:label">
+            <value>Other</value>
+          </text>
+          <text id="/liberiaCoverage/admin/eid:label">
+            <value>Enumerator ID</value>
+          </text>
+          <text id="/liberiaCoverage/admin/hh:label">
+            <value>Household ID</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4d:label">
+            <value>Mother / carer is sick</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/4:label">
+            <value>Cough</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6e:label">
+            <value>If other reasons, specify:</value>
+          </text>
+          <text id="static_instance-village-88">
+            <value>Village 29</value>
+          </text>
+          <text id="static_instance-village-89">
+            <value>Village 30</value>
+          </text>
+          <text id="/liberiaCoverage/end:label">
+            <value>If all children age 6-59 months in household have been assessed, **thank mother / carer** and **move to next household**</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4j:label">
+            <value>Other parent's children have been rejected</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/refer_action:label">
+            <value>What referral should I make?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4e:label">
+            <value>Mother / carer cannot carry more than one child</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/4:label">
+            <value>Neither SFP nor OTP</value>
+          </text>
+          <text id="static_instance-village-79">
+            <value>Village 20</value>
+          </text>
+          <text id="static_instance-village-78">
+            <value>Village 19</value>
+          </text>
+          <text id="static_instance-previous-3">
+            <value>Neither SFP nor OTP</value>
+          </text>
+          <text id="static_instance-previous-2">
+            <value>Both SFP and OTP</value>
+          </text>
+          <text id="static_instance-previous-1">
+            <value>OTP only</value>
+          </text>
+          <text id="static_instance-previous-0">
+            <value>SFP only</value>
+          </text>
+          <text id="static_instance-village-73">
+            <value>Village 14</value>
+          </text>
+          <text id="static_instance-village-72">
+            <value>Village 13</value>
+          </text>
+          <text id="static_instance-village-71">
+            <value>Village 12</value>
+          </text>
+          <text id="static_instance-village-70">
+            <value>Village 11</value>
+          </text>
+          <text id="static_instance-village-77">
+            <value>Village 18</value>
+          </text>
+          <text id="static_instance-village-76">
+            <value>Village 17</value>
+          </text>
+          <text id="static_instance-village-75">
+            <value>Village 16</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat:label">
+            <value>Please enter information for each child age 6-59 months in household. Click on + to move to next child.</value>
+          </text>
+          <text id="/liberiaCoverage/no_children:label">
+            <value>There are no children age 6-59 months in this household. Move to next household.</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1:label">
+            <value>Do you think your child is sick?</value>
+          </text>
+          <text id="static_instance-reasons-6">
+            <value>Security problems</value>
+          </text>
+          <text id="static_instance-village-12">
+            <value>Village 13</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4t:label">
+            <value>Other</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/instruct_1:label">
+            <value> This child is **<output value=" /liberiaCoverage/child_repeat/child_data/coverage_status "/>**. <output value=" /liberiaCoverage/child_repeat/action "/> </value></text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/1:label">
+            <value>Malnutrition</value>
+          </text>
+          <text id="static_instance-reasons-0">
+            <value>Mother / carer went to the health centre but the child was not measured</value>
+          </text>
+          <text id="static_instance-illness-5">
+            <value>Don't know</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/status:label">
+            <value>What is the nutritional status of the child?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4m:label">
+            <value>Does not think the programme can help child/children (prefer traditional  healer, other treatment)</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/1:label">
+            <value>SFP only</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/2:label">
+            <value form="image">jr://images/healthCard.png</value>
+            <value>Health card</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4n:label">
+            <value>Heard that children who took treatment/ration/products got diarrhoea</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6/q6a:label">
+            <value>Defaulted</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q3:label">
+            <value>Do you know / are you aware of treatment / products / ration provided for [see hint] children at the health centre (or other distribution sites)?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/3:label">
+            <value>Fever</value>
+          </text>
+          <text id="static_instance-illness-4">
+            <value>Malaria</value>
+          </text>
+          <text id="static_instance-illness-1">
+            <value>Diarrhoea</value>
+          </text>
+          <text id="static_instance-illness-0">
+            <value>Malnutrition</value>
+          </text>
+          <text id="static_instance-illness-3">
+            <value>Cough</value>
+          </text>
+          <text id="static_instance-illness-2">
+            <value>Fever</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4c:label">
+            <value>No time / too busy</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/3:label">
+            <value form="image">jr://images/rufCard.png</value>
+            <value>Both RUSF/RUTF and health card</value>
+          </text>
+          <text id="static_instance-village-32">
+            <value>Village 3</value>
+          </text>
+          <text id="static_instance-village-19">
+            <value>Village 20</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid:label">
+            <value>County</value>
+          </text>
+          <text id="static_instance-village-15">
+            <value>Village 16</value>
+          </text>
+          <text id="static_instance-village-14">
+            <value>Village 15</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid/1:label">
+            <value>Rural Montserrado</value>
+          </text>
+          <text id="static_instance-village-16">
+            <value>Village 17</value>
+          </text>
+          <text id="static_instance-village-11">
+            <value>Village 12</value>
+          </text>
+          <text id="static_instance-village-10">
+            <value>Village 11</value>
+          </text>
+          <text id="static_instance-village-13">
+            <value>Village 14</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/action:label">
+            <value>What should we do next?</value>
+          </text>
+          <text id="static_instance-reasons-10">
+            <value>Husband refused</value>
+          </text>
+          <text id="static_instance-reasons-11">
+            <value>Thought it was necessary to be enrolled at the hospital first</value>
+          </text>
+          <text id="static_instance-reasons-12">
+            <value>Does not think the programme can help child/children (prefer traditional  healer, other treatment)</value>
+          </text>
+          <text id="static_instance-reasons-13">
+            <value>Heard that children who took treatment/ration/products got diarrhoea</value>
+          </text>
+          <text id="static_instance-reasons-14">
+            <value>Heard that ration/products has worms</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/oedema/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-reasons-16">
+            <value>Lack of money to pay for transport</value>
+          </text>
+          <text id="static_instance-reasons-17">
+            <value>SAM case in SFP</value>
+          </text>
+          <text id="static_instance-reasons-18">
+            <value>Other</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/3:label">
+            <value>Both SFP and OTP</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4h:label">
+            <value>There is no one else to take care of the other siblings</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q6:label">
+            <value>Why is your child not receiving treatment now?</value>
+          </text>
+          <text id="static_instance-verification-1">
+            <value form="image">jr://images/healthCard.png</value>
+            <value>Health card</value>
+          </text>
+          <text id="static_instance-verification-0">
+            <value form="image">jr://images/ruf.png</value>
+            <value>RUSF or RUTF</value>
+          </text>
+          <text id="static_instance-verification-3">
+            <value>Not applicable (not covered)</value>
+          </text>
+          <text id="static_instance-verification-2">
+            <value form="image">jr://images/rufCard.png</value>
+            <value>Both RUSF/RUTF and health card</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/muac:label">
+            <value>Mid-upper arm circumference (MUAC) of child (mm)</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/2:label">
+            <value>Diarrhoea</value>
+          </text>
+          <text id="static_instance-village-26">
+            <value>Village 27</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q5/2:label">
+            <value>OTP only</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-village-74">
+            <value>Village 15</value>
+          </text>
+          <text id="static_instance-village-20">
+            <value>Village 21</value>
+          </text>
+          <text id="static_instance-village-21">
+            <value>Village 22</value>
+          </text>
+          <text id="static_instance-village-22">
+            <value>Village 23</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4f:label">
+            <value>Mother / carer feels ashamed or shy about coming</value>
+          </text>
+          <text id="static_instance-default-2">
+            <value>Discharged because child was not recovering</value>
+          </text>
+          <text id="static_instance-default-3">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-default-0">
+            <value>Defaulted</value>
+          </text>
+          <text id="static_instance-default-1">
+            <value>Condition improved and discharged by the programme</value>
+          </text>
+          <text id="static_instance-village-28">
+            <value>Village 29</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/1:label">
+            <value form="image">jr://images/ruf.png</value>
+            <value>RUSF or RUTF</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q3/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/oedema:label">
+            <value>Is there bilateral pitting oedema?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a:label">
+            <value>What condition is your child suffering from?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/in:label">
+            <value>Is child in SFP or OTP?</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1a/5:label">
+            <value>Malaria</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4b:label">
+            <value>Too far</value>
+          </text>
+          <text id="static_instance-village-42">
+            <value>Village 13</value>
+          </text>
+          <text id="static_instance-village-43">
+            <value>Village 14</value>
+          </text>
+          <text id="static_instance-village-40">
+            <value>Village 11</value>
+          </text>
+          <text id="static_instance-village-23">
+            <value>Village 24</value>
+          </text>
+          <text id="static_instance-village-46">
+            <value>Village 17</value>
+          </text>
+          <text id="static_instance-village-47">
+            <value>Village 18</value>
+          </text>
+          <text id="static_instance-village-44">
+            <value>Village 15</value>
+          </text>
+          <text id="static_instance-village-45">
+            <value>Village 16</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data/check/4:label">
+            <value>Not applicable (not covered)</value>
+          </text>
+          <text id="static_instance-village-24">
+            <value>Village 25</value>
+          </text>
+          <text id="static_instance-village-48">
+            <value>Village 19</value>
+          </text>
+          <text id="static_instance-village-49">
+            <value>Village 20</value>
+          </text>
+          <text id="/liberiaCoverage/admin/vname:label">
+            <value>Village</value>
+          </text>
+          <text id="static_instance-village-25">
+            <value>Village 26</value>
+          </text>
+          <text id="static_instance-village-37">
+            <value>Village 8</value>
+          </text>
+          <text id="static_instance-village-36">
+            <value>Village 7</value>
+          </text>
+          <text id="static_instance-village-35">
+            <value>Village 6</value>
+          </text>
+          <text id="static_instance-village-34">
+            <value>Village 5</value>
+          </text>
+          <text id="static_instance-village-33">
+            <value>Village 4</value>
+          </text>
+          <text id="static_instance-sfp_otp-0">
+            <value>In SFP</value>
+          </text>
+          <text id="static_instance-village-31">
+            <value>Village 2</value>
+          </text>
+          <text id="static_instance-village-30">
+            <value>Village 1</value>
+          </text>
+          <text id="static_instance-village-27">
+            <value>Village 28</value>
+          </text>
+          <text id="static_instance-village-39">
+            <value>Village 10</value>
+          </text>
+          <text id="static_instance-village-38">
+            <value>Village 9</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/child_data:label">
+            <value>Child data</value>
+          </text>
+          <text id="static_instance-village-83">
+            <value>Village 24</value>
+          </text>
+          <text id="/liberiaCoverage/admin/cid/2:label">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-village-29">
+            <value>Village 30</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q4/q4a:label">
+            <value>Mother / carer went to the health centre but the child was not measured</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/out/q1/2:label">
+            <value>No</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <liberiaCoverage id="liberiaCoverage" version="201808031314">
+          <formhub>
+            <uuid/>
+          </formhub>
+          <admin>
+            <cid/>
+            <vname/>
+            <vid/>
+            <eid/>
+            <hh/>
+            <ch/>
+          </admin>
+          <no_children/>
+          <child_repeat_count/>
+          <child_repeat jr:template="">
+            <child_data>
+              <name/>
+              <age/>
+              <muac/>
+              <oedema/>
+              <status/>
+              <in/>
+              <coverage_status/>
+              <check/>
+            </child_data>
+            <action/>
+            <instruct_1/>
+            <out>
+              <q1/>
+              <q1a/>
+              <q2/>
+              <q3/>
+              <q4/>
+              <q4t/>
+              <q5/>
+              <q6/>
+              <q6e/>
+              <refer_action/>
+              <refer/>
+            </out>
+          </child_repeat>
+          <end/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </liberiaCoverage>
+      </instance>
+      <instance id="illness">
+        <root>
+          <item>
+            <itextId>static_instance-illness-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-4</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-5</itextId>
+            <name>6</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="reasons">
+        <root>
+          <item>
+            <itextId>static_instance-reasons-0</itextId>
+            <name>q4a</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-1</itextId>
+            <name>q4b</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-2</itextId>
+            <name>q4c</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-3</itextId>
+            <name>q4d</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-4</itextId>
+            <name>q4e</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-5</itextId>
+            <name>q4f</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-6</itextId>
+            <name>q4g</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-7</itextId>
+            <name>q4h</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-8</itextId>
+            <name>q4i</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-9</itextId>
+            <name>q4j</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-10</itextId>
+            <name>q4k</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-11</itextId>
+            <name>q4l</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-12</itextId>
+            <name>q4m</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-13</itextId>
+            <name>q4n</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-14</itextId>
+            <name>q4o</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-15</itextId>
+            <name>q4p</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-16</itextId>
+            <name>q4q</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-17</itextId>
+            <name>q4r</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-18</itextId>
+            <name>q4s</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="county">
+        <root>
+          <item>
+            <itextId>static_instance-county-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-county-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-county-2</itextId>
+            <name>3</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="default">
+        <root>
+          <item>
+            <itextId>static_instance-default-0</itextId>
+            <name>q6a</name>
+          </item>
+          <item>
+            <itextId>static_instance-default-1</itextId>
+            <name>q6b</name>
+          </item>
+          <item>
+            <itextId>static_instance-default-2</itextId>
+            <name>q6c</name>
+          </item>
+          <item>
+            <itextId>static_instance-default-3</itextId>
+            <name>q6d</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sfp_otp">
+        <root>
+          <item>
+            <itextId>static_instance-sfp_otp-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-sfp_otp-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-sfp_otp-2</itextId>
+            <name>3</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="verification">
+        <root>
+          <item>
+            <itextId>static_instance-verification-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-verification-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-verification-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-verification-3</itextId>
+            <name>4</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="village">
+        <root>
+          <item>
+            <itextId>static_instance-village-0</itextId>
+            <county>1</county>
+            <name>Village 1</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-1</itextId>
+            <county>1</county>
+            <name>Village 2</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-2</itextId>
+            <county>1</county>
+            <name>Village 3</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-3</itextId>
+            <county>1</county>
+            <name>Village 4</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-4</itextId>
+            <county>1</county>
+            <name>Village 5</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-5</itextId>
+            <county>1</county>
+            <name>Village 6</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-6</itextId>
+            <county>1</county>
+            <name>Village 7</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-7</itextId>
+            <county>1</county>
+            <name>Village 8</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-8</itextId>
+            <county>1</county>
+            <name>Village 9</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-9</itextId>
+            <county>1</county>
+            <name>Village 10</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-10</itextId>
+            <county>1</county>
+            <name>Village 11</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-11</itextId>
+            <county>1</county>
+            <name>Village 12</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-12</itextId>
+            <county>1</county>
+            <name>Village 13</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-13</itextId>
+            <county>1</county>
+            <name>Village 14</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-14</itextId>
+            <county>1</county>
+            <name>Village 15</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-15</itextId>
+            <county>1</county>
+            <name>Village 16</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-16</itextId>
+            <county>1</county>
+            <name>Village 17</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-17</itextId>
+            <county>1</county>
+            <name>Village 18</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-18</itextId>
+            <county>1</county>
+            <name>Village 19</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-19</itextId>
+            <county>1</county>
+            <name>Village 20</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-20</itextId>
+            <county>1</county>
+            <name>Village 21</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-21</itextId>
+            <county>1</county>
+            <name>Village 22</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-22</itextId>
+            <county>1</county>
+            <name>Village 23</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-23</itextId>
+            <county>1</county>
+            <name>Village 24</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-24</itextId>
+            <county>1</county>
+            <name>Village 25</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-25</itextId>
+            <county>1</county>
+            <name>Village 26</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-26</itextId>
+            <county>1</county>
+            <name>Village 27</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-27</itextId>
+            <county>1</county>
+            <name>Village 28</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-28</itextId>
+            <county>1</county>
+            <name>Village 29</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-29</itextId>
+            <county>1</county>
+            <name>Village 30</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-30</itextId>
+            <county>2</county>
+            <name>Village 1</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-31</itextId>
+            <county>2</county>
+            <name>Village 2</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-32</itextId>
+            <county>2</county>
+            <name>Village 3</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-33</itextId>
+            <county>2</county>
+            <name>Village 4</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-34</itextId>
+            <county>2</county>
+            <name>Village 5</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-35</itextId>
+            <county>2</county>
+            <name>Village 6</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-36</itextId>
+            <county>2</county>
+            <name>Village 7</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-37</itextId>
+            <county>2</county>
+            <name>Village 8</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-38</itextId>
+            <county>2</county>
+            <name>Village 9</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-39</itextId>
+            <county>2</county>
+            <name>Village 10</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-40</itextId>
+            <county>2</county>
+            <name>Village 11</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-41</itextId>
+            <county>2</county>
+            <name>Village 12</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-42</itextId>
+            <county>2</county>
+            <name>Village 13</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-43</itextId>
+            <county>2</county>
+            <name>Village 14</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-44</itextId>
+            <county>2</county>
+            <name>Village 15</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-45</itextId>
+            <county>2</county>
+            <name>Village 16</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-46</itextId>
+            <county>2</county>
+            <name>Village 17</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-47</itextId>
+            <county>2</county>
+            <name>Village 18</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-48</itextId>
+            <county>2</county>
+            <name>Village 19</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-49</itextId>
+            <county>2</county>
+            <name>Village 20</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-50</itextId>
+            <county>2</county>
+            <name>Village 21</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-51</itextId>
+            <county>2</county>
+            <name>Village 22</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-52</itextId>
+            <county>2</county>
+            <name>Village 23</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-53</itextId>
+            <county>2</county>
+            <name>Village 24</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-54</itextId>
+            <county>2</county>
+            <name>Village 25</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-55</itextId>
+            <county>2</county>
+            <name>Village 26</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-56</itextId>
+            <county>2</county>
+            <name>Village 27</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-57</itextId>
+            <county>2</county>
+            <name>Village 28</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-58</itextId>
+            <county>2</county>
+            <name>Village 29</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-59</itextId>
+            <county>2</county>
+            <name>Village 30</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-60</itextId>
+            <county>3</county>
+            <name>Village 1</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-61</itextId>
+            <county>3</county>
+            <name>Village 2</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-62</itextId>
+            <county>3</county>
+            <name>Village 3</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-63</itextId>
+            <county>3</county>
+            <name>Village 4</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-64</itextId>
+            <county>3</county>
+            <name>Village 5</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-65</itextId>
+            <county>3</county>
+            <name>Village 6</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-66</itextId>
+            <county>3</county>
+            <name>Village 7</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-67</itextId>
+            <county>3</county>
+            <name>Village 8</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-68</itextId>
+            <county>3</county>
+            <name>Village 9</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-69</itextId>
+            <county>3</county>
+            <name>Village 10</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-70</itextId>
+            <county>3</county>
+            <name>Village 11</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-71</itextId>
+            <county>3</county>
+            <name>Village 12</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-72</itextId>
+            <county>3</county>
+            <name>Village 13</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-73</itextId>
+            <county>3</county>
+            <name>Village 14</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-74</itextId>
+            <county>3</county>
+            <name>Village 15</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-75</itextId>
+            <county>3</county>
+            <name>Village 16</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-76</itextId>
+            <county>3</county>
+            <name>Village 17</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-77</itextId>
+            <county>3</county>
+            <name>Village 18</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-78</itextId>
+            <county>3</county>
+            <name>Village 19</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-79</itextId>
+            <county>3</county>
+            <name>Village 20</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-80</itextId>
+            <county>3</county>
+            <name>Village 21</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-81</itextId>
+            <county>3</county>
+            <name>Village 22</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-82</itextId>
+            <county>3</county>
+            <name>Village 23</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-83</itextId>
+            <county>3</county>
+            <name>Village 24</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-84</itextId>
+            <county>3</county>
+            <name>Village 25</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-85</itextId>
+            <county>3</county>
+            <name>Village 26</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-86</itextId>
+            <county>3</county>
+            <name>Village 27</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-87</itextId>
+            <county>3</county>
+            <name>Village 28</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-88</itextId>
+            <county>3</county>
+            <name>Village 29</name>
+          </item>
+          <item>
+            <itextId>static_instance-village-89</itextId>
+            <county>3</county>
+            <name>Village 30</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="previous">
+        <root>
+          <item>
+            <itextId>static_instance-previous-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-previous-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-previous-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-previous-3</itextId>
+            <name>4</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/liberiaCoverage/admin/cid" relevant="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/admin/vname" relevant="true()" type="select1"/>
+      <bind calculate="if(selected( /liberiaCoverage/admin/vname , &quot;Village 1&quot;), 1, if(selected( /liberiaCoverage/admin/vname , &quot;Village 2&quot;), 2, if(selected( /liberiaCoverage/admin/vname , &quot;Village 3&quot;), 3, if(selected( /liberiaCoverage/admin/vname , &quot;Village 4&quot;), 4, if(selected( /liberiaCoverage/admin/vname , &quot;Village 5&quot;), 5, if(selected( /liberiaCoverage/admin/vname , &quot;Village 6&quot;), 6, if(selected( /liberiaCoverage/admin/vname , &quot;Village 7&quot;), 7, if(selected( /liberiaCoverage/admin/vname , &quot;Village 8&quot;), 8, if(selected( /liberiaCoverage/admin/vname , &quot;Village 9&quot;), 9, if(selected( /liberiaCoverage/admin/vname , &quot;Village 10&quot;), 10, if(selected( /liberiaCoverage/admin/vname , &quot;Village 11&quot;), 11, if(selected( /liberiaCoverage/admin/vname , &quot;Village 12&quot;), 12, if(selected( /liberiaCoverage/admin/vname , &quot;Village 13&quot;), 13, if(selected( /liberiaCoverage/admin/vname , &quot;Village 14&quot;), 14, if(selected( /liberiaCoverage/admin/vname , &quot;Village 15&quot;), 15, if(selected( /liberiaCoverage/admin/vname , &quot;Village 16&quot;), 16, if(selected( /liberiaCoverage/admin/vname , &quot;Village 17&quot;), 17, if(selected( /liberiaCoverage/admin/vname , &quot;Village 18&quot;), 18, if(selected( /liberiaCoverage/admin/vname , &quot;Village 19&quot;), 19, if(selected( /liberiaCoverage/admin/vname , &quot;Village 20&quot;), 20, if(selected( /liberiaCoverage/admin/vname , &quot;Village 21&quot;), 21, if(selected( /liberiaCoverage/admin/vname , &quot;Village 22&quot;), 22, if(selected( /liberiaCoverage/admin/vname , &quot;Village 23&quot;), 23, if(selected( /liberiaCoverage/admin/vname , &quot;Village 24&quot;), 24, if(selected( /liberiaCoverage/admin/vname , &quot;Village 25&quot;), 25, if(selected( /liberiaCoverage/admin/vname , &quot;Village 26&quot;), 26, if(selected( /liberiaCoverage/admin/vname , &quot;Village 27&quot;), 27, if(selected( /liberiaCoverage/admin/vname , &quot;Village 28&quot;), 28, if(selected( /liberiaCoverage/admin/vname , &quot;Village 29&quot;), 29, 30)))))))))))))))))))))))))))))" nodeset="/liberiaCoverage/admin/vid" type="string"/>
+      <bind constraint=".&gt;=1 and .&lt;=30" jr:constraintMsg="Enumerator ID must be between 1 and 30" nodeset="/liberiaCoverage/admin/eid" required="true()" type="int"/>
+      <bind constraint=".&gt;=1 and .&lt;1000" nodeset="/liberiaCoverage/admin/hh" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/admin/ch" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/no_children" readonly="true()" relevant=" /liberiaCoverage/admin/ch =0" type="string"/>
+      <bind calculate=" /liberiaCoverage/admin/ch " nodeset="/liberiaCoverage/child_repeat_count" readonly="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/child_data" relevant=" /liberiaCoverage/admin/ch &gt;0"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/child_data/name" required="true()" type="string"/>
+      <bind constraint=".&gt;=6 and .&lt;=59" nodeset="/liberiaCoverage/child_repeat/child_data/age" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/child_data/muac" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/child_data/oedema" required="true()" type="select1"/>
+      <bind calculate="if( /liberiaCoverage/child_repeat/child_data/muac &lt;115 or  /liberiaCoverage/child_repeat/child_data/oedema ='1', 'SAM', if( /liberiaCoverage/child_repeat/child_data/muac &gt;=125 and  /liberiaCoverage/child_repeat/child_data/oedema ='2', 'not MAM not SAM', 'MAM'))" nodeset="/liberiaCoverage/child_repeat/child_data/status" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/child_data/in" required="true()" type="select1"/>
+      <bind calculate="if( /liberiaCoverage/child_repeat/child_data/status ='SAM' and  /liberiaCoverage/child_repeat/child_data/in ='2', 'SAM in OTP', if( /liberiaCoverage/child_repeat/child_data/status ='SAM' and  /liberiaCoverage/child_repeat/child_data/in !='2', 'SAM not in OTP', if( /liberiaCoverage/child_repeat/child_data/status ='MAM' and  /liberiaCoverage/child_repeat/child_data/in ='2', 'Recovering SAM', if( /liberiaCoverage/child_repeat/child_data/status ='MAM' and  /liberiaCoverage/child_repeat/child_data/in ='1', 'MAM in SFP', if( /liberiaCoverage/child_repeat/child_data/status ='MAM' and  /liberiaCoverage/child_repeat/child_data/in ='3', 'MAM not in SFP', if( /liberiaCoverage/child_repeat/child_data/status ='not MAM not SAM' and  /liberiaCoverage/child_repeat/child_data/in ='1', 'Recovering MAM', if( /liberiaCoverage/child_repeat/child_data/status ='not MAM not SAM' and  /liberiaCoverage/child_repeat/child_data/in ='2', 'Recovering SAM', 'not acutely malnourished')))))))" nodeset="/liberiaCoverage/child_repeat/child_data/coverage_status" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/child_data/check" required="true()" type="select1"/>
+      <bind calculate="if( /liberiaCoverage/child_repeat/child_data/coverage_status ='SAM not in OTP' or  /liberiaCoverage/child_repeat/child_data/coverage_status ='MAM not in SFP', 'Child not in appropriate treatment. Administer questionnaire on barriers to service uptake and access.', 'STOP survey for this child. Click + to move to next child age 6-59 months in household.')" nodeset="/liberiaCoverage/child_repeat/action" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/instruct_1" readonly="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out" relevant=" /liberiaCoverage/child_repeat/child_data/coverage_status ='SAM not in OTP' or  /liberiaCoverage/child_repeat/child_data/coverage_status ='MAM not in SFP'" required="true()"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q1a" relevant=" /liberiaCoverage/child_repeat/out/q1 ='1'" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q3" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q4" relevant=" /liberiaCoverage/child_repeat/out/q3 ='1'" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q4t" relevant=" /liberiaCoverage/child_repeat/out/q4 ='q4s'" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q5" relevant=" /liberiaCoverage/child_repeat/out/q3 ='1'" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q6" relevant=" /liberiaCoverage/child_repeat/out/q5 ='1' or  /liberiaCoverage/child_repeat/out/q5 ='2' or  /liberiaCoverage/child_repeat/out/q5 ='3'" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/q6e" relevant=" /liberiaCoverage/child_repeat/out/q6 ='q6d'" required="true()" type="string"/>
+      <bind calculate="if( /liberiaCoverage/child_repeat/child_data/coverage_status ='SAM not in OTP', 'Refer child to nearest OTP', 'Refer child to nearest SFP')" nodeset="/liberiaCoverage/child_repeat/out/refer_action" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/out/refer" readonly="true()" relevant=" /liberiaCoverage/child_repeat/child_data/coverage_status ='SAM not in OTP'" type="string"/>
+      <bind nodeset="/liberiaCoverage/end" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/liberiaCoverage/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="'ab5a44464b0743b5be423afd3af887e9'" nodeset="/liberiaCoverage/formhub/uuid" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/liberiaCoverage/admin">
+      <label ref="jr:itext('/liberiaCoverage/admin:label')"/>
+      <select1 ref="/liberiaCoverage/admin/cid">
+        <label ref="jr:itext('/liberiaCoverage/admin/cid:label')"/>
+        <item>
+          <label ref="jr:itext('/liberiaCoverage/admin/cid/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/liberiaCoverage/admin/cid/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/liberiaCoverage/admin/cid/3:label')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <select1 ref="/liberiaCoverage/admin/vname">
+        <label ref="jr:itext('/liberiaCoverage/admin/vname:label')"/>
+        <itemset nodeset="instance('village')/root/item[county =  /liberiaCoverage/admin/cid ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <input ref="/liberiaCoverage/admin/eid">
+        <label ref="jr:itext('/liberiaCoverage/admin/eid:label')"/>
+      </input>
+      <input ref="/liberiaCoverage/admin/hh">
+        <label ref="jr:itext('/liberiaCoverage/admin/hh:label')"/>
+      </input>
+      <input ref="/liberiaCoverage/admin/ch">
+        <label ref="jr:itext('/liberiaCoverage/admin/ch:label')"/>
+        <hint>Do a verbal census to ascertain how many children 6-59 months in household</hint>
+      </input>
+    </group>
+    <input ref="/liberiaCoverage/no_children">
+      <label ref="jr:itext('/liberiaCoverage/no_children:label')"/>
+    </input>
+    <group ref="/liberiaCoverage/child_repeat">
+      <label ref="jr:itext('/liberiaCoverage/child_repeat:label')"/>
+      <repeat jr:count=" /liberiaCoverage/child_repeat_count " nodeset="/liberiaCoverage/child_repeat">
+        <group ref="/liberiaCoverage/child_repeat/child_data">
+          <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data:label')"/>
+          <input ref="/liberiaCoverage/child_repeat/child_data/name">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/name:label')"/>
+          </input>
+          <input ref="/liberiaCoverage/child_repeat/child_data/age">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/age:label')"/>
+            <hint>Enter age in months (6-59 months)</hint>
+          </input>
+          <input ref="/liberiaCoverage/child_repeat/child_data/muac">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/muac:label')"/>
+            <hint>Enter MUAC in millimetres (mm)</hint>
+          </input>
+          <select1 ref="/liberiaCoverage/child_repeat/child_data/oedema">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/oedema:label')"/>
+            <hint>Check for bilateral pitting oedema</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/oedema/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/oedema/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <select1 ref="/liberiaCoverage/child_repeat/child_data/in">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/in:label')"/>
+            <hint>Ask mother / carer if child is in SFP or OTP.</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/in/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/in/2:label')"/>
+              <value>2</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/in/3:label')"/>
+              <value>3</value>
+            </item>
+          </select1>
+          <select1 ref="/liberiaCoverage/child_repeat/child_data/check">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/check:label')"/>
+            <hint>Verify child's coverage status by asking for health card or packets of RUTF/RUSF</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/check/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/check/2:label')"/>
+              <value>2</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/check/3:label')"/>
+              <value>3</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/child_data/check/4:label')"/>
+              <value>4</value>
+            </item>
+          </select1>
+        </group>
+        <input ref="/liberiaCoverage/child_repeat/instruct_1">
+          <label ref="jr:itext('/liberiaCoverage/child_repeat/instruct_1:label')"/>
+        </input>
+        <group ref="/liberiaCoverage/child_repeat/out">
+          <label ref="jr:itext('/liberiaCoverage/child_repeat/out:label')"/>
+          <select1 ref="/liberiaCoverage/child_repeat/out/q1">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1:label')"/>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <select ref="/liberiaCoverage/child_repeat/out/q1a">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1a:label')"/>
+            <hint>Do no prompt</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1a/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1a/2:label')"/>
+              <value>2</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1a/3:label')"/>
+              <value>3</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1a/4:label')"/>
+              <value>4</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1a/5:label')"/>
+              <value>5</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q1a/6:label')"/>
+              <value>6</value>
+            </item>
+          </select>
+          <select1 ref="/liberiaCoverage/child_repeat/out/q2">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q2:label')"/>
+            <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q2/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q2/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <select1 ref="/liberiaCoverage/child_repeat/out/q3">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q3:label')"/>
+            <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q3/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q3/2:label')"/>
+              <value>2</value>
+            </item>
+          </select1>
+          <select ref="/liberiaCoverage/child_repeat/out/q4">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4:label')"/>
+            <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet; Do not prompt. Probe with &quot;Any other reasons?&quot;</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4a:label')"/>
+              <value>q4a</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4b:label')"/>
+              <value>q4b</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4c:label')"/>
+              <value>q4c</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4d:label')"/>
+              <value>q4d</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4e:label')"/>
+              <value>q4e</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4f:label')"/>
+              <value>q4f</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4g:label')"/>
+              <value>q4g</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4h:label')"/>
+              <value>q4h</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4i:label')"/>
+              <value>q4i</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4j:label')"/>
+              <value>q4j</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4k:label')"/>
+              <value>q4k</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4l:label')"/>
+              <value>q4l</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4m:label')"/>
+              <value>q4m</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4n:label')"/>
+              <value>q4n</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4o:label')"/>
+              <value>q4o</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4p:label')"/>
+              <value>q4p</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4q:label')"/>
+              <value>q4q</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4r:label')"/>
+              <value>q4r</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4/q4s:label')"/>
+              <value>q4s</value>
+            </item>
+          </select>
+          <input ref="/liberiaCoverage/child_repeat/out/q4t">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q4t:label')"/>
+          </input>
+          <select1 ref="/liberiaCoverage/child_repeat/out/q5">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q5:label')"/>
+            <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q5/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q5/2:label')"/>
+              <value>2</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q5/3:label')"/>
+              <value>3</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q5/4:label')"/>
+              <value>4</value>
+            </item>
+          </select1>
+          <select ref="/liberiaCoverage/child_repeat/out/q6">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q6:label')"/>
+            <hint>Do not prompt. Probe with &quot;Any other reasons?&quot;</hint>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q6/q6a:label')"/>
+              <value>q6a</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q6/q6b:label')"/>
+              <value>q6b</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q6/q6c:label')"/>
+              <value>q6c</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q6/q6d:label')"/>
+              <value>q6d</value>
+            </item>
+          </select>
+          <input ref="/liberiaCoverage/child_repeat/out/q6e">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/q6e:label')"/>
+          </input>
+          <input ref="/liberiaCoverage/child_repeat/out/refer">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/out/refer:label')"/>
+          </input>
+        </group>
+      </repeat>
+    </group>
+    <input ref="/liberiaCoverage/end">
+      <label ref="jr:itext('/liberiaCoverage/end:label')"/>
+    </input>
+  </h:body>
+</h:html>
