@@ -3281,7 +3281,7 @@
         </translation>
       </itext>
       <instance>
-        <liberiaCoverage id="liberiaCoverage" version="201808071023">
+        <liberiaCoverage id="liberiaCoverage" version="201808071129">
           <formhub>
             <uuid/>
           </formhub>
@@ -4575,7 +4575,7 @@
       <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q6e" relevant=" /liberiaCoverage/child_repeat/guard/barriers/q6 ='q6d'" required="true()" type="string"/>
       <bind calculate="&quot;Refer child to most appropriate treatment centre&quot;" nodeset="/liberiaCoverage/child_repeat/guard/barriers/refer_action" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/refer" readonly="true()" type="string"/>
-      <bind calculate="int(once(random()) *  /liberiaCoverage/mother_data/ch ) + 1" nodeset="/liberiaCoverage/child_repeat/guard/child" relevant=" /liberiaCoverage/mother_data/ch  &gt; 1" type="string"/>
+      <bind calculate="int(once(random()) * int( /liberiaCoverage/mother_data/ch )) + 1" nodeset="/liberiaCoverage/child_repeat/guard/child" relevant=" /liberiaCoverage/mother_data/ch  &gt; 1" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp" relevant="(( /liberiaCoverage/admin/counter  mode  /liberiaCoverage/skip ) = 0 or  /liberiaCoverage/admin/counter  = 1) and  /liberiaCoverage/mother_data/ch  =  /liberiaCoverage/child_repeat/guard/child  and (age &lt;= 23 or age1 &lt;= 23 or age2 &lt;= 23)"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp1" required="true()" type="select1"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp2" required="true()" type="select1"/>
@@ -4595,7 +4595,7 @@
       <bind nodeset="/liberiaCoverage/no_children" readonly="true()" relevant=" /liberiaCoverage/mother_data/ch =0" type="string"/>
       <bind nodeset="/liberiaCoverage/end" readonly="true()" type="string"/>
       <bind calculate="concat('uuid:', uuid())" nodeset="/liberiaCoverage/meta/instanceID" readonly="true()" type="string"/>
-      <bind calculate="'ab5a44464b0743b5be423afd3af887e9'" nodeset="/liberiaCoverage/formhub/uuid" type="string"/>
+      <bind calculate="'f22f5828e245482796ae2de87620cf0a'" nodeset="/liberiaCoverage/formhub/uuid" type="string"/>
     </model>
   </h:head>
   <h:body>
