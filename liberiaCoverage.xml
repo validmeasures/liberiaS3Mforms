@@ -3281,7 +3281,7 @@
         </translation>
       </itext>
       <instance>
-        <liberiaCoverage id="liberiaCoverage" version="201808071009">
+        <liberiaCoverage id="liberiaCoverage" version="201808071023">
           <formhub>
             <uuid/>
           </formhub>
@@ -4838,7 +4838,7 @@
       <label/>
       <repeat jr:count=" /liberiaCoverage/child_repeat_count " nodeset="/liberiaCoverage/child_repeat">
         <group ref="/liberiaCoverage/child_repeat/guard">
-          <group appearance="field-list" ref="/liberiaCoverage/child_repeat/guard/child_data">
+          <group ref="/liberiaCoverage/child_repeat/guard/child_data">
             <label ref="jr:itext('/liberiaCoverage/child_repeat/guard/child_data:label')"/>
             <input ref="/liberiaCoverage/child_repeat/guard/child_data/name">
               <label ref="jr:itext('/liberiaCoverage/child_repeat/guard/child_data/name:label')"/>
