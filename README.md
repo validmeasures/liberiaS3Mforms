@@ -64,7 +64,7 @@ Once ODK Collect has been connected to the test server, it will now be possible 
 Once the Liberia Coverage Survey forms have been pulled into the ODK Collect in the mobile device, the forms can be viewed and tested by following the instructions [here](https://docs.opendatakit.org/collect-filling-forms/).
 
 ### 2. Convert to XML and transfer to mobile devices via USB cable connection
-This XLSForm can be converted to XML format using XLSForm Offline from Nafundi. The XML format can then be transferred to the mobile devices (into the device's odk folder) via local USB connection. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-forms-directly). The associated media files for the forms (found in the folder called `media`) will also need to be transferred to the mobile device. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-form-media). 
+The XML version of this form can then be transferred to the mobile devices (into the device's `odk` folder) via local USB connection. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-forms-directly). The associated media files for the forms (found in the folder called `media` in this repository) will also need to be transferred to the mobile device. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-form-media). 
 
 ## Author
 Ernest Guevarra
