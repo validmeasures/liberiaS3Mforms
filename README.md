@@ -49,11 +49,15 @@ The XLSForm can be uploaded to a remote server-based ODK Aggregator or other ODK
 
 For the purposes of viewing and testing the Liberia Coverage Survey forms, a test server has been setup. To view and/or test the Liberia Coverage Survey forms, ODK Collect in the mobile devices will need to be connected to the server. This is described [here](https://docs.opendatakit.org/collect-connect-aggregate/). The following ODK Aggregate server setttings should be used:
 
+&nbsp;
+
 **url:** https://odk.ona.io
 
 **username:** validtrial
 
 **password:** zEF-STN-5ze-qom
+
+&nbsp;
 
 Once ODK Collect has been connected to the test server, it will now be possible to pull the Liberia Coverage Survey forms into ODK Collect in the mobile device using the instructions found [here](https://docs.opendatakit.org/collect-forms/).
 
