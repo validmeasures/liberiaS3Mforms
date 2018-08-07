@@ -51,7 +51,7 @@ For the purposes of viewing and testing the Liberia Coverage Survey forms, a tes
 
 &nbsp;
 
-+--------------:+------------------------------+
++---------------+------------------------------+
 | **url:**      | https://odk.ona.io           |
 +---------------+------------------------------+
 | **username:** | validtrial                   |
