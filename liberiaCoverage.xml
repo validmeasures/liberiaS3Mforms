@@ -102,6 +102,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp2a:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="static_instance-mnp_reasons2-6">
@@ -426,6 +427,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp2:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/sex2:label">
@@ -772,6 +774,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp3:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/child_data/dob:label">
@@ -1325,6 +1328,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp3a:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/anthro_data/height1:label">
@@ -1397,6 +1401,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp4:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/anthro_data/oedema1:label">
@@ -1572,6 +1577,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp1:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="static_instance-mother-1">
@@ -1737,6 +1743,7 @@
             <value>Advised not to use it</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp2a:label">
+            <value form="image">jr://images/mnp.jpg</value>
             <value>Why did you not receive/buy [LOCAL NAME OF MNP] (show sample/photo of MNP) for your child aged 6-23 months?</value>
           </text>
           <text id="static_instance-mnp_reasons2-6">
@@ -2063,6 +2070,7 @@
             <value>Village 30</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp2:label">
+            <value form="image">jr://images/mnp.jpg</value>
             <value>Have you received or bought [LOCAL NAME OF MNP] (show sample/photo of MNP) for your child aged 6-23 months?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/sex2:label">
@@ -2301,7 +2309,7 @@
             <value>Do not need MNP</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa2:label">
-            <value form="image">jr://images/ifa.png</value>
+            <value form="image">jr://images/ifa.jpg</value>
             <value>During your pregnancy for your youngest child, did you receive any information about taking iron-folic acid tablets?</value>
           </text>
           <text id="static_instance-village-89">
@@ -2403,6 +2411,7 @@
             <value>RUTF and health card</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp3:label">
+            <value form="image">jr://images/mnp.jpg</value>
             <value>Did you give your child aged 6-23 months the [LOCAL NAME OF MNP] (show sample/photo of MNP) to eat?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/child_data/dob:label">
@@ -2454,7 +2463,7 @@
             <value>Yes</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa4:label">
-            <value form="image">jr://images/ifa.png</value>
+            <value form="image">jr://images/ifa.jpg</value>
             <value>During your pregnancy for your youngest child, did you take iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1:label">
@@ -2807,7 +2816,7 @@
           <text id="/liberiaCoverage/child_repeat/guard/remeasure1:label">
             <value> Remeasure <output value=" /liberiaCoverage/child_repeat/guard/child_data/name "/> </value></text>
           <text id="/liberiaCoverage/ifa/ifa5:label">
-            <value form="image">jr://images/ifa.png</value>
+            <value form="image">jr://images/ifa.jpg</value>
             <value>During the whole duration of your pregnancy for your youngest child, how many days did you take the iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa3/99:label">
@@ -2954,6 +2963,7 @@
             <value>Heard that children who took treatment/ration/products got diarrhoea</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp3a:label">
+            <value form="image">jr://images/mnp.jpg</value>
             <value>Why did you not give the [LOCAL NAME OF MNP} (show sample/photo of MNP) to your child aged 6-23 months to eat?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/anthro_data/height1:label">
@@ -3026,6 +3036,7 @@
             <value>Enter height in centimetres (cm) to the nearest 0.1 cm</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp4:label">
+            <value form="image">jr://images/mnp.jpg</value>
             <value>In the last week, how many times did your child aged 6-23 months old eat [LOCAL NAME OF MNP] (show sample/photo of MNP)?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/anthro_data/oedema1:label">
@@ -3181,7 +3192,7 @@
             <value>Village 13</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa4a:label">
-            <value form="image">jr://images/ifa.png</value>
+            <value form="image">jr://images/ifa.jpg</value>
             <value>Why did you not take iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/anthro_data/muac_screen/99:label">
@@ -3200,6 +3211,7 @@
             <value>In OTP</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/mnp/mnp1:label">
+            <value form="image">jr://images/mnp.jpg</value>
             <value>Have you heard about [LOCAL NAME OF MNP] or seen [show sample/photo of MNP]?</value>
           </text>
           <text id="static_instance-mother-1">
@@ -3215,7 +3227,7 @@
             <value>Height must be between 30 and 155, or 0 if child cannot be measured</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa3:label">
-            <value form="image">jr://images/ifa.png</value>
+            <value form="image">jr://images/ifa.jpg</value>
             <value>During your pregnancy for your youngest child, did you receive and/or purchase iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/height3:jr:constraintMsg">
@@ -3269,7 +3281,7 @@
         </translation>
       </itext>
       <instance>
-        <liberiaCoverage id="liberiaCoverage" version="201808070920">
+        <liberiaCoverage id="liberiaCoverage" version="201808071009">
           <formhub>
             <uuid/>
           </formhub>
@@ -4639,7 +4651,7 @@
         <label ref="jr:itext('/liberiaCoverage/mother_data/ch:label')"/>
       </input>
     </group>
-    <group appearance="field-list" ref="/liberiaCoverage/ifa">
+    <group ref="/liberiaCoverage/ifa">
       <label ref="jr:itext('/liberiaCoverage/ifa:label')"/>
       <select1 ref="/liberiaCoverage/ifa/ifa1">
         <label ref="jr:itext('/liberiaCoverage/ifa/ifa1:label')"/>
