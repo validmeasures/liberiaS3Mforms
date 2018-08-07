@@ -52,11 +52,11 @@ For the purposes of viewing and testing the Liberia Coverage Survey forms, a tes
 &nbsp;
 
 +---------------+------------------------------+
-| **url:**      | https://odk.ona.io           |
+| **url**       | https://odk.ona.io           |
 +---------------+------------------------------+
-| **username:** | validtrial                   |
+| **username**  | validtrial                   |
 +---------------+------------------------------+
-| **password:** | zEF-STN-5ze-qom              |
+| **password**  | zEF-STN-5ze-qom              |
 +---------------+------------------------------+
 
 &nbsp;
