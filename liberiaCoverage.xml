@@ -3283,7 +3283,7 @@
         </translation>
       </itext>
       <instance>
-        <liberiaCoverage id="liberiaCoverage" version="201808091246">
+        <liberiaCoverage id="liberiaCoverage" version="201808091700">
           <formhub>
             <uuid/>
           </formhub>
@@ -3320,6 +3320,7 @@
             <icf2a_other/>
             <icf3/>
           </icf>
+          <child/>
           <child_repeat_count/>
           <child_repeat jr:template="">
             <guard>
@@ -3446,7 +3447,7 @@
                 <refer_action/>
                 <refer/>
               </barriers>
-              <child/>
+              <child_select/>
               <mnp>
                 <mnp1/>
                 <mnp2/>
@@ -4467,6 +4468,7 @@
       <bind nodeset="/liberiaCoverage/icf/icf2a" relevant="selected( /liberiaCoverage/icf/icf2 , '2')" required="true()" type="select"/>
       <bind nodeset="/liberiaCoverage/icf/icf2a_other" relevant="selected( /liberiaCoverage/icf/icf2a , '88')" type="string"/>
       <bind nodeset="/liberiaCoverage/icf/icf3" relevant="selected( /liberiaCoverage/icf/icf2 , '1')" required="true()" type="int"/>
+      <bind calculate="int(once(random()) * int( /liberiaCoverage/mother_data/ch )) + 1" nodeset="/liberiaCoverage/child" relevant=" /liberiaCoverage/mother_data/ch  &gt; 1" type="string"/>
       <bind calculate=" /liberiaCoverage/mother_data/ch " nodeset="/liberiaCoverage/child_repeat_count" readonly="true()" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard" relevant="position(..) &lt;=  /liberiaCoverage/mother_data/ch "/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/child_data/name" required="true()" type="string"/>
@@ -4577,8 +4579,8 @@
       <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q6e" relevant=" /liberiaCoverage/child_repeat/guard/barriers/q6 ='q6d'" required="true()" type="string"/>
       <bind calculate="&quot;Refer child to most appropriate treatment centre&quot;" nodeset="/liberiaCoverage/child_repeat/guard/barriers/refer_action" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/refer" readonly="true()" type="string"/>
-      <bind calculate="int(once(random()) * int( /liberiaCoverage/mother_data/ch )) + 1" nodeset="/liberiaCoverage/child_repeat/guard/child" relevant=" /liberiaCoverage/mother_data/ch  &gt; 1" type="string"/>
-      <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp" relevant="(( /liberiaCoverage/admin/counter  mode  /liberiaCoverage/skip ) = 0 or  /liberiaCoverage/admin/counter  = 1) and position(..) =  /liberiaCoverage/child_repeat/guard/child  and (age &lt;= 23 or age1 &lt;= 23 or age2 &lt;= 23)"/>
+      <bind calculate="1" nodeset="/liberiaCoverage/child_repeat/guard/child_select" relevant="position(..) =  /liberiaCoverage/child " type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp" relevant="(( /liberiaCoverage/admin/counter  mode  /liberiaCoverage/skip ) = 0 or  /liberiaCoverage/admin/counter  = 1) and  /liberiaCoverage/child_repeat/guard/child_select  = '1' and ( /liberiaCoverage/child_repeat/guard/age  &lt; 24 or  /liberiaCoverage/child_repeat/guard/remeasure1/age1  &lt; 24 or  /liberiaCoverage/child_repeat/guard/remeasure2/age2  &lt; 24)"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp1" required="true()" type="select1"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp2" required="true()" type="select1"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp2a" relevant="selected( /liberiaCoverage/child_repeat/guard/mnp/mnp2 , '2')" required="true()" type="select"/>
@@ -4587,7 +4589,7 @@
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp3a" relevant="selected( /liberiaCoverage/child_repeat/guard/mnp/mnp3 , '2')" required="true()" type="select"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp3a_other" relevant="selected( /liberiaCoverage/child_repeat/guard/mnp/mnp3a , '88')" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/mnp/mnp4" relevant="selected( /liberiaCoverage/child_repeat/guard/mnp/mnp3 , '1')" required="true()" type="int"/>
-      <bind nodeset="/liberiaCoverage/child_repeat/guard/vit" relevant="(( /liberiaCoverage/admin/counter  mode  /liberiaCoverage/skip ) = 0 or  /liberiaCoverage/admin/counter  = 1) and position(..) =  /liberiaCoverage/child_repeat/guard/child "/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/vit" relevant="(( /liberiaCoverage/admin/counter  mode  /liberiaCoverage/skip ) = 0 or  /liberiaCoverage/admin/counter  = 1) and  /liberiaCoverage/child_repeat/guard/child_select  = '1'"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/vit/vit1" required="true()" type="select1"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/vit/vit1a" relevant="selected( /liberiaCoverage/child_repeat/guard/vit/vit1 , '2')" required="true()" type="select"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/vit/vit1a_other" relevant="selected( /liberiaCoverage/child_repeat/guard/vit/vit1a , '88')" type="string"/>
