@@ -3283,7 +3283,7 @@
         </translation>
       </itext>
       <instance>
-        <liberiaCoverage id="liberiaCoverage" version="201808091050">
+        <liberiaCoverage id="liberiaCoverage" version="201808091137">
           <formhub>
             <uuid/>
           </formhub>
@@ -4518,9 +4518,9 @@
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1" relevant=" /liberiaCoverage/child_repeat/guard/flag  = '1'"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/sex1" required="true()" type="select1"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1" required="true()" type="select1"/>
-      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/know_dob1" relevant=" /liberiaCoverage/child_repeat/guard/child_data/card  != '1'" required="true()" type="select1"/>
-      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/dob1" relevant="selected( /liberiaCoverage/child_repeat/guard/child_data/card , '1') or selected( /liberiaCoverage/child_repeat/guard/child_data/know_dob , '1')" required="true()" type="date"/>
-      <bind constraint=".&gt;= 6 and .&lt;= 59" jr:constraintMsg="jr:itext('/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/age_report1:jr:constraintMsg')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/age_report1" relevant="selected( /liberiaCoverage/child_repeat/guard/child_data/know_dob , '2')" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/know_dob1" relevant=" /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1  != '1'" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/dob1" relevant="selected( /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1 , '1') or selected( /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/know_dob1 , '1')" required="true()" type="date"/>
+      <bind constraint=".&gt;= 6 and .&lt;= 59" jr:constraintMsg="jr:itext('/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/age_report1:jr:constraintMsg')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/age_report1" relevant="selected( /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/know_dob1 , '2')" required="true()" type="int"/>
       <bind calculate="if(selected( /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1 , '1') or selected( /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/know_dob1 , '1'), int(( /liberiaCoverage/admin/sdate  -  /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/dob1 ) div 30.44),  /liberiaCoverage/child_repeat/guard/remeasure1/child_data1/age_report1 )" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/age1" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/age_check1" required="true()" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/anthro_note_1" readonly="true()" type="string"/>
@@ -4541,9 +4541,9 @@
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2" relevant=" /liberiaCoverage/child_repeat/guard/flag  != '1' and  /liberiaCoverage/child_repeat/guard/rand  &lt; 0.05"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/sex2" required="true()" type="select1"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/card2" required="true()" type="select1"/>
-      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/know_dob2" relevant=" /liberiaCoverage/child_repeat/guard/child_data/card  != '1'" required="true()" type="select1"/>
-      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/dob2" relevant="selected( /liberiaCoverage/child_repeat/guard/child_data/card , '1') or selected( /liberiaCoverage/child_repeat/guard/child_data/know_dob , '1')" required="true()" type="date"/>
-      <bind constraint=".&gt;= 6 and .&lt;= 59" jr:constraintMsg="jr:itext('/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/age_report2:jr:constraintMsg')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/age_report2" relevant="selected( /liberiaCoverage/child_repeat/guard/child_data/know_dob , '2')" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/know_dob2" relevant=" /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/card2  != '1'" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/dob2" relevant="selected( /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/card2 , '1') or selected( /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/know_dob2 , '1')" required="true()" type="date"/>
+      <bind calculate="22" constraint=".&gt;= 6 and .&lt;= 59" jr:constraintMsg="jr:itext('/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/age_report2:jr:constraintMsg')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/age_report2" relevant="selected( /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/know_dob2 , '2')" required="true()" type="int"/>
       <bind calculate="if(selected( /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/card2 , '1') or selected( /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/know_dob2 , '1'), int(( /liberiaCoverage/admin/sdate  -  /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/dob2 ) div 30.44),  /liberiaCoverage/child_repeat/guard/remeasure2/child_data2/age_report2 )" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/age2" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/age_check2" required="true()" type="string"/>
       <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/anthro_note_2" readonly="true()" type="string"/>
