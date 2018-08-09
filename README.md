@@ -49,16 +49,22 @@ The XLSForm can be uploaded to a remote server-based ODK Aggregator or other ODK
 
 For the purposes of viewing and testing the Liberia Coverage Survey forms, a test server has been setup. To view and/or test the Liberia Coverage Survey forms, ODK Collect in the mobile devices will need to be connected to the server. This is described [here](https://docs.opendatakit.org/collect-connect-aggregate/). The following ODK Aggregate server setttings should be used:
 
-url: https://odk.ona.io
-username: validtrial
-password: zEF-STN-5ze-qom
+&nbsp;
+
+**url**: https://odk.ona.io
+
+**username:** validtrial
+
+**password:** zEF-STN-5ze-qom
+
+&nbsp;
 
 Once ODK Collect has been connected to the test server, it will now be possible to pull the Liberia Coverage Survey forms into ODK Collect in the mobile device using the instructions found [here](https://docs.opendatakit.org/collect-forms/).
 
 Once the Liberia Coverage Survey forms have been pulled into the ODK Collect in the mobile device, the forms can be viewed and tested by following the instructions [here](https://docs.opendatakit.org/collect-filling-forms/).
 
 ### 2. Convert to XML and transfer to mobile devices via USB cable connection
-This XLSForm can be converted to XML format using XLSForm Offline from Nafundi. The XML format can then be transferred to the mobile devices (into the device's odk folder) via local USB connection. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-forms-directly). The associated media files for the forms (found in the folder called `media`) will also need to be transferred to the mobile device. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-form-media). 
+The XML version of this form can then be transferred to the mobile devices (into the device's `odk` folder) via local USB connection. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-forms-directly). The associated media files for the forms (found in the folder called `media` in this repository) will also need to be transferred to the mobile device. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-form-media). 
 
 ## Author
 Ernest Guevarra
