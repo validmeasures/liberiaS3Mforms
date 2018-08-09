@@ -455,6 +455,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit3:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/child_data/dob:hint">
@@ -467,6 +468,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit1a:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/card2/2:label">
@@ -632,6 +634,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit2:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2:label">
@@ -1310,6 +1313,7 @@
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit1:label">
+            <value form="image">jr://images/-</value>
             <value>-</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/position3/1:label">
@@ -1989,17 +1993,18 @@
             <value> Do you know <output value=" /liberiaCoverage/child_repeat/guard/child_data/name "/>'s exact date of birth?  </value>
           </text>
           <text id="static_instance-verification-1">
-            <value form="image">jr://images/plumpySup.png</value>
+            <value form="image">jr://images/rusf.png</value>
             <value>RUSF</value>
           </text>
           <text id="static_instance-verification-0">
-            <value form="image">jr://images/plumpyNut.png</value>
+            <value form="image">jr://images/rutf.png</value>
             <value>RUTF</value>
           </text>
           <text id="static_instance-verification-3">
             <value>RUTF and health card</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit1a:label">
+            <value form="image">jr://images/vita.jpg</value>
             <value>Why did your child not receive (show vitamin A capsule sample or photo)?</value>
           </text>
           <text id="static_instance-verification-5">
@@ -2024,7 +2029,7 @@
             <value>Standing</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/check_programme/2:label">
-            <value form="image">jr://images/plumpySup.png</value>
+            <value form="image">jr://images/rusf.png</value>
             <value>RUSF</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/sex2/2:label">
@@ -2098,6 +2103,7 @@
             <value>What is the sampling interval for this village?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit3:label">
+            <value form="image">jr://images/vita.jpg</value>
             <value>How many months ago did your child receive drops from (show vitamin A sample or photo)?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/child_data/dob:hint">
@@ -2274,6 +2280,7 @@
             <value>Mid-upper arm circumference (MUAC) of child (mm)</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit2:label">
+            <value form="image">jr://images/vita.jpg</value>
             <value>What type of capsule (show sample or photo of blue and red capsule) did your child get drops from?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2:label">
@@ -2309,7 +2316,7 @@
             <value>Do not need MNP</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa2:label">
-            <value form="image">jr://images/ifa.jpg</value>
+            <value form="image">jr://images/iron.jpg</value>
             <value>During your pregnancy for your youngest child, did you receive any information about taking iron-folic acid tablets?</value>
           </text>
           <text id="static_instance-village-89">
@@ -2463,7 +2470,7 @@
             <value>Yes</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa4:label">
-            <value form="image">jr://images/ifa.jpg</value>
+            <value form="image">jr://images/iron.jpg</value>
             <value>During your pregnancy for your youngest child, did you take iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1:label">
@@ -2748,7 +2755,7 @@
             <value>Is child in any programme that treats acute malnutrition?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/check_programme/1:label">
-            <value form="image">jr://images/plumpyNut.png</value>
+            <value form="image">jr://images/rutf.png</value>
             <value>RUTF</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/anthro_data/height_screen/1:label">
@@ -2816,7 +2823,7 @@
           <text id="/liberiaCoverage/child_repeat/guard/remeasure1:label">
             <value> Remeasure <output value=" /liberiaCoverage/child_repeat/guard/child_data/name "/> </value></text>
           <text id="/liberiaCoverage/ifa/ifa5:label">
-            <value form="image">jr://images/ifa.jpg</value>
+            <value form="image">jr://images/iron.jpg</value>
             <value>During the whole duration of your pregnancy for your youngest child, how many days did you take the iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa3/99:label">
@@ -2945,6 +2952,7 @@
             <value>Mother / carer is sick</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/vit/vit1:label">
+            <value form="image">jr://images/vita.jpg</value>
             <value>In the past 6 months, has your child received drops from a capsule like this one (show vitamin A sample or photo)?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/position3/1:label">
@@ -3192,7 +3200,7 @@
             <value>Village 13</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa4a:label">
-            <value form="image">jr://images/ifa.jpg</value>
+            <value form="image">jr://images/iron.jpg</value>
             <value>Why did you not take iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/anthro_data/muac_screen/99:label">
@@ -3227,7 +3235,7 @@
             <value>Height must be between 30 and 155, or 0 if child cannot be measured</value>
           </text>
           <text id="/liberiaCoverage/ifa/ifa3:label">
-            <value form="image">jr://images/ifa.jpg</value>
+            <value form="image">jr://images/iron.jpg</value>
             <value>During your pregnancy for your youngest child, did you receive and/or purchase iron-folic acid tablets?</value>
           </text>
           <text id="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/height3:jr:constraintMsg">
@@ -3281,7 +3289,7 @@
         </translation>
       </itext>
       <instance>
-        <liberiaCoverage id="liberiaCoverage" version="201808071129">
+        <liberiaCoverage id="liberiaCoverage" version="201808090954">
           <formhub>
             <uuid/>
           </formhub>
