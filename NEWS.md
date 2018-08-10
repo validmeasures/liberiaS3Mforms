@@ -1,6 +1,14 @@
+# liberiaS3Mforms v0.1.2
+
+Third release of `liberiaS3Mforms`. In this release, the following changes were implemented:
+
+* revamped the approach to selecting which child of a mother with more than one child to choose for the survey for other coverage indicators. The `indexed-repeat()` function is now used outside of the `child_repeat` loop to extract the information of the child selected via a call to `random()` function
+
+* removed `field-list` appearance from the anthorpometric measurements (including remeasurement)
+
 # liberiaS3Mforms v0.1.1
 
-Second release of liberiaS3Mforms. In this release, the following changes were implemented:
+Second release of `liberiaS3Mforms`. In this release, the following changes were implemented:
 
 * updated media files to larger resolution to show properly on tablet screens
 
@@ -13,4 +21,4 @@ Second release of liberiaS3Mforms. In this release, the following changes were i
 
 # liberiaS3Mforms v0.1.0
 
-First release of liberiaS3Mforms.
+First release of `liberiaS3Mforms`.
