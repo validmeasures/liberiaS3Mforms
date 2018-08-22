@@ -1,3 +1,9 @@
+# liberiaS3Mforms v0.1.3
+
+Fourth release of `liberiaS3Mforms`. In this release, the following changes were implemented:
+
+* added `standardisationForm.xlsx` and `standardisationForm.xml`. These forms are to be used for the standardisation exercise for enumerators for the Liberia coverage survey.
+
 # liberiaS3Mforms v0.1.2
 
 Third release of `liberiaS3Mforms`. In this release, the following changes were implemented:
