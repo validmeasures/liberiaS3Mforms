@@ -6,6 +6,10 @@ The Liberia Coverage Survey for the assessment of CMAM coverage, micronutrient p
 
 In support of this survey, the following survey instruments in XLSform and Xform standard for [Open Data Kit](https://opendatakit.org/) have been developed.
 
+## Standardisation form
+
+This form (`liberiaStdForm.xlsx` and `liberiaStdForm.xml`) is to be used for the enumerator's standardisation test.
+
 ## Village form
 
 This form (`liberiaCoverageVillageForm.xlsx` and `liberiaCoverageVillageForm.xml`) collects information on the villages or primary sampling units (PSU) selected for the Liberia Coverage Survey. This information includes:
