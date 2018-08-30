@@ -10,6 +10,8 @@ In support of this survey, the following survey instruments in XLSform and Xform
 
 This form (`liberiaStdForm.xlsx` and `liberiaStdForm.xml`) is to be used for the enumerator's standardisation test.
 
+This form creates a standard format data that can be inputted into [`anthrocheckr`](https://github.com/nutriverse/anthrocheckr) package for analysis and reporting of standardisation results.
+
 ## Village form
 
 This form (`liberiaCoverageVillageForm.xlsx` and `liberiaCoverageVillageForm.xml`) collects information on the villages or primary sampling units (PSU) selected for the Liberia Coverage Survey. This information includes:
