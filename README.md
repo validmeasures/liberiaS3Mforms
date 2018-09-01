@@ -73,7 +73,7 @@ Once the Liberia Coverage Survey forms have been pulled into the ODK Collect in 
 The XML version of this form can then be transferred to the mobile devices (into the device's `odk` folder) via local USB connection. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-forms-directly). The associated media files for the forms (found in the folder called `media` in this repository) will also need to be transferred to the mobile device. This can be done by following the instructions [here](https://docs.opendatakit.org/collect-forms/#loading-form-media). 
 
 ## Author
-Ernest Guevarra
+Ernest Guevarra (Valid International)
 
 ## License
-MIT License
+[MIT License](https://github.com/validmeasures/liberiaS3Mforms/blob/master/LICENSE.md)
