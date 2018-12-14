@@ -1,5 +1,7 @@
 # liberiaS3Mforms: Liberia Coverage Survey XLSform and Xform Instruments <img src="figures/s3m_neg.png" align="right" />
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+![](https://img.shields.io/github/downloads/validmeasures/liberiaS3Mforms/total.svg)
 [![DOI](https://zenodo.org/badge/143430021.svg)](https://zenodo.org/badge/latestdoi/143430021)
 
 The Liberia Coverage Survey for the assessment of CMAM coverage, micronutrient powder supplementation coverage, vitamin A supplementation coverage, iron folic acid supplementation coverage and IYCF counselling coverage has been commissioned by [UNICEF Liberia]() with funding from [Power of Nutrition](http://www.powerofnutrition.org/).
