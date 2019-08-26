@@ -1,0 +1,4094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Liberia Coverage Survey</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="/liberiaCoverage/ifa/ifa2:label">
+            <value>During your pregnancy for your youngest child, did you receive any information about taking iron-folic acid tablets?</value>
+            <value form="image">jr://images/iron.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/ifa/ifa3:label">
+            <value>During your pregnancy for your youngest child, did you receive and/or purchase iron-folic acid tablets?</value>
+            <value form="image">jr://images/iron.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/ifa/ifa3a:label">
+            <value>Why did you not receive or purchase iron-folic acid tablets?</value>
+            <value form="image">jr://images/iron.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/ifa/ifa4:label">
+            <value>During your pregnancy for your youngest child, did you take iron-folic acid tablets?</value>
+            <value form="image">jr://images/iron.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/ifa/ifa4a:label">
+            <value>Why did you not take iron-folic acid tablets?</value>
+            <value form="image">jr://images/iron.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/ifa/ifa5:label">
+            <value>During the whole duration of your pregnancy for your youngest child, how many days did you take the iron-folic acid tablets?</value>
+            <value form="image">jr://images/iron.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/child_repeat/guard/cov_status:label">
+            <value> Is <output value=" /liberiaCoverage/child_repeat/guard/child_data/name "/> in any programme that treats acute malnutrition?  </value>
+            <value form="image">jr://images/rutf.png</value>
+          </text>
+          <text id="/liberiaCoverage/mnp/mnp1:label">
+            <value>Have you heard about MNP or seen MNP [show sample/photo of MNP]?</value>
+            <value form="image">jr://images/mnp.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/mnp/mnp2:label">
+            <value> Have you received or bought MNP (show sample/photo of MNP) for <output value=" /liberiaCoverage/cname "/>?  </value>
+            <value form="image">jr://images/mnp.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/mnp/mnp2a:label">
+            <value> Why did you not receive/buy MNP (show sample/photo of MNP) for <output value=" /liberiaCoverage/cname "/>?  </value>
+            <value form="image">jr://images/mnp.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/mnp/mnp3:label">
+            <value> Did you give <output value=" /liberiaCoverage/cname "/> the MNP (show sample/photo of MNP) to eat?  </value>
+            <value form="image">jr://images/mnp.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/mnp/mnp3a:label">
+            <value> Why did you not give the MNP (show sample/photo of MNP) to <output value=" /liberiaCoverage/cname "/> to eat?  </value>
+            <value form="image">jr://images/mnp.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/mnp/mnp4:label">
+            <value> In the last week, how many times did <output value=" /liberiaCoverage/cname "/> eat MNP (show sample/photo of MNP)?  </value>
+            <value form="image">jr://images/mnp.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/vit/vit1:label">
+            <value> In the past 6 months, has <output value=" /liberiaCoverage/cname "/> received drops from a capsule like this one (show vitamin A sample or photo)?  </value>
+            <value form="image">jr://images/vita.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/vit/vit1a:label">
+            <value> Why did <output value=" /liberiaCoverage/cname "/> not receive (show vitamin A capsule sample or photo)?  </value>
+            <value form="image">jr://images/vita.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/vit/vit2:label">
+            <value> What type of capsule (show sample or photo of blue and red capsule) did <output value=" /liberiaCoverage/cname "/> get drops from?  </value>
+            <value form="image">jr://images/vita.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/vit/vit2/1:label">
+            <value>Blue pill</value>
+            <value form="image">jr://images/bluePill.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/vit/vit2/2:label">
+            <value>Red pill</value>
+            <value form="image">jr://images/redPill.jpg</value>
+          </text>
+          <text id="/liberiaCoverage/vit/vit3:label">
+            <value> How many months ago did <output value=" /liberiaCoverage/cname "/> receive drops from (show vitamin A sample or photo)?  </value>
+            <value form="image">jr://images/vita.jpg</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-team-0">
+            <value>Survey team 1</value>
+          </text>
+          <text id="static_instance-team-1">
+            <value>Survey team 2</value>
+          </text>
+          <text id="static_instance-team-2">
+            <value>Survey team 3</value>
+          </text>
+          <text id="static_instance-team-3">
+            <value>Survey team 4</value>
+          </text>
+          <text id="static_instance-team-4">
+            <value>Survey team 5</value>
+          </text>
+          <text id="static_instance-team-5">
+            <value>Survey team 6</value>
+          </text>
+          <text id="static_instance-screen-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-screen-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-screen-2">
+            <value>Don't know/not sure</value>
+          </text>
+          <text id="static_instance-mother-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-mother-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-mother-2">
+            <value>Don't know/not sure</value>
+          </text>
+          <text id="static_instance-child-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-child-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-child-2">
+            <value>Don't know/not sure</value>
+          </text>
+          <text id="static_instance-vit-0">
+            <value form="image">jr://images/bluePill.jpg</value>
+            <value>Blue pill</value>
+          </text>
+          <text id="static_instance-vit-1">
+            <value form="image">jr://images/redPill.jpg</value>
+            <value>Red pill</value>
+          </text>
+          <text id="static_instance-vit-2">
+            <value>Don't know/not sure</value>
+          </text>
+          <text id="static_instance-ifa_reasons1-0">
+            <value>Health centre ran out</value>
+          </text>
+          <text id="static_instance-ifa_reasons1-1">
+            <value>Took too long to get tablets</value>
+          </text>
+          <text id="static_instance-ifa_reasons1-2">
+            <value>Too expensive</value>
+          </text>
+          <text id="static_instance-ifa_reasons1-3">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-ifa_reasons2-0">
+            <value>Concerns about side effects</value>
+          </text>
+          <text id="static_instance-ifa_reasons2-1">
+            <value>Don't need it</value>
+          </text>
+          <text id="static_instance-ifa_reasons2-2">
+            <value>I was told not to take it</value>
+          </text>
+          <text id="static_instance-ifa_reasons2-3">
+            <value>I don't think it helps</value>
+          </text>
+          <text id="static_instance-ifa_reasons2-4">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-icf_reasons1-0">
+            <value>Timing was not convenient</value>
+          </text>
+          <text id="static_instance-icf_reasons1-1">
+            <value>Not interested</value>
+          </text>
+          <text id="static_instance-icf_reasons1-2">
+            <value>Do not trust counsellor</value>
+          </text>
+          <text id="static_instance-icf_reasons1-3">
+            <value>Don't think I need it</value>
+          </text>
+          <text id="static_instance-icf_reasons1-4">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-mnp_reasons1-0">
+            <value>Health centre ran out</value>
+          </text>
+          <text id="static_instance-mnp_reasons1-1">
+            <value>Took too long to get MNP</value>
+          </text>
+          <text id="static_instance-mnp_reasons1-2">
+            <value>Too expensive</value>
+          </text>
+          <text id="static_instance-mnp_reasons1-3">
+            <value>Child doesn't need it</value>
+          </text>
+          <text id="static_instance-mnp_reasons1-4">
+            <value>Heard it doesn't work/help</value>
+          </text>
+          <text id="static_instance-mnp_reasons1-5">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-0">
+            <value>Too expensive</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-1">
+            <value>Not available in the market</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-2">
+            <value>Do not need MNP</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-3">
+            <value>Heard other's bad experience</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-4">
+            <value>Advised not to use it</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-5">
+            <value>Not seen other mothers use it</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-6">
+            <value>Don't trust the product</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-7">
+            <value>Using another product</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-8">
+            <value>Haven't seen it</value>
+          </text>
+          <text id="static_instance-mnp_reasons2-9">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-vit_reasons1-0">
+            <value>Health centre ran out</value>
+          </text>
+          <text id="static_instance-vit_reasons1-1">
+            <value>Took too long to get drops</value>
+          </text>
+          <text id="static_instance-vit_reasons1-2">
+            <value>Child doesn't need it</value>
+          </text>
+          <text id="static_instance-vit_reasons1-3">
+            <value>Heard it doesn't work/help</value>
+          </text>
+          <text id="static_instance-vit_reasons1-4">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-sex-0">
+            <value>Male</value>
+          </text>
+          <text id="static_instance-sex-1">
+            <value>Female</value>
+          </text>
+          <text id="static_instance-measure-0">
+            <value>Standing</value>
+          </text>
+          <text id="static_instance-measure-1">
+            <value>Lying down</value>
+          </text>
+          <text id="static_instance-check-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-check-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-check-2">
+            <value>Child not able to be examined</value>
+          </text>
+          <text id="static_instance-healthcard-0">
+            <value>Yes (and available)</value>
+          </text>
+          <text id="static_instance-healthcard-1">
+            <value>Yes (but not available/lost)</value>
+          </text>
+          <text id="static_instance-healthcard-2">
+            <value>No (never had one)</value>
+          </text>
+          <text id="static_instance-healthcard-3">
+            <value>Don't know/Not sure</value>
+          </text>
+          <text id="static_instance-reasons-0">
+            <value>Mother / carer went to the health centre but the child was not measured</value>
+          </text>
+          <text id="static_instance-reasons-1">
+            <value>Too far</value>
+          </text>
+          <text id="static_instance-reasons-2">
+            <value>No time / too busy</value>
+          </text>
+          <text id="static_instance-reasons-3">
+            <value>Mother / carer is sick</value>
+          </text>
+          <text id="static_instance-reasons-4">
+            <value>Mother / carer cannot carry more than one child</value>
+          </text>
+          <text id="static_instance-reasons-5">
+            <value>Mother / carer feels ashamed or shy about coming</value>
+          </text>
+          <text id="static_instance-reasons-6">
+            <value>Security problems</value>
+          </text>
+          <text id="static_instance-reasons-7">
+            <value>There is no one else to take care of the other siblings</value>
+          </text>
+          <text id="static_instance-reasons-8">
+            <value>The child has been rejected by the programme already</value>
+          </text>
+          <text id="static_instance-reasons-9">
+            <value>Other parent's children have been rejected</value>
+          </text>
+          <text id="static_instance-reasons-10">
+            <value>Husband refused</value>
+          </text>
+          <text id="static_instance-reasons-11">
+            <value>Thought it was necessary to be enrolled at the hospital first</value>
+          </text>
+          <text id="static_instance-reasons-12">
+            <value>Does not think the programme can help child/children (prefer traditional  healer, other treatment)</value>
+          </text>
+          <text id="static_instance-reasons-13">
+            <value>Heard that children who took treatment/ration/products got diarrhoea</value>
+          </text>
+          <text id="static_instance-reasons-14">
+            <value>Heard that ration/products has worms</value>
+          </text>
+          <text id="static_instance-reasons-15">
+            <value>Out of stock</value>
+          </text>
+          <text id="static_instance-reasons-16">
+            <value>Lack of money to pay for transport</value>
+          </text>
+          <text id="static_instance-reasons-17">
+            <value>SAM case in SFP</value>
+          </text>
+          <text id="static_instance-reasons-18">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-previous-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-previous-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-default-0">
+            <value>Defaulted</value>
+          </text>
+          <text id="static_instance-default-1">
+            <value>Condition improved and discharged by the programme</value>
+          </text>
+          <text id="static_instance-default-2">
+            <value>Discharged because child was not recovering</value>
+          </text>
+          <text id="static_instance-default-3">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-illness-0">
+            <value>Malnutrition</value>
+          </text>
+          <text id="static_instance-illness-1">
+            <value>Diarrhoea</value>
+          </text>
+          <text id="static_instance-illness-2">
+            <value>Fever</value>
+          </text>
+          <text id="static_instance-illness-3">
+            <value>Cough</value>
+          </text>
+          <text id="static_instance-illness-4">
+            <value>Malaria</value>
+          </text>
+          <text id="static_instance-illness-5">
+            <value>Don't know</value>
+          </text>
+          <text id="static_instance-otp-0">
+            <value>In OTP</value>
+          </text>
+          <text id="static_instance-otp-1">
+            <value>Not in any programme</value>
+          </text>
+          <text id="static_instance-surveyarea-0">
+            <value>Urban Montserrado</value>
+          </text>
+          <text id="static_instance-surveyarea-1">
+            <value>Grand Bassa</value>
+          </text>
+          <text id="static_instance-district-0">
+            <value>Greater Monrovia</value>
+          </text>
+          <text id="static_instance-district-1">
+            <value>District # 1</value>
+          </text>
+          <text id="static_instance-district-2">
+            <value>District # 2</value>
+          </text>
+          <text id="static_instance-district-3">
+            <value>District # 3</value>
+          </text>
+          <text id="static_instance-district-4">
+            <value>District # 4</value>
+          </text>
+          <text id="static_instance-district-5">
+            <value>Neekreen</value>
+          </text>
+          <text id="static_instance-district-6">
+            <value>St. John River City</value>
+          </text>
+          <text id="static_instance-district-7">
+            <value>Owensgrove</value>
+          </text>
+          <text id="static_instance-ea-0">
+            <value>Z1100 Rehab/Borbor Town</value>
+          </text>
+          <text id="static_instance-ea-1">
+            <value>Z1100 Rehab/Borbor Town</value>
+          </text>
+          <text id="static_instance-ea-2">
+            <value>Z1100 Rehab/Borbor Town</value>
+          </text>
+          <text id="static_instance-ea-3">
+            <value>Z1100 Rehab/Borbor Town</value>
+          </text>
+          <text id="static_instance-ea-4">
+            <value>Z1100 Rehab/Borbor Town</value>
+          </text>
+          <text id="static_instance-ea-5">
+            <value>Z1100 Rehab/Borbor Town</value>
+          </text>
+          <text id="static_instance-ea-6">
+            <value>Z1000 Congo Town Old Rd</value>
+          </text>
+          <text id="static_instance-ea-7">
+            <value>Z1000 Congo Town Old Rd</value>
+          </text>
+          <text id="static_instance-ea-8">
+            <value>Z1000 Congo Town Old Rd</value>
+          </text>
+          <text id="static_instance-ea-9">
+            <value>Z1100 Town Hall</value>
+          </text>
+          <text id="static_instance-ea-10">
+            <value>Z1100 GSA Road Rockville</value>
+          </text>
+          <text id="static_instance-ea-11">
+            <value>Z1100 GSA Road Rockville</value>
+          </text>
+          <text id="static_instance-ea-12">
+            <value>Z1100 Duport Road South</value>
+          </text>
+          <text id="static_instance-ea-13">
+            <value>Z1100 Duport Road South</value>
+          </text>
+          <text id="static_instance-ea-14">
+            <value>Z1100 Duport Road South</value>
+          </text>
+          <text id="static_instance-ea-15">
+            <value>Z900 Key &amp; Death Hole</value>
+          </text>
+          <text id="static_instance-ea-16">
+            <value>Z900 Key &amp; Death Hole</value>
+          </text>
+          <text id="static_instance-ea-17">
+            <value>Z800 Wroto Town</value>
+          </text>
+          <text id="static_instance-ea-18">
+            <value>Z1100 72nd Community</value>
+          </text>
+          <text id="static_instance-ea-19">
+            <value>Z1100 72nd Community</value>
+          </text>
+          <text id="static_instance-ea-20">
+            <value>Z1100 Police Academy</value>
+          </text>
+          <text id="static_instance-ea-21">
+            <value>Z1100 Red Light</value>
+          </text>
+          <text id="static_instance-ea-22">
+            <value>Z1100 Red Light</value>
+          </text>
+          <text id="static_instance-ea-23">
+            <value>Z1100 Red Light</value>
+          </text>
+          <text id="static_instance-ea-24">
+            <value>Z1100 Kemah Town/Omega</value>
+          </text>
+          <text id="static_instance-ea-25">
+            <value>Z1100 Kemah Town/Omega</value>
+          </text>
+          <text id="static_instance-ea-26">
+            <value>Z1100 Kemah Town/Omega</value>
+          </text>
+          <text id="static_instance-ea-27">
+            <value>Z600 Bishop Brooks</value>
+          </text>
+          <text id="static_instance-ea-28">
+            <value>Z600 Bishop Brooks</value>
+          </text>
+          <text id="static_instance-ea-29">
+            <value>Z600 Bassa Community</value>
+          </text>
+          <text id="static_instance-ea-30">
+            <value>Z800 New Matadi</value>
+          </text>
+          <text id="static_instance-ea-31">
+            <value>Z800 New Matadi</value>
+          </text>
+          <text id="static_instance-ea-32">
+            <value>Z800 New Matadi</value>
+          </text>
+          <text id="static_instance-ea-33">
+            <value>Z1100 Double Bridge</value>
+          </text>
+          <text id="static_instance-ea-34">
+            <value>Z1100 Double Bridge</value>
+          </text>
+          <text id="static_instance-ea-35">
+            <value>Z1100 Double Bridge</value>
+          </text>
+          <text id="static_instance-ea-36">
+            <value>Z1100 Neezoe</value>
+          </text>
+          <text id="static_instance-ea-37">
+            <value>Z1100 Neezoe</value>
+          </text>
+          <text id="static_instance-ea-38">
+            <value>Z1100 Neezoe</value>
+          </text>
+          <text id="static_instance-ea-39">
+            <value>Z1100 Morris Farm</value>
+          </text>
+          <text id="static_instance-ea-40">
+            <value>Z1100 Morris Farm</value>
+          </text>
+          <text id="static_instance-ea-41">
+            <value>Z1100 Morris Farm</value>
+          </text>
+          <text id="static_instance-ea-42">
+            <value>Z1100 Kemah Town/Omega</value>
+          </text>
+          <text id="static_instance-ea-43">
+            <value>Z1100 Kemah Town/Omega</value>
+          </text>
+          <text id="static_instance-ea-44">
+            <value>Z1100 Kemah Town/Omega</value>
+          </text>
+          <text id="static_instance-ea-45">
+            <value>Z300 Struggle Community</value>
+          </text>
+          <text id="static_instance-ea-46">
+            <value>Z300 Struggle Community</value>
+          </text>
+          <text id="static_instance-ea-47">
+            <value>Z300 Struggle Community</value>
+          </text>
+          <text id="static_instance-ea-48">
+            <value>Z1300 Chocolate City_A</value>
+          </text>
+          <text id="static_instance-ea-49">
+            <value>Z1300 Chocolate City_B</value>
+          </text>
+          <text id="static_instance-ea-50">
+            <value>Z1300 Chocolate City_A</value>
+          </text>
+          <text id="static_instance-ea-51">
+            <value>Z1200 Shoe Factory</value>
+          </text>
+          <text id="static_instance-ea-52">
+            <value>Z1200 Kesselly Booulevard</value>
+          </text>
+          <text id="static_instance-ea-53">
+            <value>Z1200 MTA</value>
+          </text>
+          <text id="static_instance-ea-54">
+            <value>Z1100 Rock Hill</value>
+          </text>
+          <text id="static_instance-ea-55">
+            <value>Z1100 Rock Hill</value>
+          </text>
+          <text id="static_instance-ea-56">
+            <value>Z1100 Rock Hill</value>
+          </text>
+          <text id="static_instance-ea-57">
+            <value>Z1100 Pipeline B</value>
+          </text>
+          <text id="static_instance-ea-58">
+            <value>Z1100 Pipeline B</value>
+          </text>
+          <text id="static_instance-ea-59">
+            <value>Z1100 Barnard Farm</value>
+          </text>
+          <text id="static_instance-ea-60">
+            <value>Z1100 Kemah Town/Omega</value>
+          </text>
+          <text id="static_instance-ea-61">
+            <value>Z1100 Barnard Farm</value>
+          </text>
+          <text id="static_instance-ea-62">
+            <value>Z1100 Barnard Farm</value>
+          </text>
+          <text id="static_instance-ea-63">
+            <value>Z1300 Old Field Gulf/Sign Boar</value>
+          </text>
+          <text id="static_instance-ea-64">
+            <value>Z1200 Grass Field</value>
+          </text>
+          <text id="static_instance-ea-65">
+            <value>Z1200 Grass Field</value>
+          </text>
+          <text id="static_instance-ea-66">
+            <value>Z100 Duala Mombo Town-East</value>
+          </text>
+          <text id="static_instance-ea-67">
+            <value>Z100 Duala Mombo Town-East</value>
+          </text>
+          <text id="static_instance-ea-68">
+            <value>Z100 Duala Mombo Town-East</value>
+          </text>
+          <text id="static_instance-ea-69">
+            <value>Z1400 Kaba Town</value>
+          </text>
+          <text id="static_instance-ea-70">
+            <value>Z1400 Kaba Town</value>
+          </text>
+          <text id="static_instance-ea-71">
+            <value>Z1400 Behwein Community</value>
+          </text>
+          <text id="static_instance-ea-72">
+            <value>Z1400 Kaba Town</value>
+          </text>
+          <text id="static_instance-ea-73">
+            <value>Z1400 Kaba Town</value>
+          </text>
+          <text id="static_instance-ea-74">
+            <value>Z1400 Kaba Town</value>
+          </text>
+          <text id="static_instance-ea-75">
+            <value>Z100 Crab Hole</value>
+          </text>
+          <text id="static_instance-ea-76">
+            <value>Z100 Crab Hole</value>
+          </text>
+          <text id="static_instance-ea-77">
+            <value>Z100 Crab Hole</value>
+          </text>
+          <text id="static_instance-ea-78">
+            <value>Z1600 Caldwell Market</value>
+          </text>
+          <text id="static_instance-ea-79">
+            <value>Z1600 Upper Caldwell</value>
+          </text>
+          <text id="static_instance-ea-80">
+            <value>Z1600 Dixville A</value>
+          </text>
+          <text id="static_instance-ea-81">
+            <value>Z1600 Samukai Town</value>
+          </text>
+          <text id="static_instance-ea-82">
+            <value>Z1600 Samukai Town</value>
+          </text>
+          <text id="static_instance-ea-83">
+            <value>Z1600 Samukai Town</value>
+          </text>
+          <text id="static_instance-ea-84">
+            <value>Z1600 Cassava Hill</value>
+          </text>
+          <text id="static_instance-ea-85">
+            <value>Z1600 Dixville Water Side</value>
+          </text>
+          <text id="static_instance-ea-86">
+            <value>Z1600 Samukai Town</value>
+          </text>
+          <text id="static_instance-ea-87">
+            <value>Z1600 Samukai Town</value>
+          </text>
+          <text id="static_instance-ea-88">
+            <value>Harmonville</value>
+          </text>
+          <text id="static_instance-ea-89">
+            <value>Neetorn</value>
+          </text>
+          <text id="static_instance-ea-90">
+            <value>Neetorn</value>
+          </text>
+          <text id="static_instance-ea-91">
+            <value>Jogbahn</value>
+          </text>
+          <text id="static_instance-ea-92">
+            <value>Little Kola</value>
+          </text>
+          <text id="static_instance-ea-93">
+            <value>Jogbahn</value>
+          </text>
+          <text id="static_instance-ea-94">
+            <value>Kpanada</value>
+          </text>
+          <text id="static_instance-ea-95">
+            <value>Kpanada</value>
+          </text>
+          <text id="static_instance-ea-96">
+            <value>Kpanada</value>
+          </text>
+          <text id="static_instance-ea-97">
+            <value>Blaynee (Portion of Dist.</value>
+          </text>
+          <text id="static_instance-ea-98">
+            <value>Harmonville</value>
+          </text>
+          <text id="static_instance-ea-99">
+            <value>Blaynee (Portion of Dist.</value>
+          </text>
+          <text id="static_instance-ea-100">
+            <value>Jogbahn</value>
+          </text>
+          <text id="static_instance-ea-101">
+            <value>Jogbahn</value>
+          </text>
+          <text id="static_instance-ea-102">
+            <value>Jogbahn</value>
+          </text>
+          <text id="static_instance-ea-103">
+            <value>Goingbo</value>
+          </text>
+          <text id="static_instance-ea-104">
+            <value>Goingbo</value>
+          </text>
+          <text id="static_instance-ea-105">
+            <value>Goingbo</value>
+          </text>
+          <text id="static_instance-ea-106">
+            <value>Vombo</value>
+          </text>
+          <text id="static_instance-ea-107">
+            <value>Vombo</value>
+          </text>
+          <text id="static_instance-ea-108">
+            <value>Tubmanville</value>
+          </text>
+          <text id="static_instance-ea-109">
+            <value>L A C Plantation</value>
+          </text>
+          <text id="static_instance-ea-110">
+            <value>L A C Plantation</value>
+          </text>
+          <text id="static_instance-ea-111">
+            <value>L A C Plantation</value>
+          </text>
+          <text id="static_instance-ea-112">
+            <value>Yeannah</value>
+          </text>
+          <text id="static_instance-ea-113">
+            <value>Doewein</value>
+          </text>
+          <text id="static_instance-ea-114">
+            <value>Doewein</value>
+          </text>
+          <text id="static_instance-ea-115">
+            <value>Doe</value>
+          </text>
+          <text id="static_instance-ea-116">
+            <value>Doewein</value>
+          </text>
+          <text id="static_instance-ea-117">
+            <value>Doe</value>
+          </text>
+          <text id="static_instance-ea-118">
+            <value>Zuzohn</value>
+          </text>
+          <text id="static_instance-ea-119">
+            <value>Hoegbahn</value>
+          </text>
+          <text id="static_instance-ea-120">
+            <value>Hoegbahn</value>
+          </text>
+          <text id="static_instance-ea-121">
+            <value>Marlord</value>
+          </text>
+          <text id="static_instance-ea-122">
+            <value>Gaye Peter</value>
+          </text>
+          <text id="static_instance-ea-123">
+            <value>Glow</value>
+          </text>
+          <text id="static_instance-ea-124">
+            <value>Zeewein-B</value>
+          </text>
+          <text id="static_instance-ea-125">
+            <value>L A C Plantation</value>
+          </text>
+          <text id="static_instance-ea-126">
+            <value>L A C Plantation</value>
+          </text>
+          <text id="static_instance-ea-127">
+            <value>Kpogblen</value>
+          </text>
+          <text id="static_instance-ea-128">
+            <value>Kpogblen</value>
+          </text>
+          <text id="static_instance-ea-129">
+            <value>Kpogblen</value>
+          </text>
+          <text id="static_instance-ea-130">
+            <value>Giah</value>
+          </text>
+          <text id="static_instance-ea-131">
+            <value>Giah</value>
+          </text>
+          <text id="static_instance-ea-132">
+            <value>Worrwein</value>
+          </text>
+          <text id="static_instance-ea-133">
+            <value>Doe</value>
+          </text>
+          <text id="static_instance-ea-134">
+            <value>Doe</value>
+          </text>
+          <text id="static_instance-ea-135">
+            <value>Sayewein</value>
+          </text>
+          <text id="static_instance-ea-136">
+            <value>Marblee</value>
+          </text>
+          <text id="static_instance-ea-137">
+            <value>Marblee</value>
+          </text>
+          <text id="static_instance-ea-138">
+            <value>Marblee</value>
+          </text>
+          <text id="static_instance-ea-139">
+            <value>Marblee</value>
+          </text>
+          <text id="static_instance-ea-140">
+            <value>Gogowein</value>
+          </text>
+          <text id="static_instance-ea-141">
+            <value>Dohnwein</value>
+          </text>
+          <text id="static_instance-ea-142">
+            <value>Faitro</value>
+          </text>
+          <text id="static_instance-ea-143">
+            <value>Faitro</value>
+          </text>
+          <text id="static_instance-ea-144">
+            <value>Deegba</value>
+          </text>
+          <text id="static_instance-ea-145">
+            <value>Wodorgbah</value>
+          </text>
+          <text id="static_instance-ea-146">
+            <value>Gbayah</value>
+          </text>
+          <text id="static_instance-ea-147">
+            <value>Gbayah</value>
+          </text>
+          <text id="static_instance-ea-148">
+            <value>Mehwein</value>
+          </text>
+          <text id="static_instance-ea-149">
+            <value>Mehwein</value>
+          </text>
+          <text id="static_instance-ea-150">
+            <value>Sayewein</value>
+          </text>
+          <text id="static_instance-ea-151">
+            <value>Karblee</value>
+          </text>
+          <text id="static_instance-ea-152">
+            <value>Karblee</value>
+          </text>
+          <text id="static_instance-ea-153">
+            <value>Karblee</value>
+          </text>
+          <text id="static_instance-ea-154">
+            <value>Gogowein</value>
+          </text>
+          <text id="static_instance-ea-155">
+            <value>Gogowein</value>
+          </text>
+          <text id="static_instance-ea-156">
+            <value>Gogowein</value>
+          </text>
+          <text id="static_instance-ea-157">
+            <value>Boeglayn</value>
+          </text>
+          <text id="static_instance-ea-158">
+            <value>Boeglayn</value>
+          </text>
+          <text id="static_instance-ea-159">
+            <value>Dohnwein</value>
+          </text>
+          <text id="static_instance-ea-160">
+            <value>Deegba</value>
+          </text>
+          <text id="static_instance-ea-161">
+            <value>Deegba</value>
+          </text>
+          <text id="static_instance-ea-162">
+            <value>Deegba</value>
+          </text>
+          <text id="static_instance-ea-163">
+            <value>Gbaniee</value>
+          </text>
+          <text id="static_instance-ea-164">
+            <value>Gbaniee</value>
+          </text>
+          <text id="static_instance-ea-165">
+            <value>Pay-U-Way</value>
+          </text>
+          <text id="static_instance-ea-166">
+            <value>Norwein</value>
+          </text>
+          <text id="static_instance-ea-167">
+            <value>Jeuwein</value>
+          </text>
+          <text id="static_instance-ea-168">
+            <value>Jeuwein</value>
+          </text>
+          <text id="static_instance-ea-169">
+            <value>Chan</value>
+          </text>
+          <text id="static_instance-ea-170">
+            <value>Chan</value>
+          </text>
+          <text id="static_instance-ea-171">
+            <value>Chan</value>
+          </text>
+          <text id="static_instance-ea-172">
+            <value>Jungle</value>
+          </text>
+          <text id="static_instance-ea-173">
+            <value>Boeglayn</value>
+          </text>
+          <text id="static_instance-ea-174">
+            <value>Boeglayn</value>
+          </text>
+          <text id="static_instance-ea-175">
+            <value>Norwein</value>
+          </text>
+          <text id="static_instance-ea-176">
+            <value>Norwein</value>
+          </text>
+          <text id="static_instance-ea-177">
+            <value>Gbaniee</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <liberiaCoverage id="liberiaCoverageRound2" version="201908261443">
+          <formhub>
+            <uuid/>
+          </formhub>
+          <skip/>
+          <admin>
+            <sdate/>
+            <cid/>
+            <county/>
+            <did/>
+            <eid/>
+            <team/>
+            <counter/>
+            <hh/>
+          </admin>
+          <consent1/>
+          <consent2/>
+          <mother_data>
+            <mcounter/>
+            <m1/>
+            <mname/>
+            <m2/>
+            <ch/>
+            <mcheck1/>
+          </mother_data>
+          <mcheck2/>
+          <ifa>
+            <ifa1/>
+            <ifa2/>
+            <ifa3/>
+            <ifa3a/>
+            <ifa3a_other/>
+            <ifa4/>
+            <ifa4a/>
+            <ifa4a_other/>
+            <ifa5/>
+          </ifa>
+          <icf>
+            <icf1/>
+            <icf2/>
+            <icf2a/>
+            <icf2a_other/>
+            <icf3/>
+          </icf>
+          <child/>
+          <child_repeat_count/>
+          <child_repeat jr:template="">
+            <guard>
+              <child_data>
+                <c1/>
+                <name/>
+                <sex/>
+                <card/>
+                <know_dob/>
+                <dob/>
+                <age_report/>
+              </child_data>
+              <age/>
+              <age_check/>
+              <anthro_data>
+                <anthro_note/>
+                <muac1/>
+                <muac_screen/>
+                <oedema1/>
+                <oedema_screen/>
+                <weight1/>
+                <weight_screen/>
+                <height1/>
+                <height_screen/>
+                <position/>
+                <clothes/>
+              </anthro_data>
+              <oedema_check/>
+              <muac/>
+              <weight/>
+              <height/>
+              <whz_neg3_boy/>
+              <whz_neg3_girl/>
+              <flag_whz_neg3/>
+              <haz_lower_boy/>
+              <haz_upper_boy/>
+              <flag_haz_boy/>
+              <haz_lower_girl/>
+              <haz_upper_girl/>
+              <flag_haz_girl/>
+              <whz_lower_boy/>
+              <whz_upper_boy/>
+              <flag_whz_boy/>
+              <whz_lower_girl/>
+              <whz_upper_girl/>
+              <flag_whz_girl/>
+              <waz_lower_boy/>
+              <waz_upper_boy/>
+              <flag_waz_boy/>
+              <waz_lower_girl/>
+              <waz_upper_girl/>
+              <flag_waz_girl/>
+              <flag/>
+              <sam/>
+              <remeasure1>
+                <child_data1>
+                  <sex1/>
+                  <card1/>
+                  <know_dob1/>
+                  <dob1/>
+                  <age_report1/>
+                </child_data1>
+                <age1/>
+                <age_check1/>
+                <anthro_data_1>
+                  <anthro_note_1/>
+                  <muac2/>
+                  <oedema2/>
+                  <weight2/>
+                  <height2/>
+                  <position2/>
+                  <clothes2/>
+                </anthro_data_1>
+                <oedema_check2/>
+                <muac1a/>
+                <weight1a/>
+                <height1a/>
+                <whz_neg3_boy2/>
+                <whz_neg3_girl2/>
+                <flag_whz_neg3_2/>
+                <sam1a/>
+              </remeasure1>
+              <rand/>
+              <remeasure2>
+                <child_data2>
+                  <sex2/>
+                  <card2/>
+                  <know_dob2/>
+                  <dob2/>
+                  <age_report2/>
+                </child_data2>
+                <age2/>
+                <age_check2/>
+                <anthro_data_2>
+                  <anthro_note_2/>
+                  <muac3/>
+                  <oedema3/>
+                  <weight3/>
+                  <height3/>
+                  <position3/>
+                  <clothes3/>
+                </anthro_data_2>
+                <oedema_check3/>
+                <muac1b/>
+                <weight1b/>
+                <height1b/>
+                <whz_neg3_boy3/>
+                <whz_neg3_girl3/>
+                <flag_whz_neg3_3/>
+                <sam1b/>
+              </remeasure2>
+              <nut_status/>
+              <cov_status/>
+              <in/>
+              <recovering/>
+              <out/>
+              <barriers>
+                <note_barriers/>
+                <q1/>
+                <q1a/>
+                <q2/>
+                <q3/>
+                <q4/>
+                <q4t/>
+                <q5/>
+                <q6/>
+                <q6e/>
+                <refer_action/>
+                <refer/>
+              </barriers>
+            </guard>
+            <next/>
+          </child_repeat>
+          <c2/>
+          <cname/>
+          <cage/>
+          <csex/>
+          <child_random/>
+          <mnp>
+            <mnp1/>
+            <mnp2/>
+            <mnp2a/>
+            <mnp2a_other/>
+            <mnp3/>
+            <mnp3a/>
+            <mnp3a_other/>
+            <mnp4/>
+          </mnp>
+          <vit>
+            <vit1/>
+            <vit1a/>
+            <vit1a_other/>
+            <vit2/>
+            <vit3/>
+          </vit>
+          <no_children/>
+          <no_consent/>
+          <end/>
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+        </liberiaCoverage>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="team">
+        <root>
+          <item>
+            <itextId>static_instance-team-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-team-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-team-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-team-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-team-4</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-team-5</itextId>
+            <name>6</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="screen">
+        <root>
+          <item>
+            <itextId>static_instance-screen-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-screen-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-screen-2</itextId>
+            <name>99</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="mother">
+        <root>
+          <item>
+            <itextId>static_instance-mother-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-mother-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-mother-2</itextId>
+            <name>99</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="child">
+        <root>
+          <item>
+            <itextId>static_instance-child-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-child-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-child-2</itextId>
+            <name>99</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="vit">
+        <root>
+          <item>
+            <itextId>static_instance-vit-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-vit-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-vit-2</itextId>
+            <name>99</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ifa_reasons1">
+        <root>
+          <item>
+            <itextId>static_instance-ifa_reasons1-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-ifa_reasons1-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-ifa_reasons1-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-ifa_reasons1-3</itextId>
+            <name>88</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ifa_reasons2">
+        <root>
+          <item>
+            <itextId>static_instance-ifa_reasons2-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-ifa_reasons2-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-ifa_reasons2-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-ifa_reasons2-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-ifa_reasons2-4</itextId>
+            <name>88</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="icf_reasons1">
+        <root>
+          <item>
+            <itextId>static_instance-icf_reasons1-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-icf_reasons1-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-icf_reasons1-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-icf_reasons1-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-icf_reasons1-4</itextId>
+            <name>88</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="mnp_reasons1">
+        <root>
+          <item>
+            <itextId>static_instance-mnp_reasons1-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons1-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons1-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons1-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons1-4</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons1-5</itextId>
+            <name>88</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="mnp_reasons2">
+        <root>
+          <item>
+            <itextId>static_instance-mnp_reasons2-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-4</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-5</itextId>
+            <name>6</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-6</itextId>
+            <name>7</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-7</itextId>
+            <name>8</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-8</itextId>
+            <name>9</name>
+          </item>
+          <item>
+            <itextId>static_instance-mnp_reasons2-9</itextId>
+            <name>88</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="vit_reasons1">
+        <root>
+          <item>
+            <itextId>static_instance-vit_reasons1-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-vit_reasons1-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-vit_reasons1-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-vit_reasons1-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-vit_reasons1-4</itextId>
+            <name>88</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sex">
+        <root>
+          <item>
+            <itextId>static_instance-sex-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-sex-1</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="measure">
+        <root>
+          <item>
+            <itextId>static_instance-measure-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-measure-1</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="check">
+        <root>
+          <item>
+            <itextId>static_instance-check-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-check-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-check-2</itextId>
+            <name>99</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="healthcard">
+        <root>
+          <item>
+            <itextId>static_instance-healthcard-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcard-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcard-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-healthcard-3</itextId>
+            <name>4</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="reasons">
+        <root>
+          <item>
+            <itextId>static_instance-reasons-0</itextId>
+            <name>q4a</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-1</itextId>
+            <name>q4b</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-2</itextId>
+            <name>q4c</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-3</itextId>
+            <name>q4d</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-4</itextId>
+            <name>q4e</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-5</itextId>
+            <name>q4f</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-6</itextId>
+            <name>q4g</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-7</itextId>
+            <name>q4h</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-8</itextId>
+            <name>q4i</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-9</itextId>
+            <name>q4j</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-10</itextId>
+            <name>q4k</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-11</itextId>
+            <name>q4l</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-12</itextId>
+            <name>q4m</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-13</itextId>
+            <name>q4n</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-14</itextId>
+            <name>q4o</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-15</itextId>
+            <name>q4p</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-16</itextId>
+            <name>q4q</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-17</itextId>
+            <name>q4r</name>
+          </item>
+          <item>
+            <itextId>static_instance-reasons-18</itextId>
+            <name>q4s</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="previous">
+        <root>
+          <item>
+            <itextId>static_instance-previous-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-previous-1</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="default">
+        <root>
+          <item>
+            <itextId>static_instance-default-0</itextId>
+            <name>q6a</name>
+          </item>
+          <item>
+            <itextId>static_instance-default-1</itextId>
+            <name>q6b</name>
+          </item>
+          <item>
+            <itextId>static_instance-default-2</itextId>
+            <name>q6c</name>
+          </item>
+          <item>
+            <itextId>static_instance-default-3</itextId>
+            <name>q6d</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="illness">
+        <root>
+          <item>
+            <itextId>static_instance-illness-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-4</itextId>
+            <name>5</name>
+          </item>
+          <item>
+            <itextId>static_instance-illness-5</itextId>
+            <name>6</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="otp">
+        <root>
+          <item>
+            <itextId>static_instance-otp-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-otp-1</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="surveyarea">
+        <root>
+          <item>
+            <itextId>static_instance-surveyarea-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-surveyarea-1</itextId>
+            <name>2</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="district">
+        <root>
+          <item>
+            <itextId>static_instance-district-0</itextId>
+            <name>4</name>
+            <county>1</county>
+          </item>
+          <item>
+            <itextId>static_instance-district-1</itextId>
+            <name>4</name>
+            <county>2</county>
+          </item>
+          <item>
+            <itextId>static_instance-district-2</itextId>
+            <name>6</name>
+            <county>2</county>
+          </item>
+          <item>
+            <itextId>static_instance-district-3</itextId>
+            <name>14</name>
+            <county>2</county>
+          </item>
+          <item>
+            <itextId>static_instance-district-4</itextId>
+            <name>16</name>
+            <county>2</county>
+          </item>
+          <item>
+            <itextId>static_instance-district-5</itextId>
+            <name>10</name>
+            <county>2</county>
+          </item>
+          <item>
+            <itextId>static_instance-district-6</itextId>
+            <name>8</name>
+            <county>2</county>
+          </item>
+          <item>
+            <itextId>static_instance-district-7</itextId>
+            <name>2</name>
+            <county>2</county>
+          </item>
+        </root>
+      </instance>
+      <instance id="ea">
+        <root>
+          <item>
+            <itextId>static_instance-ea-0</itextId>
+            <county>1</county>
+            <name>3004557141</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-1</itextId>
+            <county>1</county>
+            <name>3004557151</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-2</itextId>
+            <county>1</county>
+            <name>3004557171</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-3</itextId>
+            <county>1</county>
+            <name>3004557261</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-4</itextId>
+            <county>1</county>
+            <name>3004557271</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-5</itextId>
+            <county>1</county>
+            <name>3004557301</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-6</itextId>
+            <county>1</county>
+            <name>3004457021</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-7</itextId>
+            <county>1</county>
+            <name>3004457041</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-8</itextId>
+            <county>1</county>
+            <name>3004457141</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-9</itextId>
+            <county>1</county>
+            <name>3004554071</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-10</itextId>
+            <county>1</county>
+            <name>3004561051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-11</itextId>
+            <county>1</county>
+            <name>3004561041</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-12</itextId>
+            <county>1</county>
+            <name>3004565191</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-13</itextId>
+            <county>1</county>
+            <name>3004565231</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-14</itextId>
+            <county>1</county>
+            <name>3004565251</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-15</itextId>
+            <county>1</county>
+            <name>3004901051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-16</itextId>
+            <county>1</county>
+            <name>3004901061</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-17</itextId>
+            <county>1</county>
+            <name>3004807091</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-18</itextId>
+            <county>1</county>
+            <name>3004568171</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-19</itextId>
+            <county>1</county>
+            <name>3004568161</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-20</itextId>
+            <county>1</county>
+            <name>3004556151</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-21</itextId>
+            <county>1</county>
+            <name>3004571191</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-22</itextId>
+            <county>1</county>
+            <name>3004571171</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-23</itextId>
+            <county>1</county>
+            <name>3004571251</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-24</itextId>
+            <county>1</county>
+            <name>3004575141</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-25</itextId>
+            <county>1</county>
+            <name>3004575171</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-26</itextId>
+            <county>1</county>
+            <name>3004575161</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-27</itextId>
+            <county>1</county>
+            <name>3004607041</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-28</itextId>
+            <county>1</county>
+            <name>3004607051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-29</itextId>
+            <county>1</county>
+            <name>3004609011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-30</itextId>
+            <county>1</county>
+            <name>3004802121</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-31</itextId>
+            <county>1</county>
+            <name>3004802111</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-32</itextId>
+            <county>1</county>
+            <name>3004802091</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-33</itextId>
+            <county>1</county>
+            <name>3004574041</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-34</itextId>
+            <county>1</county>
+            <name>3004574051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-35</itextId>
+            <county>1</county>
+            <name>3004574071</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-36</itextId>
+            <county>1</county>
+            <name>3004566171</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-37</itextId>
+            <county>1</county>
+            <name>3004566141</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-38</itextId>
+            <county>1</county>
+            <name>3004566131</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-39</itextId>
+            <county>1</county>
+            <name>3004562071</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-40</itextId>
+            <county>1</county>
+            <name>3004562081</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-41</itextId>
+            <county>1</county>
+            <name>3004562061</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-42</itextId>
+            <county>1</county>
+            <name>3004575051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-43</itextId>
+            <county>1</county>
+            <name>3004575061</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-44</itextId>
+            <county>1</county>
+            <name>3004575071</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-45</itextId>
+            <county>1</county>
+            <name>3004311181</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-46</itextId>
+            <county>1</county>
+            <name>3004311131</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-47</itextId>
+            <county>1</county>
+            <name>3004311121</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-48</itextId>
+            <county>1</county>
+            <name>3004755111</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-49</itextId>
+            <county>1</county>
+            <name>3004757011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-50</itextId>
+            <county>1</county>
+            <name>3004755101</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-51</itextId>
+            <county>1</county>
+            <name>3004660091</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-52</itextId>
+            <county>1</county>
+            <name>3004653011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-53</itextId>
+            <county>1</county>
+            <name>3004657051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-54</itextId>
+            <county>1</county>
+            <name>3004576181</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-55</itextId>
+            <county>1</county>
+            <name>3004576161</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-56</itextId>
+            <county>1</county>
+            <name>3004576171</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-57</itextId>
+            <county>1</county>
+            <name>3004580171</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-58</itextId>
+            <county>1</county>
+            <name>3004580181</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-59</itextId>
+            <county>1</county>
+            <name>3004582111</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-60</itextId>
+            <county>1</county>
+            <name>3004575011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-61</itextId>
+            <county>1</county>
+            <name>3004582011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-62</itextId>
+            <county>1</county>
+            <name>3004582031</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-63</itextId>
+            <county>1</county>
+            <name>3004760141</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-64</itextId>
+            <county>1</county>
+            <name>3004654101</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-65</itextId>
+            <county>1</county>
+            <name>3004654091</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-66</itextId>
+            <county>1</county>
+            <name>3004102111</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-67</itextId>
+            <county>1</county>
+            <name>3004102101</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-68</itextId>
+            <county>1</county>
+            <name>3004102141</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-69</itextId>
+            <county>1</county>
+            <name>3004858051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-70</itextId>
+            <county>1</county>
+            <name>3004858041</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-71</itextId>
+            <county>1</county>
+            <name>3004857041</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-72</itextId>
+            <county>1</county>
+            <name>3004858081</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-73</itextId>
+            <county>1</county>
+            <name>3004858091</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-74</itextId>
+            <county>1</county>
+            <name>3004858101</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-75</itextId>
+            <county>1</county>
+            <name>3004103061</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-76</itextId>
+            <county>1</county>
+            <name>3004103071</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-77</itextId>
+            <county>1</county>
+            <name>3004103081</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-78</itextId>
+            <county>1</county>
+            <name>3004956051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-79</itextId>
+            <county>1</county>
+            <name>3004959011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-80</itextId>
+            <county>1</county>
+            <name>3004955061</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-81</itextId>
+            <county>1</county>
+            <name>3004960061</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-82</itextId>
+            <county>1</county>
+            <name>3004960041</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-83</itextId>
+            <county>1</county>
+            <name>3004960051</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-84</itextId>
+            <county>1</county>
+            <name>3004961011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-85</itextId>
+            <county>1</county>
+            <name>3004958011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-86</itextId>
+            <county>1</county>
+            <name>3004960021</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-87</itextId>
+            <county>1</county>
+            <name>3004960011</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-88</itextId>
+            <county>2</county>
+            <name>910001072</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-89</itextId>
+            <county>2</county>
+            <name>916001092</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-90</itextId>
+            <county>2</county>
+            <name>916001062</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-91</itextId>
+            <county>2</county>
+            <name>916009112</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-92</itextId>
+            <county>2</county>
+            <name>916006052</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-93</itextId>
+            <county>2</county>
+            <name>916009122</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-94</itextId>
+            <county>2</county>
+            <name>910007251</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-95</itextId>
+            <county>2</county>
+            <name>910007261</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-96</itextId>
+            <county>2</county>
+            <name>910007281</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-97</itextId>
+            <county>2</county>
+            <name>910005012</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-98</itextId>
+            <county>2</county>
+            <name>910001012</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-99</itextId>
+            <county>2</county>
+            <name>910005032</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-100</itextId>
+            <county>2</county>
+            <name>916009032</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-101</itextId>
+            <county>2</county>
+            <name>916009052</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-102</itextId>
+            <county>2</county>
+            <name>916009042</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-103</itextId>
+            <county>2</county>
+            <name>908009012</name>
+            <district>8</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-104</itextId>
+            <county>2</county>
+            <name>908009022</name>
+            <district>8</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-105</itextId>
+            <county>2</county>
+            <name>908009032</name>
+            <district>8</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-106</itextId>
+            <county>2</county>
+            <name>908003022</name>
+            <district>8</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-107</itextId>
+            <county>2</county>
+            <name>908003012</name>
+            <district>8</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-108</itextId>
+            <county>2</county>
+            <name>910004122</name>
+            <district>10</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-109</itextId>
+            <county>2</county>
+            <name>914001202</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-110</itextId>
+            <county>2</county>
+            <name>914001192</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-111</itextId>
+            <county>2</county>
+            <name>916011042</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-112</itextId>
+            <county>2</county>
+            <name>902002072</name>
+            <district>2</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-113</itextId>
+            <county>2</county>
+            <name>902003142</name>
+            <district>2</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-114</itextId>
+            <county>2</county>
+            <name>902003132</name>
+            <district>2</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-115</itextId>
+            <county>2</county>
+            <name>904005062</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-116</itextId>
+            <county>2</county>
+            <name>902003062</name>
+            <district>2</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-117</itextId>
+            <county>2</county>
+            <name>904005072</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-118</itextId>
+            <county>2</county>
+            <name>906005022</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-119</itextId>
+            <county>2</county>
+            <name>908001012</name>
+            <district>8</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-120</itextId>
+            <county>2</county>
+            <name>908001022</name>
+            <district>8</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-121</itextId>
+            <county>2</county>
+            <name>906002022</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-122</itextId>
+            <county>2</county>
+            <name>914003162</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-123</itextId>
+            <county>2</county>
+            <name>914002012</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-124</itextId>
+            <county>2</county>
+            <name>914014012</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-125</itextId>
+            <county>2</county>
+            <name>914001042</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-126</itextId>
+            <county>2</county>
+            <name>914001032</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-127</itextId>
+            <county>2</county>
+            <name>916005012</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-128</itextId>
+            <county>2</county>
+            <name>916005022</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-129</itextId>
+            <county>2</county>
+            <name>916005032</name>
+            <district>16</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-130</itextId>
+            <county>2</county>
+            <name>902001022</name>
+            <district>2</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-131</itextId>
+            <county>2</county>
+            <name>902001032</name>
+            <district>2</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-132</itextId>
+            <county>2</county>
+            <name>904010012</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-133</itextId>
+            <county>2</county>
+            <name>904005032</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-134</itextId>
+            <county>2</county>
+            <name>904005022</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-135</itextId>
+            <county>2</county>
+            <name>904006042</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-136</itextId>
+            <county>2</county>
+            <name>906001092</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-137</itextId>
+            <county>2</county>
+            <name>906001012</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-138</itextId>
+            <county>2</county>
+            <name>906001102</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-139</itextId>
+            <county>2</county>
+            <name>906001052</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-140</itextId>
+            <county>2</county>
+            <name>906006062</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-141</itextId>
+            <county>2</county>
+            <name>914006032</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-142</itextId>
+            <county>2</county>
+            <name>914005012</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-143</itextId>
+            <county>2</county>
+            <name>914005022</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-144</itextId>
+            <county>2</county>
+            <name>914007052</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-145</itextId>
+            <county>2</county>
+            <name>914008012</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-146</itextId>
+            <county>2</county>
+            <name>914009022</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-147</itextId>
+            <county>2</county>
+            <name>914009032</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-148</itextId>
+            <county>2</county>
+            <name>904009012</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-149</itextId>
+            <county>2</county>
+            <name>904009022</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-150</itextId>
+            <county>2</county>
+            <name>904006012</name>
+            <district>4</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-151</itextId>
+            <county>2</county>
+            <name>906011022</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-152</itextId>
+            <county>2</county>
+            <name>906011032</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-153</itextId>
+            <county>2</county>
+            <name>906011012</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-154</itextId>
+            <county>2</county>
+            <name>906006012</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-155</itextId>
+            <county>2</county>
+            <name>906006022</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-156</itextId>
+            <county>2</county>
+            <name>906006032</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-157</itextId>
+            <county>2</county>
+            <name>906007042</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-158</itextId>
+            <county>2</county>
+            <name>906007052</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-159</itextId>
+            <county>2</county>
+            <name>914006012</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-160</itextId>
+            <county>2</county>
+            <name>914007012</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-161</itextId>
+            <county>2</county>
+            <name>914007022</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-162</itextId>
+            <county>2</county>
+            <name>914007032</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-163</itextId>
+            <county>2</county>
+            <name>914012032</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-164</itextId>
+            <county>2</county>
+            <name>914012042</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-165</itextId>
+            <county>2</county>
+            <name>914013042</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-166</itextId>
+            <county>2</county>
+            <name>914011022</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-167</itextId>
+            <county>2</county>
+            <name>914010012</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-168</itextId>
+            <county>2</county>
+            <name>914010022</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-169</itextId>
+            <county>2</county>
+            <name>906010032</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-170</itextId>
+            <county>2</county>
+            <name>906010022</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-171</itextId>
+            <county>2</county>
+            <name>906010012</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-172</itextId>
+            <county>2</county>
+            <name>906009032</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-173</itextId>
+            <county>2</county>
+            <name>906007022</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-174</itextId>
+            <county>2</county>
+            <name>906007012</name>
+            <district>6</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-175</itextId>
+            <county>2</county>
+            <name>914011042</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-176</itextId>
+            <county>2</county>
+            <name>914011032</name>
+            <district>14</district>
+          </item>
+          <item>
+            <itextId>static_instance-ea-177</itextId>
+            <county>2</county>
+            <name>914012012</name>
+            <district>14</district>
+          </item>
+        </root>
+      </instance>
+      <bind calculate="3" nodeset="/liberiaCoverage/skip" type="string"/>
+      <bind nodeset="/liberiaCoverage/admin/sdate" required="true()" type="date"/>
+      <bind nodeset="/liberiaCoverage/admin/cid" required="true()" type="select1"/>
+      <bind calculate="if( /liberiaCoverage/admin/cid  = '1', &quot;Urban Montserrado&quot;, &quot;Grand Bassa&quot;)" nodeset="/liberiaCoverage/admin/county" type="string"/>
+      <bind nodeset="/liberiaCoverage/admin/did" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/admin/eid" required="true()" type="select1"/>
+      <bind constraint=".&gt;= 1 and .&lt;= 6" jr:constraintMsg="Enumerator ID must be between 1 and 6" nodeset="/liberiaCoverage/admin/team" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/admin/counter" type="int"/>
+      <bind calculate=" /liberiaCoverage/admin/counter " nodeset="/liberiaCoverage/admin/hh" type="string"/>
+      <bind nodeset="/liberiaCoverage/consent1" readonly="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/consent2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/mother_data" relevant=" /liberiaCoverage/consent2  = '1'"/>
+      <bind nodeset="/liberiaCoverage/mother_data/mcounter" required="true()" type="int"/>
+      <bind calculate=" /liberiaCoverage/mother_data/mcounter " nodeset="/liberiaCoverage/mother_data/m1" type="string"/>
+      <bind nodeset="/liberiaCoverage/mother_data/mname" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/mother_data/m2" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/mother_data/ch" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/mother_data/mcheck1" type="select1"/>
+      <bind nodeset="/liberiaCoverage/mcheck2" readonly="true()" relevant=" /liberiaCoverage/admin/counter  mod  /liberiaCoverage/skip  = 0 and  /liberiaCoverage/mother_data/mcheck1  = '1' and  /liberiaCoverage/consent2  = '1'" type="string"/>
+      <bind nodeset="/liberiaCoverage/ifa" relevant=" /liberiaCoverage/admin/counter  mod  /liberiaCoverage/skip  = 0 and  /liberiaCoverage/mother_data/mcheck1  = '1' and  /liberiaCoverage/consent2  = '1'"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa3" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa3a" relevant="selected( /liberiaCoverage/ifa/ifa3 , '2')" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa3a_other" relevant="selected( /liberiaCoverage/ifa/ifa3a , '88')" type="string"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa4" relevant="selected( /liberiaCoverage/ifa/ifa3 , '1')" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa4a" relevant="selected( /liberiaCoverage/ifa/ifa4 , '2')" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/ifa/ifa4a_other" relevant="selected( /liberiaCoverage/ifa/ifa4a , '88')" type="string"/>
+      <bind constraint=".&gt;= 1 and .&lt;= 180" nodeset="/liberiaCoverage/ifa/ifa5" relevant="selected( /liberiaCoverage/ifa/ifa4 , '1')" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/icf" relevant=" /liberiaCoverage/admin/counter  mod  /liberiaCoverage/skip  = 0 and  /liberiaCoverage/mother_data/mcheck1  = '1' and  /liberiaCoverage/consent2  = '1'"/>
+      <bind nodeset="/liberiaCoverage/icf/icf1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/icf/icf2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/icf/icf2a" relevant="selected( /liberiaCoverage/icf/icf2 , '2')" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/icf/icf2a_other" relevant="selected( /liberiaCoverage/icf/icf2a , '88')" type="string"/>
+      <bind nodeset="/liberiaCoverage/icf/icf3" relevant="selected( /liberiaCoverage/icf/icf2 , '1')" required="true()" type="int"/>
+      <bind calculate="once(int( /liberiaCoverage/mother_data/ch  * random()) + 1)" nodeset="/liberiaCoverage/child" type="string"/>
+      <bind calculate=" /liberiaCoverage/mother_data/ch " nodeset="/liberiaCoverage/child_repeat_count" readonly="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard" relevant="position(..) &lt;=  /liberiaCoverage/mother_data/ch  and  /liberiaCoverage/consent2  = '1'"/>
+      <bind calculate="position(..)" nodeset="/liberiaCoverage/child_repeat/guard/child_data/c1" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/child_data/name" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/child_data/sex" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/child_data/card" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/child_data/know_dob" relevant=" ../card  != '1'" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/child_data/dob" relevant="selected( ../card , '1') or selected( ../know_dob , '1')" required="true()" type="date"/>
+      <bind constraint=".&gt;= 6 and .&lt;= 59" jr:constraintMsg="Child's age must be between 6-59 months" nodeset="/liberiaCoverage/child_repeat/guard/child_data/age_report" relevant="selected( ../know_dob , '2')" required="true()" type="int"/>
+      <bind calculate="if(selected( ../child_data/card , '1') or selected( ../child_data/know_dob , '1'), int(( /liberiaCoverage/admin/sdate  -  ../child_data/dob ) div 30.44),  ../child_data/age_report )" nodeset="/liberiaCoverage/child_repeat/guard/age" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/age_check" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/anthro_note" readonly="true()" type="string"/>
+      <bind constraint="(.&gt;= 5.0 and .&lt;= 20.0) or .= 0" jr:constraintMsg="MUAC must be between 5.0 and 20.0 cms, or 0 if child cannot be measured" nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/muac1" required="true()" type="decimal"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/muac_screen" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/oedema1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/oedema_screen" required="true()" type="select1"/>
+      <bind constraint="(.&gt;= 2 and .&lt;= 54) or .= 0.0" jr:constraintMsg="Weight must be between 2 and 54, or 0 if child cannot be weighed" nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/weight1" required="true()" type="decimal"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/weight_screen" required="true()" type="select1"/>
+      <bind constraint="(.&gt;= 30 and .&lt;= 155) or .= 0.0" jr:constraintMsg="Height must be between 30 and 155, or 0 if child cannot be measured" nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/height1" required="true()" type="decimal"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/height_screen" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/position" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/anthro_data/clothes" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/oedema_check" relevant="selected( ../anthro_data/oedema1 , '1')" required="true()" type="select1"/>
+      <bind calculate=" ../anthro_data/muac1 " nodeset="/liberiaCoverage/child_repeat/guard/muac" relevant=" ../anthro_data/muac1  &gt; 0" type="string"/>
+      <bind calculate=" ../anthro_data/weight1 " nodeset="/liberiaCoverage/child_repeat/guard/weight" relevant=" ../anthro_data/weight1  &gt; 0" type="string"/>
+      <bind calculate=" ../anthro_data/height1 " nodeset="/liberiaCoverage/child_repeat/guard/height" relevant=" ../anthro_data/height1  &gt; 0" type="string"/>
+      <bind calculate="0.000995821 *  ../weight  *  ../weight  *  ../weight  *  ../weight  *  ../weight  - 0.041179737 *  ../weight  *  ../weight  *  ../weight  *  ../weight  + 0.622839074 *  ../weight  *  ../weight  *  ../weight  - 4.192765025 *  ../weight  *  ../weight  + 17.49551065 *  ../weight  + 23.63868321" nodeset="/liberiaCoverage/child_repeat/guard/whz_neg3_boy" type="string"/>
+      <bind calculate="0.000754341 *  ../weight  *  ../weight  *  ../weight  *  ../weight  *  ../weight  - 0.0299748 *  ../weight  *  ../weight  *  ../weight  *  ../weight  + 0.4284523 *  ../weight  *  ../weight  *  ../weight  - 2.7036671 *  ../weight  *  ../weight  + 13.0452680 *  ../weight  + 27.9253576" nodeset="/liberiaCoverage/child_repeat/guard/whz_neg3_girl" type="string"/>
+      <bind calculate="if(( ../child_data/sex  = '1' and  ../height  &gt;  ../whz_neg3_boy ) or ( ../child_data/sex  = '2' and  ../height  &gt;  ../whz_neg3_girl ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/flag_whz_neg3" type="string"/>
+      <bind calculate="0.000000379386 *  ../age  *  ../age  *  ../age  *  ../age  *  ../age  - 0.000069515524 *  ../age  *  ../age  *  ../age  *  ../age  + 0.004909805 *  ../age  *  ../age  *  ../age  - 0.168908042 *  ../age  *  ../age  + 3.266127182 *  ../age  + 39.95107423" nodeset="/liberiaCoverage/child_repeat/guard/haz_lower_boy" type="string"/>
+      <bind calculate="0.000000477257 *  ../age  *  ../age  *  ../age  *  ../age  *  ../age  - 0.000080053304 *  ../age  *  ../age  *  ../age  *  ../age  + 0.005071378 *  ../age  *  ../age  *  ../age  - 0.158048367 *  ../age  *  ../age  + 3.584968875 *  ../age  + 63.13173807" nodeset="/liberiaCoverage/child_repeat/guard/haz_upper_boy" type="string"/>
+      <bind calculate="if(( ../child_data/sex  = '1' and  ../height  &lt;  ../haz_lower_boy ) or ( ../child_data/sex  = '1' and  ../height  &gt;  ../haz_upper_boy ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/flag_haz_boy" type="string"/>
+      <bind calculate="0.000000308918 *  ../age  *  ../age  *  ../age  *  ../age  *  ../age  - 0.000056212972 *  ../age  *  ../age  *  ../age  *  ../age  + 0.003932757 *  ../age  *  ../age  *  ../age  - 0.135180355 *  ../age  *  ../age  + 2.789665701 *  ../age  + 39.23327346" nodeset="/liberiaCoverage/child_repeat/guard/haz_lower_girl" type="string"/>
+      <bind calculate="0.000000371919 *  ../age  *  ../age  *  ../age  *  ../age  *  ../age  - 0.000065134503 *  ../age  *  ../age  *  ../age  *  ../age  + 0.004358773 *  ../age  *  ../age  *  ../age  - 0.145396571 *  ../age  *  ../age  + 3.553078292 *  ../age  + 62.01230832" nodeset="/liberiaCoverage/child_repeat/guard/haz_upper_girl" type="string"/>
+      <bind calculate="if(( ../child_data/sex ='2' and  ../height  &lt;  ../haz_lower_girl ) or ( ../child_data/sex ='2' and  ../height  &gt;  ../haz_upper_girl ),'1','0')" nodeset="/liberiaCoverage/child_repeat/guard/flag_haz_girl" type="string"/>
+      <bind calculate="0.002568778 *  ../weight  *  ../weight  *  ../weight  *  ../weight  *  ../weight  - 0.087078285 *  ../weight  *  ../weight  *  ../weight  *  ../weight  + 1.083870039 *  ../weight  *  ../weight  *  ../weight  - 6.017158294 *  ../weight  *  ../weight  + 20.69094143 *  ../weight  + 24.23997191" nodeset="/liberiaCoverage/child_repeat/guard/whz_lower_boy" type="string"/>
+      <bind calculate="0.000039423 *  ../weight  *  ../weight  *  ../weight  *  ../weight  *  ../weight  - 0.003300406 *  ../weight  *  ../weight  *  ../weight  *  ../weight  + 0.100344392 *  ../weight  *  ../weight  *  ../weight  - 1.359686971 *  ../weight  *  ../weight  + 10.87955385 *  ../weight  + 18.21716746" nodeset="/liberiaCoverage/child_repeat/guard/whz_upper_boy" type="string"/>
+      <bind calculate="if(( ../child_data/sex ='1' and  ../height  &gt;  ../whz_lower_boy ) or ( ../child_data/sex ='1' and  ../height  &lt;  ../whz_upper_boy ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/flag_whz_boy" type="string"/>
+      <bind calculate="0.001848563 *  ../weight  *  ../weight  *  ../weight  *  ../weight  *  ../weight  - 0.0606399 *  ../weight  *  ../weight  *  ../weight  *  ../weight  + 0.7185497 *  ../weight  *  ../weight  *  ../weight  - 3.7764632 *  ../weight  *  ../weight  + 15.4720170 *  ../weight  + 28.0948931" nodeset="/liberiaCoverage/child_repeat/guard/whz_lower_girl" type="string"/>
+      <bind calculate="0.00002434 *  ../weight  *  ../weight  *  ../weight  *  ../weight  *  ../weight  - 0.00197858 *  ../weight  *  ../weight  *  ../weight  *  ../weight  + 0.05716011 *  ../weight  *  ../weight  *  ../weight  - 0.71815707 *  ../weight  *  ../weight  + 6.61322135 *  ../weight  + 27.77925292" nodeset="/liberiaCoverage/child_repeat/guard/whz_upper_girl" type="string"/>
+      <bind calculate="if(( ../child_data/sex  = '2' and  ../height  &gt;  ../whz_lower_girl ) or ( ../child_data/sex ='2' and  ../height  &lt;  ../whz_upper_girl ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/flag_whz_girl" type="string"/>
+      <bind calculate="0.000000095420 *  ../age  *  ../age  *  ../age * ../age  *  ../age  - 0.00001662831 *  ../age  *  ../age  *  ../age  *  ../age  + 0.001091416 *  ../age  *  ../age  *  ../age  - 0.033880085 *  ../age  *  ../age  + 0.562601613 *  ../age  + 1.139474257" nodeset="/liberiaCoverage/child_repeat/guard/waz_lower_boy" type="string"/>
+      <bind calculate="0.000000234816 *  ../age  *  ../age  *  ../age  *  ../age  *  ../age  - 0.000039531734 *  ../age  *  ../age  *  ../age  *  ../age  + 0.002496579 *  ../age  *  ../age  *  ../age  - 0.072781678 *  ../age  *  ../age  + 1.351053186 *  ../age  + 6.972621013" nodeset="/liberiaCoverage/child_repeat/guard/waz_upper_boy" type="string"/>
+      <bind calculate="if(( ../child_data/sex  = '1' and  ../weight  &lt;  ../waz_lower_boy ) or ( ../child_data/sex  = '1' and  ../weight  &gt;  ../waz_upper_boy ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/flag_waz_boy" type="string"/>
+      <bind calculate="0.000000083218 *  ../age  *  ../age  *  ../age  *  ../age  *  ../age  - 0.000013843176 *  ../age  *  ../age  *  ../age  *  ../age  + 0.000861019 *  ../age  *  ../age  *  ../age  - 0.025646557 *  ../age  *  ../age  + 0.450277222 *  ../age  + 1.111128346" nodeset="/liberiaCoverage/child_repeat/guard/waz_lower_girl" type="string"/>
+      <bind calculate="0.000000197736 *  ../age  *  ../age  *  ../age  *  ../age  *  ../age  - 0.000035478810 *  ../age  *  ../age  *  ../age  *  ../age  + 0.002404164 *  ../age  *  ../age  *  ../age  - 0.074112047 *  ../age  *  ../age  + 1.434496211 *  ../age  + 6.482817802" nodeset="/liberiaCoverage/child_repeat/guard/waz_upper_girl" type="string"/>
+      <bind calculate="if(( ../child_data/sex  = '2' and  ../weight  &lt;  ../waz_lower_girl ) or ( ../child_data/sex  = '2' and  ../weight  &gt;  ../waz_upper_girl ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/flag_waz_girl" type="string"/>
+      <bind calculate="1" nodeset="/liberiaCoverage/child_repeat/guard/flag" relevant=" ../flag_haz_boy  = '1' or  ../flag_haz_girl  = '1' or  ../flag_whz_girl  = '1' or  ../flag_whz_boy  = '1' or  ../flag_waz_boy  = '1' or  ../flag_waz_girl  = '1'" type="string"/>
+      <bind calculate="if( ../flag_whz_neg3  = '1' or  ../muac  &lt; 11.5 or  ../oedema_check  = '1', '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/sam" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1" relevant=" ../flag  = '1'"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/sex1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/know_dob1" relevant=" ../card1  != '1'" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/dob1" relevant="selected( ../card1 , '1') or selected( ../know_dob1 , '1')" required="true()" type="date"/>
+      <bind constraint=".&gt;= 6 and .&lt;= 59" jr:constraintMsg="Child's age must be between 6-59 months" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/age_report1" relevant="selected( ../know_dob1 , '2')" required="true()" type="int"/>
+      <bind calculate="if(selected( ../child_data1/card1 , '1') or selected( ../child_data1/know_dob1 , '1'), int(( /liberiaCoverage/admin/sdate  -  ../child_data1/dob1 ) div 30.44),  ../child_data1/age_report1 )" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/age1" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/age_check1" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/anthro_note_1" readonly="true()" type="string"/>
+      <bind constraint="(.&gt;= 5.0 and .&lt;= 20.0) or .= 0" jr:constraintMsg="MUAC must be between 5.0 and 20.0 cms, or 0 if child cannot be measured" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/muac2" required="true()" type="decimal"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/oedema2" required="true()" type="select1"/>
+      <bind constraint="(.&gt;= 2 and .&lt;= 54) or .= 0.0" jr:constraintMsg="Weight must be between 2 and 54, or 0 if child cannot be weighed" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/weight2" required="true()" type="decimal"/>
+      <bind constraint="(.&gt;= 30 and .&lt;= 155) or .= 0.0" jr:constraintMsg="Height must be between 30 and 155, or 0 if child cannot be measured" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/height2" required="true()" type="decimal"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/position2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/clothes2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/oedema_check2" relevant="selected( ../anthro_data_1/oedema2 , '1')" required="true()" type="select1"/>
+      <bind calculate=" ../anthro_data_1/muac2 " nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/muac1a" relevant=" ../anthro_data_1/muac2  &gt; 0" type="string"/>
+      <bind calculate=" ../anthro_data_1/weight2 " nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/weight1a" relevant=" ../anthro_data_1/weight2  &gt; 0" type="string"/>
+      <bind calculate=" ../anthro_data_1/height2 " nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/height1a" relevant=" ../anthro_data_1/height2  &gt; 0" type="string"/>
+      <bind calculate="0.000995821 *  ../weight1a  *  ../weight1a  *  ../weight1a  *  ../weight1a  *  ../weight1a  - 0.041179737 *  ../weight1a  *  ../weight1a  *  ../weight1a  *  ../weight1a  + 0.622839074 *  ../weight1a  *  ../weight1a  *  ../weight1a  - 4.192765025 *  ../weight1a  *  ../weight1a  + 17.49551065 *  ../weight1a  + 23.63868321" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/whz_neg3_boy2" type="string"/>
+      <bind calculate="0.000754341 *  ../weight1a  *  ../weight1a  *  ../weight1a  *  ../weight1a  *  ../weight1a  - 0.0299748 *  ../weight1a  *  ../weight1a  *  ../weight1a  *  ../weight1a  + 0.4284523 *  ../weight1a  *  ../weight1a  *  ../weight1a  - 2.7036671 *  ../weight1a  *  ../weight1a  + 13.0452680 *  ../weight1a  + 27.9253576" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/whz_neg3_girl2" type="string"/>
+      <bind calculate="if(( ../child_data1/sex1  = '1' and  ../height1a  &gt;  ../whz_neg3_boy2 ) or ( ../child_data1/sex1  = '2' and  ../height1a  &gt;  ../whz_neg3_girl2 ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/flag_whz_neg3_2" type="string"/>
+      <bind calculate="if( ../flag_whz_neg3_2  = '1' or  ../muac1a  &lt; 11.5 or  ../oedema_check2  = '1', '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure1/sam1a" type="string"/>
+      <bind calculate="once(random())" nodeset="/liberiaCoverage/child_repeat/guard/rand" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2" relevant=" ../flag  != '1' and  ../rand  &lt; 0.05"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/sex2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/card2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/know_dob2" relevant=" ../card2  != '1'" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/dob2" relevant="selected( ../card2 , '1') or selected( ../know_dob2 , '1')" required="true()" type="date"/>
+      <bind constraint=".&gt;= 6 and .&lt;= 59" jr:constraintMsg="Child's age must be between 6-59 months" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/age_report2" relevant="selected( ../know_dob2 , '2')" required="true()" type="int"/>
+      <bind calculate="if(selected( ../child_data2/card2 , '1') or selected( ../child_data2/know_dob2 , '1'), int(( /liberiaCoverage/admin/sdate  -  ../child_data2/dob2 ) div 30.44),  ../child_data2/age_report2 )" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/age2" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/age_check2" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/anthro_note_2" readonly="true()" type="string"/>
+      <bind constraint="(.&gt;= 5.0 and .&lt;= 20.0) or .= 0" jr:constraintMsg="MUAC must be between 5.0 and 20.0 cms, or 0 if child cannot be measured" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/muac3" required="true()" type="decimal"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/oedema3" required="true()" type="select1"/>
+      <bind constraint="(.&gt;= 2 and .&lt;= 54) or .= 0.0" jr:constraintMsg="Weight must be between 2 and 54, or 0 if child cannot be weighed" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/weight3" required="true()" type="decimal"/>
+      <bind constraint="(.&gt;= 30 and .&lt;= 155) or .= 0.0" jr:constraintMsg="Height must be between 30 and 155, or 0 if child cannot be measured" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/height3" required="true()" type="decimal"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/position3" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/clothes3" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/oedema_check3" relevant="selected( ../anthro_data_2/oedema3 , '1')" required="true()" type="select1"/>
+      <bind calculate=" ../anthro_data_2/muac3 " nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/muac1b" relevant=" ../anthro_data_2/muac3  &gt; 0" type="string"/>
+      <bind calculate=" ../anthro_data_2/weight3 " nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/weight1b" relevant=" ../anthro_data_2/weight3  &gt; 0" type="string"/>
+      <bind calculate=" ../anthro_data_2/height3 " nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/height1b" relevant=" ../anthro_data_2/height3  &gt; 0" type="string"/>
+      <bind calculate="0.000995821 *  ../weight1b  *  ../weight1b  *  ../weight1b  *  ../weight1b  *  ../weight1b  - 0.041179737 *  ../weight1b  *  ../weight1b  *  ../weight1b  *  ../weight1b  + 0.622839074 *  ../weight1b  *  ../weight1b  *  ../weight1b  - 4.192765025 *  ../weight1b  *  ../weight1b  + 17.49551065 *  ../weight1b  + 23.63868321" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/whz_neg3_boy3" type="string"/>
+      <bind calculate="0.000754341 *  ../weight1b  *  ../weight1b  *  ../weight1b  *  ../weight1b  *  ../weight1b  - 0.0299748 *  ../weight1b  *  ../weight1b  *  ../weight1b  *  ../weight1b  + 0.4284523 *  ../weight1b  *  ../weight1b  *  ../weight1b  - 2.7036671 *  ../weight1b  *  ../weight1b  + 13.0452680 *  ../weight1b  + 27.9253576" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/whz_neg3_girl3" type="string"/>
+      <bind calculate="if(( ../../remeasure1/child_data1/sex1  = '1' and  ../height1b  &gt;  ../whz_neg3_boy3 ) or ( ../../remeasure1/child_data1/sex1  = '2' and  ../height1b  &gt;  ../whz_neg3_girl3 ), '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/flag_whz_neg3_3" type="string"/>
+      <bind calculate="if( ../flag_whz_neg3_3  = '1' or  ../muac1b  &lt; 11.5 or  ../oedema_check3  = '1', '1', '0')" nodeset="/liberiaCoverage/child_repeat/guard/remeasure2/sam1b" type="string"/>
+      <bind calculate="if( ../sam  = '1' or  ../remeasure1/sam1a  = '1' or  ../remeasure2/sam1b  = '1', 1, 0)" nodeset="/liberiaCoverage/child_repeat/guard/nut_status" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/cov_status" required="true()" type="select1"/>
+      <bind calculate="1" nodeset="/liberiaCoverage/child_repeat/guard/in" relevant=" ../nut_status  = '1' and  ../cov_status  = '1'" type="string"/>
+      <bind calculate="1" nodeset="/liberiaCoverage/child_repeat/guard/recovering" relevant=" ../nut_status  = '0' and  ../cov_status  = '1'" type="string"/>
+      <bind calculate="1" nodeset="/liberiaCoverage/child_repeat/guard/out" relevant=" ../nut_status  = '1' and  ../cov_status  = '2'" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers" relevant=" ../out  = '1'"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/note_barriers" readonly="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q1a" relevant=" ../q1 ='1'" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q3" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q4" relevant=" ../q3 ='1'" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q4t" relevant=" ../q4 ='q4s'" required="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q5" relevant=" ../q3 ='1'" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q6" relevant=" ../q5 ='1' or  ../q5 ='2' or  ../q5 ='3'" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/q6e" relevant=" ../q6 ='q6d'" required="true()" type="string"/>
+      <bind calculate="&quot;Refer child to most appropriate treatment centre&quot;" nodeset="/liberiaCoverage/child_repeat/guard/barriers/refer_action" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/guard/barriers/refer" readonly="true()" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_repeat/next" readonly="true()" relevant="position(..) &lt;  /liberiaCoverage/mother_data/ch " type="string"/>
+      <bind calculate="indexed-repeat( /liberiaCoverage/child_repeat/guard/child_data/c1 ,  /liberiaCoverage/child_repeat ,  /liberiaCoverage/child )" nodeset="/liberiaCoverage/c2" type="string"/>
+      <bind calculate="indexed-repeat( /liberiaCoverage/child_repeat/guard/child_data/name ,  /liberiaCoverage/child_repeat ,  /liberiaCoverage/child )" nodeset="/liberiaCoverage/cname" type="string"/>
+      <bind calculate="indexed-repeat( /liberiaCoverage/child_repeat/guard/age ,  /liberiaCoverage/child_repeat ,  /liberiaCoverage/child )" nodeset="/liberiaCoverage/cage" type="string"/>
+      <bind calculate="indexed-repeat( /liberiaCoverage/child_repeat/guard/child_data/sex ,  /liberiaCoverage/child_repeat ,  /liberiaCoverage/child )" nodeset="/liberiaCoverage/csex" type="string"/>
+      <bind nodeset="/liberiaCoverage/child_random" readonly="true()" relevant=" /liberiaCoverage/mother_data/ch  &gt; 1 and  /liberiaCoverage/admin/counter  mod  /liberiaCoverage/skip  = 0" type="string"/>
+      <bind nodeset="/liberiaCoverage/mnp" relevant=" /liberiaCoverage/admin/counter  mod  /liberiaCoverage/skip  = 0 and  /liberiaCoverage/cage  &lt; 24 and  /liberiaCoverage/consent2  = '1'"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp2" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp2a" relevant="selected( /liberiaCoverage/mnp/mnp2 , '2')" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp2a_other" relevant="selected( /liberiaCoverage/mnp/mnp2a , '88')" type="string"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp3" relevant="selected( /liberiaCoverage/mnp/mnp2 , '1')" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp3a" relevant="selected( /liberiaCoverage/mnp/mnp3 , '2')" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp3a_other" relevant="selected( /liberiaCoverage/mnp/mnp3a , '88')" type="string"/>
+      <bind nodeset="/liberiaCoverage/mnp/mnp4" relevant="selected( /liberiaCoverage/mnp/mnp3 , '1')" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/vit" relevant=" /liberiaCoverage/admin/counter  mod  /liberiaCoverage/skip  = 0 and  /liberiaCoverage/consent2  = '1'"/>
+      <bind nodeset="/liberiaCoverage/vit/vit1" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/vit/vit1a" relevant="selected( /liberiaCoverage/vit/vit1 , '2')" required="true()" type="select"/>
+      <bind nodeset="/liberiaCoverage/vit/vit1a_other" relevant="selected( /liberiaCoverage/vit/vit1a , '88')" type="string"/>
+      <bind nodeset="/liberiaCoverage/vit/vit2" relevant="selected( /liberiaCoverage/vit/vit1 , '1')" required="true()" type="select1"/>
+      <bind nodeset="/liberiaCoverage/vit/vit3" relevant="selected( /liberiaCoverage/vit/vit1 , '1')" required="true()" type="int"/>
+      <bind nodeset="/liberiaCoverage/no_children" readonly="true()" relevant=" /liberiaCoverage/mother_data/ch  = 0" type="string"/>
+      <bind nodeset="/liberiaCoverage/no_consent" readonly="true()" relevant=" /liberiaCoverage/consent2  = '2'" type="string"/>
+      <bind nodeset="/liberiaCoverage/end" readonly="true()" relevant=" /liberiaCoverage/consent2  = '1'" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/liberiaCoverage/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="concat('MF-',  /liberiaCoverage/admin/county , '-District: ',  /liberiaCoverage/admin/did , '-',  /liberiaCoverage/admin/eid , '-',  /liberiaCoverage/mother_data/mname )" nodeset="/liberiaCoverage/meta/instanceName" type="string"/>
+      <bind calculate="'4ef87815a8a84419805d8e0de3176a07'" nodeset="/liberiaCoverage/formhub/uuid" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/liberiaCoverage/admin">
+      <label>Identifying Data</label>
+      <input appearance="no-calendar" ref="/liberiaCoverage/admin/sdate">
+        <label>Date of data collection</label>
+      </input>
+      <select1 ref="/liberiaCoverage/admin/cid">
+        <label>Survey area</label>
+        <item>
+          <label>Urban Montserrado</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Grand Bassa</label>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/liberiaCoverage/admin/did">
+        <label>District</label>
+        <itemset nodeset="instance('district')/root/item[county =  /liberiaCoverage/admin/cid ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <select1 ref="/liberiaCoverage/admin/eid">
+        <label>Enumeration Area</label>
+        <itemset nodeset="instance('ea')/root/item[county =  /liberiaCoverage/admin/cid  and district =  /liberiaCoverage/admin/did ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <select1 ref="/liberiaCoverage/admin/team">
+        <label>Survey team ID</label>
+        <item>
+          <label>Survey team 1</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Survey team 2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Survey team 3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Survey team 4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>Survey team 5</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>Survey team 6</label>
+          <value>6</value>
+        </item>
+      </select1>
+      <input appearance="ex:org.opendatakit.counter(form_id='LiberiaCoverage', form_name='Household Counter', question_id='12', question_name='Household ID')" ref="/liberiaCoverage/admin/counter">
+        <label>Household ID</label>
+      </input>
+    </group>
+    <input ref="/liberiaCoverage/consent1">
+      <label>We are from the &lt;strong&gt;Liberian Institute of Statistics and Geo-Information Sevices (LISGIS)&lt;/strong&gt;. We are conducting a survey of children aged 6-59 months old and their mothers. We will be measuring the child's body and then we will be asking you about you and your child's access to different health and nutrition services. The survey will take about 15 minutes.
+
+The information that you will provide will help the Ministry of Health of Liberia in improving mother and child health and nutrition services.</label>
+    </input>
+    <select1 ref="/liberiaCoverage/consent2">
+      <label>Are you willing to participate in this survey?</label>
+      <item>
+        <label>Yes</label>
+        <value>1</value>
+      </item>
+      <item>
+        <label>No</label>
+        <value>2</value>
+      </item>
+    </select1>
+    <group appearance="field-list" ref="/liberiaCoverage/mother_data">
+      <label>Mother data</label>
+      <input appearance="ex:org.opendatakit.counter(form_id='LiberiaCoverage', form_name='Mother Counter', question_id='17', question_name='Mother ID')" ref="/liberiaCoverage/mother_data/mcounter">
+        <label>Mother ID</label>
+      </input>
+      <input ref="/liberiaCoverage/mother_data/mname">
+        <label>Mother's name</label>
+      </input>
+      <input ref="/liberiaCoverage/mother_data/m2">
+        <label>Mother's age in years</label>
+      </input>
+      <input ref="/liberiaCoverage/mother_data/ch">
+        <label>How many children aged 6-59 months does this mother have?</label>
+      </input>
+      <select1 ref="/liberiaCoverage/mother_data/mcheck1">
+        <label>Is the mother present to be interviewed?</label>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/liberiaCoverage/mcheck2">
+      <label>If the mother is not present to be interviewed, continue with measuring her child/children and asking caregiver/relative about the other questions relevant to the child. Then arrange to come back within the day (if time allows and mother will come back soon) to interview mother. 
+
+Do not mark this form as finalised to allow editing until you get to interview mother. If not possible to come back to interview mother or if mother not coming back within the day, finalise questionnaire.</label>
+    </input>
+    <group ref="/liberiaCoverage/ifa">
+      <label>Iron-folic acid supplementation</label>
+      <select1 ref="/liberiaCoverage/ifa/ifa1">
+        <label>During your pregnancy for your youngest child, did you see anyone for antenatal care?</label>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select1 ref="/liberiaCoverage/ifa/ifa2">
+        <label ref="jr:itext('/liberiaCoverage/ifa/ifa2:label')"/>
+        <hint>Show iron-folic acid sample/tablets/photo</hint>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select1 ref="/liberiaCoverage/ifa/ifa3">
+        <label ref="jr:itext('/liberiaCoverage/ifa/ifa3:label')"/>
+        <hint>Show iron-folic acid sample/tablets/photo</hint>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select ref="/liberiaCoverage/ifa/ifa3a">
+        <label ref="jr:itext('/liberiaCoverage/ifa/ifa3a:label')"/>
+        <hint>Tick all that apply. Do not prompt. Probe &quot;Any other reasons?&quot;</hint>
+        <item>
+          <label>Health centre ran out</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Took too long to get tablets</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Too expensive</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>88</value>
+        </item>
+      </select>
+      <input ref="/liberiaCoverage/ifa/ifa3a_other">
+        <label>Other reasons</label>
+      </input>
+      <select1 ref="/liberiaCoverage/ifa/ifa4">
+        <label ref="jr:itext('/liberiaCoverage/ifa/ifa4:label')"/>
+        <hint>Show iron-folic acid sample/tablets/photo</hint>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select ref="/liberiaCoverage/ifa/ifa4a">
+        <label ref="jr:itext('/liberiaCoverage/ifa/ifa4a:label')"/>
+        <hint>Tick all that apply. Do not prompt. Probe &quot;Any other reasons?&quot;</hint>
+        <item>
+          <label>Concerns about side effects</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Don't need it</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>I was told not to take it</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>I don't think it helps</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>88</value>
+        </item>
+      </select>
+      <input ref="/liberiaCoverage/ifa/ifa4a_other">
+        <label>Other reasons</label>
+      </input>
+      <input ref="/liberiaCoverage/ifa/ifa5">
+        <label ref="jr:itext('/liberiaCoverage/ifa/ifa5:label')"/>
+        <hint>Show iron-folic acid sample/tablets/photo</hint>
+      </input>
+    </group>
+    <group ref="/liberiaCoverage/icf">
+      <label>IYCF counselling</label>
+      <select1 ref="/liberiaCoverage/icf/icf1">
+        <label>During your pregnancy for your youngest child, did you receive any information or heard about any service that provided counselling for pregnant women on infant and young child feeding?</label>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select1 ref="/liberiaCoverage/icf/icf2">
+        <label>During your pregnancy for your youngest child, did you attend any counselling session/s for pregnant women on infant and young child feeding?</label>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select ref="/liberiaCoverage/icf/icf2a">
+        <label>Why did you not attend the counselling sessions?</label>
+        <hint>Tick all that apply. Do not prompt. Probe &quot;Any other reasons?&quot;</hint>
+        <item>
+          <label>Timing was not convenient</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Not interested</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Do not trust counsellor</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Don't think I need it</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>88</value>
+        </item>
+      </select>
+      <input ref="/liberiaCoverage/icf/icf2a_other">
+        <label>Other reasons</label>
+      </input>
+      <input ref="/liberiaCoverage/icf/icf3">
+        <label>How many counselling sessions did you attend?</label>
+      </input>
+    </group>
+    <group ref="/liberiaCoverage/child_repeat">
+      <label>Anthropometric data for all children 6-59 years old in household</label>
+      <repeat jr:count=" /liberiaCoverage/child_repeat_count " nodeset="/liberiaCoverage/child_repeat">
+        <group ref="/liberiaCoverage/child_repeat/guard">
+          <label>Child repeat counter</label>
+          <group ref="/liberiaCoverage/child_repeat/guard/child_data">
+            <label>Child data</label>
+            <input ref="/liberiaCoverage/child_repeat/guard/child_data/name">
+              <label>Name of child</label>
+            </input>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/child_data/sex">
+              <label>Gender of child</label>
+              <item>
+                <label>Male</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>Female</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/child_data/card">
+              <label> Does <output value=" ../name "/> have a health card?  </label>
+              <item>
+                <label>Yes (and available)</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>Yes (but not available/lost)</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>No (never had one)</label>
+                <value>3</value>
+              </item>
+              <item>
+                <label>Don't know/Not sure</label>
+                <value>4</value>
+              </item>
+            </select1>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/child_data/know_dob">
+              <label> Do you know <output value=" ../name "/>'s exact date of birth?  </label>
+              <hint> Since <output value=" ../name "/>'s health card is not available/no health card, ask mother/carer if exact date of birth is known  </hint>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <input appearance="no-calendar" ref="/liberiaCoverage/child_repeat/guard/child_data/dob">
+              <label><output value=" ../name "/> 's exact date of birth  </label><hint>If child has a health card, get exact date of birth from health card. If no health card but mother/carer knows exact date of birth, record exact date of birth reported by mother/carer</hint>
+            </input>
+            <input ref="/liberiaCoverage/child_repeat/guard/child_data/age_report">
+              <label>Age of child (in months)</label>
+              <hint>Enter age in months (6-59 months) reported by mother/carer</hint>
+            </input>
+          </group>
+          <trigger ref="/liberiaCoverage/child_repeat/guard/age_check">
+            <label>
+              <output value=" ../child_data/name "/> is <output value=" ../age "/> months old.  </label>
+          </trigger>
+          <group ref="/liberiaCoverage/child_repeat/guard/anthro_data">
+            <label> Anthropometry for <output value=" ../child_data/name "/> </label><input ref="/liberiaCoverage/child_repeat/guard/anthro_data/anthro_note">
+              <label> Please get <output value=" ../../child_data/name "/>'s anthropometric measurements and record. Enter 0 for refusal to be measured.  </label>
+            </input>
+            <input ref="/liberiaCoverage/child_repeat/guard/anthro_data/muac1">
+              <label>Mid-upper arm circumference (MUAC) of child (cm)</label>
+              <hint>Enter MUAC in centimetres (cm)</hint>
+            </input>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/anthro_data/muac_screen">
+              <label> Has <output value=" ../../child_data/name "/> been measured like this in the past month?  </label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>Don't know/not sure</label>
+                <value>99</value>
+              </item>
+            </select1>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/anthro_data/oedema1">
+              <label>Is there bilateral pitting oedema?</label>
+              <hint>Check for bilateral pitting oedema</hint>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/anthro_data/oedema_screen">
+              <label> Has <output value=" ../../child_data/name "/> been measured like this in the past month?  </label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>Don't know/not sure</label>
+                <value>99</value>
+              </item>
+            </select1>
+            <input ref="/liberiaCoverage/child_repeat/guard/anthro_data/weight1">
+              <label>Weight of child (kg)</label>
+              <hint>Enter weight in kilograms (kg) to the nearest 0.1 kg</hint>
+            </input>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/anthro_data/weight_screen">
+              <label> Has <output value=" ../../child_data/name "/> been measured like this in the past month?  </label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>Don't know/not sure</label>
+                <value>99</value>
+              </item>
+            </select1>
+            <input ref="/liberiaCoverage/child_repeat/guard/anthro_data/height1">
+              <label>Height of child (cm)</label>
+              <hint>Enter height in centimetres (cm) to the nearest 0.1 cm</hint>
+            </input>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/anthro_data/height_screen">
+              <label> Has <output value=" ../../child_data/name "/> been measured like this in the past month?  </label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>Don't know/not sure</label>
+                <value>99</value>
+              </item>
+            </select1>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/anthro_data/position">
+              <label> Was <output value=" ../../child_data/name "/> measured lying down or standing up?  </label>
+              <hint>Children under 2 years of age should be measured lying down. Children 2 and older should be measured standing up.</hint>
+              <item>
+                <label>Standing</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>Lying down</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/anthro_data/clothes">
+              <label> Was <output value=" ../../child_data/name "/> wearing clothes when measured?  </label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+            </select1>
+          </group>
+          <select1 ref="/liberiaCoverage/child_repeat/guard/oedema_check">
+            <label>Please confirm with team leader/supervisor. Does the child have bilateral pitting oedema?</label>
+            <item>
+              <label>Yes</label>
+              <value>1</value>
+            </item>
+            <item>
+              <label>No</label>
+              <value>2</value>
+            </item>
+            <item>
+              <label>Child not able to be examined</label>
+              <value>99</value>
+            </item>
+          </select1>
+          <group ref="/liberiaCoverage/child_repeat/guard/remeasure1">
+            <label> Remeasure <output value=" ../child_data/name "/> </label><group ref="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1">
+              <label>Child data - remeasure</label>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/sex1">
+                <label>Gender of child</label>
+                <item>
+                  <label>Male</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>Female</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/card1">
+                <label> Does <output value=" ../../../child_data/name "/> have a health card?  </label>
+                <item>
+                  <label>Yes (and available)</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>Yes (but not available/lost)</label>
+                  <value>2</value>
+                </item>
+                <item>
+                  <label>No (never had one)</label>
+                  <value>3</value>
+                </item>
+                <item>
+                  <label>Don't know/Not sure</label>
+                  <value>4</value>
+                </item>
+              </select1>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/know_dob1">
+                <label> Do you know <output value=" ../../../child_data/name "/>'s exact date of birth?  </label>
+                <hint> Since <output value=" ../../../child_data/name "/>'s health card is not available/no health card, ask mother/carer if exact date of birth is known  </hint>
+                <item>
+                  <label>Yes</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>No</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/dob1">
+                <label><output value=" ../../../child_data/name "/> 's exact date of birth  </label><hint>If child has a health card, get exact date of birth from health card. If no health card but mother/carer knows exact date of birth, record exact date of birth reported by mother/carer</hint>
+              </input>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure1/child_data1/age_report1">
+                <label>Age of child (in months)</label>
+                <hint>Enter age in months (6-59 months) reported by mother/carer</hint>
+              </input>
+            </group>
+            <trigger ref="/liberiaCoverage/child_repeat/guard/remeasure1/age_check1">
+              <label>
+                <output value=" ../../child_data/name "/> is <output value=" ../age1 "/> months old.  </label>
+            </trigger>
+            <group ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1">
+              <label> Repeat anthropometry for <output value=" ../../child_data/name "/> </label><input ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/anthro_note_1">
+                <label> Repeat anthropometric measurements for <output value=" ../../../child_data/name "/> </label></input>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/muac2">
+                <label>Mid-upper arm circumference (MUAC) of child (cm)</label>
+                <hint>Enter MUAC in centimetres (cm)</hint>
+              </input>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/oedema2">
+                <label>Is there bilateral pitting oedema?</label>
+                <hint>Check for bilateral pitting oedema</hint>
+                <item>
+                  <label>Yes</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>No</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/weight2">
+                <label>Weight of child (kg)</label>
+                <hint>Enter weight in kilograms (kg) to the nearest 0.1 kg</hint>
+              </input>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/height2">
+                <label>Height of child (cm)</label>
+                <hint>Enter height in centimetres (cm) to the nearest 0.1 cm</hint>
+              </input>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/position2">
+                <label> Was <output value=" ../../../child_data/name "/> measured lying down or standing up?  </label>
+                <hint>Children under 2 years of age should be measured lying down. Children 2 and older should be measured standing up.</hint>
+                <item>
+                  <label>Standing</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>Lying down</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure1/anthro_data_1/clothes2">
+                <label> Was <output value=" ../../../child_data/name "/> wearing clothes when measured?  </label>
+                <item>
+                  <label>Yes</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>No</label>
+                  <value>2</value>
+                </item>
+              </select1>
+            </group>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure1/oedema_check2">
+              <label>Please confirm with team leader/supervisor. Does the child have bilateral pitting oedema?</label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>Child not able to be examined</label>
+                <value>99</value>
+              </item>
+            </select1>
+          </group>
+          <group ref="/liberiaCoverage/child_repeat/guard/remeasure2">
+            <label> Remeasure <output value=" ../child_data/name "/> </label><group ref="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2">
+              <label>Child data - remeasure</label>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/sex2">
+                <label>Gender of child</label>
+                <item>
+                  <label>Male</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>Female</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/card2">
+                <label> Does <output value=" ../../../child_data/name "/> have a health card?  </label>
+                <item>
+                  <label>Yes (and available)</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>Yes (but not available/lost)</label>
+                  <value>2</value>
+                </item>
+                <item>
+                  <label>No (never had one)</label>
+                  <value>3</value>
+                </item>
+                <item>
+                  <label>Don't know/Not sure</label>
+                  <value>4</value>
+                </item>
+              </select1>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/know_dob2">
+                <label> Do you know <output value=" ../../../child_data/name "/>'s exact date of birth?  </label>
+                <hint> Since <output value=" ../../../child_data/name "/>'s health card is not available/no health card, ask mother/carer if exact date of birth is known  </hint>
+                <item>
+                  <label>Yes</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>No</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/dob2">
+                <label><output value=" ../../../child_data/name "/> 's exact date of birth  </label><hint>If child has a health card, get exact date of birth from health card. If no health card but mother/carer knows exact date of birth, record exact date of birth reported by mother/carer</hint>
+              </input>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure2/child_data2/age_report2">
+                <label>Age of child (in months)</label>
+                <hint>Enter age in months (6-59 months) reported by mother/carer</hint>
+              </input>
+            </group>
+            <trigger ref="/liberiaCoverage/child_repeat/guard/remeasure2/age_check2">
+              <label>
+                <output value=" ../../child_data/name "/> is <output value=" ../age2 "/> months old.  </label>
+            </trigger>
+            <group ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2">
+              <label> Repeat anthropometry for <output value=" ../../child_data/name "/> </label><input ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/anthro_note_2">
+                <label> Repeat anthropometric measurements for <output value=" ../../../child_data/name "/> </label></input>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/muac3">
+                <label>Mid-upper arm circumference (MUAC) of child (cm)</label>
+                <hint>Enter MUAC in centimetres (cm)</hint>
+              </input>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/oedema3">
+                <label>Is there bilateral pitting oedema?</label>
+                <hint>Check for bilateral pitting oedema</hint>
+                <item>
+                  <label>Yes</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>No</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/weight3">
+                <label>Weight of child (kg)</label>
+                <hint>Enter weight in kilograms (kg) to the nearest 0.1 kg</hint>
+              </input>
+              <input ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/height3">
+                <label>Height of child (cm)</label>
+                <hint>Enter height in centimetres (cm) to the nearest 0.1 cm</hint>
+              </input>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/position3">
+                <label> Was <output value=" ../../../child_data/name "/> measured lying down or standing up?  </label>
+                <hint>Children under 2 years of age should be measured lying down. Children 2 and older should be measured standing up.</hint>
+                <item>
+                  <label>Standing</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>Lying down</label>
+                  <value>2</value>
+                </item>
+              </select1>
+              <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure2/anthro_data_2/clothes3">
+                <label> Was <output value=" ../../../child_data/name "/> wearing clothes when measured?  </label>
+                <item>
+                  <label>Yes</label>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label>No</label>
+                  <value>2</value>
+                </item>
+              </select1>
+            </group>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/remeasure2/oedema_check3">
+              <label>Please confirm with team leader/supervisor. Does the child have bilateral pitting oedema?</label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>Child not able to be examined</label>
+                <value>99</value>
+              </item>
+            </select1>
+          </group>
+          <select1 ref="/liberiaCoverage/child_repeat/guard/cov_status">
+            <label ref="jr:itext('/liberiaCoverage/child_repeat/guard/cov_status:label')"/>
+            <hint>Ask mother / carer if child is in OTP or if child is taking &quot;peanut butter&quot;. Show picture/sample of RUTF.</hint>
+            <item>
+              <label>In OTP</label>
+              <value>1</value>
+            </item>
+            <item>
+              <label>Not in any programme</label>
+              <value>2</value>
+            </item>
+          </select1>
+          <group ref="/liberiaCoverage/child_repeat/guard/barriers">
+            <label>Questionnaire for the carers of children (SAM cases) who are NOT in the programme</label>
+            <input ref="/liberiaCoverage/child_repeat/guard/barriers/note_barriers">
+              <label>
+                <output value=" ../../child_data/name "/> is a SAM case not in the programme. Ask the following questions of the mother regarding <output value=" ../../child_data/name "/>'s condition and why <output value=" ../../child_data/name "/> is not in the programme.  </label>
+            </input>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/barriers/q1">
+              <label> Do you think <output value=" ../../child_data/name "/> is sick?  </label>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <select ref="/liberiaCoverage/child_repeat/guard/barriers/q1a">
+              <label> What condition is your <output value=" ../../child_data/name "/> suffering from?  </label>
+              <hint>Do no prompt</hint>
+              <item>
+                <label>Malnutrition</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>Diarrhoea</label>
+                <value>2</value>
+              </item>
+              <item>
+                <label>Fever</label>
+                <value>3</value>
+              </item>
+              <item>
+                <label>Cough</label>
+                <value>4</value>
+              </item>
+              <item>
+                <label>Malaria</label>
+                <value>5</value>
+              </item>
+              <item>
+                <label>Don't know</label>
+                <value>6</value>
+              </item>
+            </select>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/barriers/q2">
+              <label> Do you think <output value=" ../../child_data/name "/> is too thin or too small or too sick compared to other children?  </label>
+              <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet</hint>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/barriers/q3">
+              <label> Do you know / are you aware of treatment provided for for very thin, very small or very sick children like <output value=" ../../child_data/name "/> at the health centre?  </label>
+              <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet</hint>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <select ref="/liberiaCoverage/child_repeat/guard/barriers/q4">
+              <label> Why is <output value=" ../../child_data/name "/> not receiving this treatment for children who are very thin, very small or very sick?  </label>
+              <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet; Do not prompt. Probe with &quot;Any other reasons?&quot;</hint>
+              <item>
+                <label>Mother / carer went to the health centre but the child was not measured</label>
+                <value>q4a</value>
+              </item>
+              <item>
+                <label>Too far</label>
+                <value>q4b</value>
+              </item>
+              <item>
+                <label>No time / too busy</label>
+                <value>q4c</value>
+              </item>
+              <item>
+                <label>Mother / carer is sick</label>
+                <value>q4d</value>
+              </item>
+              <item>
+                <label>Mother / carer cannot carry more than one child</label>
+                <value>q4e</value>
+              </item>
+              <item>
+                <label>Mother / carer feels ashamed or shy about coming</label>
+                <value>q4f</value>
+              </item>
+              <item>
+                <label>Security problems</label>
+                <value>q4g</value>
+              </item>
+              <item>
+                <label>There is no one else to take care of the other siblings</label>
+                <value>q4h</value>
+              </item>
+              <item>
+                <label>The child has been rejected by the programme already</label>
+                <value>q4i</value>
+              </item>
+              <item>
+                <label>Other parent's children have been rejected</label>
+                <value>q4j</value>
+              </item>
+              <item>
+                <label>Husband refused</label>
+                <value>q4k</value>
+              </item>
+              <item>
+                <label>Thought it was necessary to be enrolled at the hospital first</label>
+                <value>q4l</value>
+              </item>
+              <item>
+                <label>Does not think the programme can help child/children (prefer traditional  healer, other treatment)</label>
+                <value>q4m</value>
+              </item>
+              <item>
+                <label>Heard that children who took treatment/ration/products got diarrhoea</label>
+                <value>q4n</value>
+              </item>
+              <item>
+                <label>Heard that ration/products has worms</label>
+                <value>q4o</value>
+              </item>
+              <item>
+                <label>Out of stock</label>
+                <value>q4p</value>
+              </item>
+              <item>
+                <label>Lack of money to pay for transport</label>
+                <value>q4q</value>
+              </item>
+              <item>
+                <label>SAM case in SFP</label>
+                <value>q4r</value>
+              </item>
+              <item>
+                <label>Other</label>
+                <value>q4s</value>
+              </item>
+            </select>
+            <input ref="/liberiaCoverage/child_repeat/guard/barriers/q4t">
+              <label>Other</label>
+            </input>
+            <select1 ref="/liberiaCoverage/child_repeat/guard/barriers/q5">
+              <label> Was <output value=" ../../child_data/name "/> previously treated for [see hint] at the health centre?  </label>
+              <hint>Use case finding terms describing malnutrition / not growing well / not good weight / swollen feet</hint>
+              <item>
+                <label>Yes</label>
+                <value>1</value>
+              </item>
+              <item>
+                <label>No</label>
+                <value>2</value>
+              </item>
+            </select1>
+            <select ref="/liberiaCoverage/child_repeat/guard/barriers/q6">
+              <label> Why is <output value=" ../../child_data/name "/> not receiving treatment now?  </label>
+              <hint>Do not prompt. Probe with &quot;Any other reasons?&quot;</hint>
+              <item>
+                <label>Defaulted</label>
+                <value>q6a</value>
+              </item>
+              <item>
+                <label>Condition improved and discharged by the programme</label>
+                <value>q6b</value>
+              </item>
+              <item>
+                <label>Discharged because child was not recovering</label>
+                <value>q6c</value>
+              </item>
+              <item>
+                <label>Other</label>
+                <value>q6d</value>
+              </item>
+            </select>
+            <input ref="/liberiaCoverage/child_repeat/guard/barriers/q6e">
+              <label>If other reasons, specify:</label>
+            </input>
+            <input ref="/liberiaCoverage/child_repeat/guard/barriers/refer">
+              <label>
+                <output value=" ../../child_data/name "/> is severe acute malnourished. *<output value=" ../refer_action "/>*  </label>
+            </input>
+          </group>
+        </group>
+        <input ref="/liberiaCoverage/child_repeat/next">
+          <label>Proceed to next child in household</label>
+        </input>
+      </repeat>
+    </group>
+    <input ref="/liberiaCoverage/child_random">
+      <label> The following questions are to be asked of <output value=" /liberiaCoverage/cname "/> only.  </label>
+    </input>
+    <group ref="/liberiaCoverage/mnp">
+      <label>Micronutrient powder supplementation</label>
+      <select1 ref="/liberiaCoverage/mnp/mnp1">
+        <label ref="jr:itext('/liberiaCoverage/mnp/mnp1:label')"/>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select1 ref="/liberiaCoverage/mnp/mnp2">
+        <label ref="jr:itext('/liberiaCoverage/mnp/mnp2:label')"/>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select ref="/liberiaCoverage/mnp/mnp2a">
+        <label ref="jr:itext('/liberiaCoverage/mnp/mnp2a:label')"/>
+        <hint>Do not prompt. Probe with &quot;Any other reasons?&quot;</hint>
+        <item>
+          <label>Health centre ran out</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Took too long to get MNP</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Too expensive</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Child doesn't need it</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>Heard it doesn't work/help</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>88</value>
+        </item>
+      </select>
+      <input ref="/liberiaCoverage/mnp/mnp2a_other">
+        <label>Other reasons</label>
+      </input>
+      <select1 ref="/liberiaCoverage/mnp/mnp3">
+        <label ref="jr:itext('/liberiaCoverage/mnp/mnp3:label')"/>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select ref="/liberiaCoverage/mnp/mnp3a">
+        <label ref="jr:itext('/liberiaCoverage/mnp/mnp3a:label')"/>
+        <hint>Do not prompt. Probe with &quot;Any other reasons?&quot;</hint>
+        <item>
+          <label>Too expensive</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Not available in the market</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Do not need MNP</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Heard other's bad experience</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>Advised not to use it</label>
+          <value>5</value>
+        </item>
+        <item>
+          <label>Not seen other mothers use it</label>
+          <value>6</value>
+        </item>
+        <item>
+          <label>Don't trust the product</label>
+          <value>7</value>
+        </item>
+        <item>
+          <label>Using another product</label>
+          <value>8</value>
+        </item>
+        <item>
+          <label>Haven't seen it</label>
+          <value>9</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>88</value>
+        </item>
+      </select>
+      <input ref="/liberiaCoverage/mnp/mnp3a_other">
+        <label>Other reasons</label>
+      </input>
+      <input ref="/liberiaCoverage/mnp/mnp4">
+        <label ref="jr:itext('/liberiaCoverage/mnp/mnp4:label')"/>
+      </input>
+    </group>
+    <group ref="/liberiaCoverage/vit">
+      <label>Vitamin A supplementation</label>
+      <select1 ref="/liberiaCoverage/vit/vit1">
+        <label ref="jr:itext('/liberiaCoverage/vit/vit1:label')"/>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <select ref="/liberiaCoverage/vit/vit1a">
+        <label ref="jr:itext('/liberiaCoverage/vit/vit1a:label')"/>
+        <hint>Do not prompt. Probe with &quot;Any other reasons?&quot;</hint>
+        <item>
+          <label>Health centre ran out</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>Took too long to get drops</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Child doesn't need it</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>Heard it doesn't work/help</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>88</value>
+        </item>
+      </select>
+      <input ref="/liberiaCoverage/vit/vit1a_other">
+        <label>Other reasons</label>
+      </input>
+      <select1 ref="/liberiaCoverage/vit/vit2">
+        <label ref="jr:itext('/liberiaCoverage/vit/vit2:label')"/>
+        <item>
+          <label ref="jr:itext('/liberiaCoverage/vit/vit2/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/liberiaCoverage/vit/vit2/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label>Don't know/not sure</label>
+          <value>99</value>
+        </item>
+      </select1>
+      <input ref="/liberiaCoverage/vit/vit3">
+        <label ref="jr:itext('/liberiaCoverage/vit/vit3:label')"/>
+      </input>
+    </group>
+    <input ref="/liberiaCoverage/no_children">
+      <label>There are no children age 6-59 months in this household. Move to next household.</label>
+    </input>
+    <input ref="/liberiaCoverage/no_consent">
+      <label>Mother has not consented to participating in the survey.
+
+Thank mother for her time and move to next household.</label>
+    </input>
+    <input ref="/liberiaCoverage/end">
+      <label>If all children age 6-59 months in household have been assessed, **thank mother / carer** and **move to next household**</label>
+    </input>
+  </h:body>
+</h:html>
