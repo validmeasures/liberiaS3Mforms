@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/downloads/validmeasures/liberiaS3Mforms/total.svg)
 [![DOI](https://zenodo.org/badge/143430021.svg)](https://zenodo.org/badge/latestdoi/143430021)
 
-The Liberia Coverage Survey for the assessment of CMAM coverage, micronutrient powder supplementation coverage, vitamin A supplementation coverage, iron folic acid supplementation coverage and IYCF counselling coverage has been commissioned by [UNICEF Liberia]() with funding from [Power of Nutrition](http://www.powerofnutrition.org/).
+The Liberia Coverage Survey for the assessment of CMAM coverage, micronutrient powder supplementation coverage, vitamin A supplementation coverage, iron folic acid supplementation coverage and IYCF counselling coverage has been commissioned by [UNICEF Liberia](https://www.unicef.org/liberia/) with funding from [Power of Nutrition](http://www.powerofnutrition.org/).
 
 In support of this survey, the following survey instruments in XLSform and Xform standard for [Open Data Kit](https://opendatakit.org/) have been developed.
 
